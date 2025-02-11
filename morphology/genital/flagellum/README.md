@@ -90,7 +90,7 @@ done
 
 ## Draw lines
 
- - Use `darw_line.py` to create the svg file under `00convert/[100,70,50]` folder
+ - Use `darw_lines.py` to create the svg file under `00convert/[100,70,50]` folder
 
 
 ## Landmark-based Analysis
