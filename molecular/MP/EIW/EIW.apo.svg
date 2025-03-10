@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<svg width="2405" height="6920" xmlns="http://www.w3.org/2000/svg">
+<g stroke-width="7" stroke="black" font-family="Verdana" font-style="italic" font-size="15">
+<line x1="1397" y1="2325" x2="1242" y2="2325" />
+<line x1="968" y1="1638" x2="840" y2="1638" />
+<line x1="620" y1="376" x2="465" y2="376" />
+<line x1="775" y1="409" x2="620" y2="409" />
+<line x1="1752" y1="5957" x2="1624" y2="5957" />
+<line x1="1442" y1="4506" x2="1314" y2="4506" />
+<line x1="1242" y1="2188" x2="1087" y2="2188" />
+<line x1="1934" y1="6067" x2="1779" y2="6067" />
+<line x1="1961" y1="5741" x2="1806" y2="5741" />
+<line x1="2116" y1="5774" x2="1961" y2="5774" />
+<line x1="876" y1="4185" x2="721" y2="4185" />
+<line x1="1031" y1="4286" x2="876" y2="4286" />
+<line x1="1186" y1="4410" x2="1031" y2="4410" />
+<line x1="1314" y1="4477" x2="1186" y2="4477" />
+<line x1="566" y1="233" x2="438" y2="233" />
+<line x1="1496" y1="5306" x2="1341" y2="5306" />
+<line x1="1624" y1="5994" x2="1469" y2="5994" />
+<line x1="1779" y1="6031" x2="1624" y2="6031" />
+<line x1="465" y1="477" x2="310" y2="477" />
+<line x1="620" y1="578" x2="465" y2="578" />
+<line x1="748" y1="604" x2="620" y2="604" />
+<line x1="1469" y1="5930" x2="1341" y2="5930" />
+<line x1="1907" y1="6551" x2="1779" y2="6551" />
+<line x1="1087" y1="2100" x2="968" y2="2100" />
+<line x1="1159" y1="5143" x2="1031" y2="5143" />
+<line x1="1287" y1="5202" x2="1159" y2="5202" />
+<line x1="1004" y1="4760" x2="876" y2="4760" />
+<line x1="1159" y1="4838" x2="1004" y2="4838" />
+<line x1="1314" y1="4877" x2="1159" y2="4877" />
+<line x1="1651" y1="6217" x2="1496" y2="6217" />
+<line x1="1806" y1="6246" x2="1651" y2="6246" />
+<line x1="1341" y1="5410" x2="1186" y2="5410" />
+<line x1="1496" y1="5514" x2="1341" y2="5514" />
+<line x1="1651" y1="5606" x2="1496" y2="5606" />
+<line x1="1806" y1="5699" x2="1651" y2="5699" />
+<line x1="1206" y1="3879" x2="1087" y2="3879" />
+<line x1="1361" y1="3934" x2="1206" y2="3934" />
+<line x1="849" y1="864" x2="721" y2="864" />
+<line x1="1004" y1="936" x2="849" y2="936" />
+<line x1="283" y1="137" x2="155" y2="137" />
+<line x1="438" y1="184" x2="283" y2="184" />
+<line x1="593" y1="135" x2="438" y2="135" />
+<line x1="721" y1="1532" x2="593" y2="1532" />
+<line x1="840" y1="2200" x2="721" y2="2200" />
+<line x1="968" y1="2763" x2="840" y2="2763" />
+<line x1="1087" y1="3427" x2="968" y2="3427" />
+<line x1="1215" y1="2975" x2="1087" y2="2975" />
+<line x1="27" y1="365" x2="7" y2="365" />
+<line x1="155" y1="667" x2="27" y2="667" />
+<line x1="310" y1="1197" x2="155" y2="1197" />
+<line x1="438" y1="1918" x2="310" y2="1918" />
+<line x1="593" y1="3090" x2="438" y2="3090" />
+<line x1="721" y1="4648" x2="593" y2="4648" />
+<line x1="876" y1="5111" x2="721" y2="5111" />
+<line x1="1031" y1="5463" x2="876" y2="5463" />
+<line x1="1186" y1="5783" x2="1031" y2="5783" />
+<line x1="1341" y1="6157" x2="1186" y2="6157" />
+<line x1="1496" y1="6384" x2="1341" y2="6384" />
+<line x1="1651" y1="6552" x2="1496" y2="6552" />
+<line x1="1779" y1="6619" x2="1651" y2="6619" />
+<line x1="1934" y1="6687" x2="1779" y2="6687" />
+<line x1="7" y1="201" x2="5" y2="201" />
+<line x1="1004" y1="4084" x2="876" y2="4084" />
+<line x1="775" y1="344" x2="620" y2="344" />
+<line x1="2244" y1="5761" x2="2116" y2="5761" />
+<line x1="1287" y1="4799" x2="1159" y2="4799" />
+<line x1="2089" y1="6616" x2="1934" y2="6616" />
+<line x1="903" y1="396" x2="775" y2="396" />
+<line x1="1779" y1="5514" x2="1651" y2="5514" />
+<line x1="1132" y1="923" x2="1004" y2="923" />
+<line x1="2089" y1="6655" x2="1934" y2="6655" />
+<line x1="2089" y1="6694" x2="1934" y2="6694" />
+<line x1="1361" y1="3824" x2="1206" y2="3824" />
+<line x1="1123" y1="1619" x2="968" y2="1619" />
+<line x1="1597" y1="4474" x2="1442" y2="4474" />
+<line x1="1442" y1="4851" x2="1314" y2="4851" />
+<line x1="411" y1="90" x2="283" y2="90" />
+<line x1="1934" y1="6214" x2="1806" y2="6214" />
+<line x1="613" y1="116" x2="593" y2="116" />
+<line x1="1469" y1="4877" x2="1314" y2="4877" />
+<line x1="1927" y1="6512" x2="1907" y2="6512" />
+<line x1="1343" y1="2930" x2="1215" y2="2930" />
+<line x1="182" y1="64" x2="27" y2="64" />
+<line x1="1278" y1="5085" x2="1159" y2="5085" />
+<line x1="739" y1="552" x2="620" y2="552" />
+<line x1="1361" y1="2052" x2="1242" y2="2052" />
+<line x1="1525" y1="2286" x2="1397" y2="2286" />
+<line x1="566" y1="747" x2="438" y2="747" />
+<line x1="1525" y1="2364" x2="1397" y2="2364" />
+<line x1="694" y1="214" x2="566" y2="214" />
+<line x1="2062" y1="6048" x2="1934" y2="6048" />
+<line x1="1096" y1="1658" x2="968" y2="1658" />
+<line x1="1226" y1="3850" x2="1206" y2="3850" />
+<line x1="795" y1="422" x2="775" y2="422" />
+<line x1="1624" y1="5423" x2="1496" y2="5423" />
+<line x1="1004" y1="793" x2="849" y2="793" />
+<line x1="1159" y1="4162" x2="1031" y2="4162" />
+<line x1="1314" y1="4344" x2="1186" y2="4344" />
+<line x1="1415" y1="5176" x2="1287" y2="5176" />
+<line x1="1370" y1="2104" x2="1242" y2="2104" />
+<line x1="1624" y1="5293" x2="1496" y2="5293" />
+<line x1="1880" y1="5944" x2="1752" y2="5944" />
+<line x1="1907" y1="5970" x2="1752" y2="5970" />
+<line x1="1570" y1="4539" x2="1442" y2="4539" />
+<line x1="1779" y1="6486" x2="1651" y2="6486" />
+<line x1="1381" y1="3902" x2="1361" y2="3902" />
+<line x1="903" y1="591" x2="748" y2="591" />
+<line x1="1370" y1="2234" x2="1242" y2="2234" />
+<line x1="2116" y1="5709" x2="1961" y2="5709" />
+<line x1="2089" y1="6087" x2="1934" y2="6087" />
+<line x1="1927" y1="6538" x2="1907" y2="6538" />
+<line x1="2136" y1="5787" x2="2116" y2="5787" />
+<line x1="1442" y1="4448" x2="1314" y2="4448" />
+<line x1="1927" y1="6564" x2="1907" y2="6564" />
+<line x1="1132" y1="4682" x2="1004" y2="4682" />
+<line x1="694" y1="253" x2="566" y2="253" />
+<line x1="1806" y1="6188" x2="1651" y2="6188" />
+<line x1="1651" y1="5319" x2="1496" y2="5319" />
+<line x1="1934" y1="5996" x2="1779" y2="5996" />
+<line x1="768" y1="617" x2="748" y2="617" />
+<line x1="1624" y1="5866" x2="1469" y2="5866" />
+<line x1="1927" y1="6590" x2="1907" y2="6590" />
+<line x1="1215" y1="2013" x2="1087" y2="2013" />
+<line x1="1442" y1="5228" x2="1287" y2="5228" />
+<line x1="1334" y1="4903" x2="1314" y2="4903" />
+<line x1="1934" y1="6279" x2="1806" y2="6279" />
+<line x1="1934" y1="5657" x2="1806" y2="5657" />
+<line x1="1226" y1="3876" x2="1206" y2="3876" />
+<line x1="1489" y1="3967" x2="1361" y2="3967" />
+<line x1="1159" y1="949" x2="1004" y2="949" />
+<line x1="748" y1="155" x2="593" y2="155" />
+<line x1="1954" y1="6720" x2="1934" y2="6720" />
+<line x1="1334" y1="3021" x2="1215" y2="3021" />
+<line x1="2089" y1="6759" x2="1934" y2="6759" />
+<line x1="27" y1="38" x2="7" y2="38" />
+<line x1="1400" y1="2286" x2="1400" y2="2364" />
+<line x1="971" y1="1619" x2="971" y2="1658" />
+<line x1="623" y1="344" x2="623" y2="409" />
+<line x1="778" y1="396" x2="778" y2="422" />
+<line x1="1755" y1="5944" x2="1755" y2="5970" />
+<line x1="1445" y1="4474" x2="1445" y2="4539" />
+<line x1="1245" y1="2052" x2="1245" y2="2325" />
+<line x1="1937" y1="6048" x2="1937" y2="6087" />
+<line x1="1964" y1="5709" x2="1964" y2="5774" />
+<line x1="2119" y1="5761" x2="2119" y2="5787" />
+<line x1="879" y1="4084" x2="879" y2="4286" />
+<line x1="1034" y1="4162" x2="1034" y2="4410" />
+<line x1="1189" y1="4344" x2="1189" y2="4477" />
+<line x1="1317" y1="4448" x2="1317" y2="4506" />
+<line x1="569" y1="214" x2="569" y2="253" />
+<line x1="1499" y1="5293" x2="1499" y2="5319" />
+<line x1="1627" y1="5957" x2="1627" y2="6031" />
+<line x1="1782" y1="5996" x2="1782" y2="6067" />
+<line x1="468" y1="376" x2="468" y2="578" />
+<line x1="623" y1="552" x2="623" y2="604" />
+<line x1="751" y1="591" x2="751" y2="617" />
+<line x1="1472" y1="5866" x2="1472" y2="5994" />
+<line x1="1910" y1="6512" x2="1910" y2="6590" />
+<line x1="1090" y1="2013" x2="1090" y2="2188" />
+<line x1="1162" y1="5085" x2="1162" y2="5202" />
+<line x1="1290" y1="5176" x2="1290" y2="5228" />
+<line x1="1007" y1="4682" x2="1007" y2="4838" />
+<line x1="1162" y1="4799" x2="1162" y2="4877" />
+<line x1="1317" y1="4851" x2="1317" y2="4903" />
+<line x1="1654" y1="6188" x2="1654" y2="6246" />
+<line x1="1809" y1="6214" x2="1809" y2="6279" />
+<line x1="1344" y1="5306" x2="1344" y2="5514" />
+<line x1="1499" y1="5423" x2="1499" y2="5606" />
+<line x1="1654" y1="5514" x2="1654" y2="5699" />
+<line x1="1809" y1="5657" x2="1809" y2="5741" />
+<line x1="1209" y1="3824" x2="1209" y2="3934" />
+<line x1="1364" y1="3902" x2="1364" y2="3967" />
+<line x1="852" y1="793" x2="852" y2="936" />
+<line x1="1007" y1="923" x2="1007" y2="949" />
+<line x1="286" y1="90" x2="286" y2="184" />
+<line x1="441" y1="135" x2="441" y2="233" />
+<line x1="596" y1="116" x2="596" y2="155" />
+<line x1="724" y1="864" x2="724" y2="2200" />
+<line x1="843" y1="1638" x2="843" y2="2763" />
+<line x1="971" y1="2100" x2="971" y2="3427" />
+<line x1="1090" y1="2975" x2="1090" y2="3879" />
+<line x1="1218" y1="2930" x2="1218" y2="3021" />
+<line x1="30" y1="64" x2="30" y2="667" />
+<line x1="158" y1="137" x2="158" y2="1197" />
+<line x1="313" y1="477" x2="313" y2="1918" />
+<line x1="441" y1="747" x2="441" y2="3090" />
+<line x1="596" y1="1532" x2="596" y2="4648" />
+<line x1="724" y1="4185" x2="724" y2="5111" />
+<line x1="879" y1="4760" x2="879" y2="5463" />
+<line x1="1034" y1="5143" x2="1034" y2="5783" />
+<line x1="1189" y1="5410" x2="1189" y2="6157" />
+<line x1="1344" y1="5930" x2="1344" y2="6384" />
+<line x1="1499" y1="6217" x2="1499" y2="6552" />
+<line x1="1654" y1="6486" x2="1654" y2="6619" />
+<line x1="1782" y1="6551" x2="1782" y2="6687" />
+<line x1="1937" y1="6616" x2="1937" y2="6759" />
+<line x1="10" y1="38" x2="10" y2="365" />
+<defs>
+    <filter x="0" y="0.0" width="1" height="1.0" id="solid">
+      <feFlood flood-color="white"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+<text x="1014" y="4087" stroke-width="1">4864_nova</text>
+<text x="785" y="347" stroke-width="1">4752_nova</text>
+<text x="2254" y="5764" stroke-width="1">3902_nova</text>
+<text x="1297" y="4802" stroke-width="1">4394_nova</text>
+<text x="2099" y="6619" stroke-width="1">4365_mitc</text>
+<text x="913" y="399" stroke-width="1">4383_nova</text>
+<text x="1789" y="5517" stroke-width="1">4375_nova</text>
+<text x="1142" y="926" stroke-width="1">4756_nova</text>
+<text x="2099" y="6658" stroke-width="1">4368_mitc</text>
+<text x="2099" y="6697" stroke-width="1">4369_mitc</text>
+<text x="1371" y="3827" stroke-width="1">4377_sp_MtKap</text>
+<text x="1133" y="1622" stroke-width="1">4863_nova</text>
+<text x="1607" y="4477" stroke-width="1">4372_nova</text>
+<text x="1452" y="4854" stroke-width="1">4860_nova</text>
+<text x="421" y="93" stroke-width="1">4384_nova</text>
+<text x="1944" y="6217" stroke-width="1">4884_sp_Gibr</text>
+<text x="623" y="119" stroke-width="1">4828_nova</text>
+<text x="1479" y="4880" stroke-width="1">4751_nova</text>
+<text x="1937" y="6515" stroke-width="1">4362_mitc</text>
+<text x="1353" y="2933" stroke-width="1">4376_sp_Coola</text>
+<text x="192" y="67" stroke-width="1">4754_nova</text>
+<text x="1288" y="5088" stroke-width="1">4397_nova</text>
+<text x="749" y="555" stroke-width="1">4374_nova</text>
+<text x="1371" y="2055" stroke-width="1">4873_darl</text>
+<text x="1535" y="2289" stroke-width="1">4886_rich</text>
+<text x="576" y="750" stroke-width="1">4400_nova</text>
+<text x="1535" y="2367" stroke-width="1">4876_rich</text>
+<text x="704" y="217" stroke-width="1">4827_nova</text>
+<text x="2072" y="6051" stroke-width="1">4749_nova</text>
+<text x="1106" y="1661" stroke-width="1">4378_nova</text>
+<text x="1236" y="3853" stroke-width="1">4854_sp_MtKap</text>
+<text x="805" y="425" stroke-width="1">4395_nova</text>
+<text x="1634" y="5426" stroke-width="1">4370_nova</text>
+<text x="1014" y="796" stroke-width="1">4371_nova</text>
+<text x="1169" y="4165" stroke-width="1">4861_sp_MtBoss</text>
+<text x="1324" y="4347" stroke-width="1">4862_sp_MtBoss</text>
+<text x="1425" y="5179" stroke-width="1">4387_nova</text>
+<text x="1380" y="2107" stroke-width="1">4874_darl</text>
+<text x="1634" y="5296" stroke-width="1">4750_nova</text>
+<text x="1890" y="5947" stroke-width="1">4856_nova</text>
+<text x="1917" y="5973" stroke-width="1">4858_nova</text>
+<text x="1580" y="4542" stroke-width="1">4401_nova</text>
+<text x="1789" y="6489" stroke-width="1">4367_mitc</text>
+<text x="1391" y="3905" stroke-width="1">4380_sp_MtKap</text>
+<text x="913" y="594" stroke-width="1">4389_nova</text>
+<text x="1380" y="2237" stroke-width="1">4872_darl</text>
+<text x="2126" y="5712" stroke-width="1">4393_nova</text>
+<text x="2099" y="6090" stroke-width="1">4857_nova</text>
+<text x="1937" y="6541" stroke-width="1">4361_mitc</text>
+<text x="2146" y="5790" stroke-width="1">4390_nova</text>
+<text x="1452" y="4451" stroke-width="1">4399_nova</text>
+<text x="1937" y="6567" stroke-width="1">4360_mitc</text>
+<text x="1142" y="4685" stroke-width="1">4398_nova</text>
+<text x="704" y="256" stroke-width="1">4859_nova</text>
+<text x="1816" y="6191" stroke-width="1">4880_sp_Gibr</text>
+<text x="1661" y="5322" stroke-width="1">4385_nova</text>
+<text x="1944" y="5999" stroke-width="1">4855_nova</text>
+<text x="778" y="620" stroke-width="1">4753_nova</text>
+<text x="1634" y="5869" stroke-width="1">4392_nova</text>
+<text x="1937" y="6593" stroke-width="1">4363_mitc</text>
+<text x="1225" y="2016" stroke-width="1">4381_rich</text>
+<text x="1452" y="5231" stroke-width="1">4391_nova</text>
+<text x="1344" y="4906" stroke-width="1">4382_nova</text>
+<text x="1944" y="6282" stroke-width="1">4881_sp_Gibr</text>
+<text x="1944" y="5660" stroke-width="1">4373_nova</text>
+<text x="1236" y="3879" stroke-width="1">4868_sp_MtKap</text>
+<text x="1499" y="3970" stroke-width="1">4853_sp_MtKap</text>
+<text x="1169" y="952" stroke-width="1">4755_nova</text>
+<text x="758" y="158" stroke-width="1">4829_nova</text>
+<text x="1964" y="6723" stroke-width="1">4364_mitc</text>
+<text x="1344" y="3024" stroke-width="1">4379_nova</text>
+<text x="2099" y="6762" stroke-width="1">4366_mitc</text>
+<text x="37" y="41" stroke-width="1">4388_nova</text>
+</g>
+<g stroke-width="7" stroke="black" font-family="Verdana" font-style="regular" font-size="15">
+<text filter="url(#solid)" x="1252" y="2285" stroke-width="1">14948:T>A</text>
+<text filter="url(#solid)" x="1252" y="2298" stroke-width="1">17488:T>C</text>
+<text filter="url(#solid)" x="1252" y="2311" stroke-width="1">36368:A>G</text>
+<text filter="url(#solid)" x="850" y="961" stroke-width="1">1053:C>T</text>
+<text filter="url(#solid)" x="850" y="974" stroke-width="1">2359:C>G</text>
+<text filter="url(#solid)" x="850" y="987" stroke-width="1">2899:A>T</text>
+<text filter="url(#solid)" x="850" y="1000" stroke-width="1">3454:A>T</text>
+<text filter="url(#solid)" x="850" y="1013" stroke-width="1">3805:G>T</text>
+<text filter="url(#solid)" x="850" y="1026" stroke-width="1">4386:C>A</text>
+<text filter="url(#solid)" x="850" y="1039" stroke-width="1">4562:G>C</text>
+<text filter="url(#solid)" x="850" y="1052" stroke-width="1">5459:C>T</text>
+<text filter="url(#solid)" x="850" y="1065" stroke-width="1">6374:G>T</text>
+<text filter="url(#solid)" x="850" y="1078" stroke-width="1">7042:T>C</text>
+<text filter="url(#solid)" x="850" y="1091" stroke-width="1">7578:G>A</text>
+<text filter="url(#solid)" x="850" y="1104" stroke-width="1">7958:C>T</text>
+<text filter="url(#solid)" x="850" y="1117" stroke-width="1">9751:C>A</text>
+<text filter="url(#solid)" x="850" y="1130" stroke-width="1">9948:G>C</text>
+<text filter="url(#solid)" x="850" y="1143" stroke-width="1">11706:C>T</text>
+<text filter="url(#solid)" x="850" y="1156" stroke-width="1">12684:C>T</text>
+<text filter="url(#solid)" x="850" y="1169" stroke-width="1">13773:G>T</text>
+<text filter="url(#solid)" x="850" y="1182" stroke-width="1">14180:C>T</text>
+<text filter="url(#solid)" x="850" y="1195" stroke-width="1">14789:G>A</text>
+<text filter="url(#solid)" x="850" y="1208" stroke-width="1">15004:G>A</text>
+<text filter="url(#solid)" x="850" y="1221" stroke-width="1">15364:C>T</text>
+<text filter="url(#solid)" x="850" y="1234" stroke-width="1">19377:C>T</text>
+<text filter="url(#solid)" x="850" y="1247" stroke-width="1">20810:G>A</text>
+<text filter="url(#solid)" x="850" y="1260" stroke-width="1">21269:C>T</text>
+<text filter="url(#solid)" x="850" y="1273" stroke-width="1">23095:T>G</text>
+<text filter="url(#solid)" x="850" y="1286" stroke-width="1">23372:C>A</text>
+<text filter="url(#solid)" x="850" y="1299" stroke-width="1">23493:T>C</text>
+<text filter="url(#solid)" x="850" y="1312" stroke-width="1">24393:T>A</text>
+<text filter="url(#solid)" x="850" y="1325" stroke-width="1">25961:T>A</text>
+<text filter="url(#solid)" x="850" y="1338" stroke-width="1">27143:T>C</text>
+<text filter="url(#solid)" x="850" y="1351" stroke-width="1">29641:C>G</text>
+<text filter="url(#solid)" x="850" y="1364" stroke-width="1">32220:A>C</text>
+<text filter="url(#solid)" x="850" y="1377" stroke-width="1">33075:C>T</text>
+<text filter="url(#solid)" x="850" y="1390" stroke-width="1">33732:C>T</text>
+<text filter="url(#solid)" x="850" y="1403" stroke-width="1">34323:G>T</text>
+<text filter="url(#solid)" x="850" y="1416" stroke-width="1">34697:C>A</text>
+<text filter="url(#solid)" x="850" y="1429" stroke-width="1">34814:G>A</text>
+<text filter="url(#solid)" x="850" y="1442" stroke-width="1">36632:T>G</text>
+<text filter="url(#solid)" x="850" y="1455" stroke-width="1">36687:C>T</text>
+<text filter="url(#solid)" x="850" y="1468" stroke-width="1">36865:T>A</text>
+<text filter="url(#solid)" x="850" y="1481" stroke-width="1">37299:G>A</text>
+<text filter="url(#solid)" x="850" y="1494" stroke-width="1">38629:G>A</text>
+<text filter="url(#solid)" x="850" y="1507" stroke-width="1">40156:A>G</text>
+<text filter="url(#solid)" x="850" y="1520" stroke-width="1">42524:G>T</text>
+<text filter="url(#solid)" x="850" y="1533" stroke-width="1">42718:T>A</text>
+<text filter="url(#solid)" x="850" y="1546" stroke-width="1">43938:C>G</text>
+<text filter="url(#solid)" x="850" y="1559" stroke-width="1">47978:G>T</text>
+<text filter="url(#solid)" x="850" y="1572" stroke-width="1">48216:G>A</text>
+<text filter="url(#solid)" x="850" y="1585" stroke-width="1">49734:A>T</text>
+<text filter="url(#solid)" x="850" y="1598" stroke-width="1">50126:T>C</text>
+<text filter="url(#solid)" x="850" y="1611" stroke-width="1">50430:C>A</text>
+<text filter="url(#solid)" x="850" y="1624" stroke-width="1">52139:C>G</text>
+<text filter="url(#solid)" x="475" y="362" stroke-width="1">48094:C>T</text>
+<text filter="url(#solid)" x="630" y="382" stroke-width="1">31033:G>T</text>
+<text filter="url(#solid)" x="630" y="395" stroke-width="1">39297:C>T</text>
+<text filter="url(#solid)" x="1634" y="5930" stroke-width="1">9056:T>A</text>
+<text filter="url(#solid)" x="1634" y="5943" stroke-width="1">25040:G>A</text>
+<text filter="url(#solid)" x="1324" y="4479" stroke-width="1">3653:A>T</text>
+<text filter="url(#solid)" x="1324" y="4492" stroke-width="1">36183:G>T</text>
+<text filter="url(#solid)" x="1097" y="2122" stroke-width="1">14948:A>T</text>
+<text filter="url(#solid)" x="1097" y="2135" stroke-width="1">35485:G>A</text>
+<text filter="url(#solid)" x="1097" y="2148" stroke-width="1">43620:G>A</text>
+<text filter="url(#solid)" x="1097" y="2161" stroke-width="1">48174:A>T</text>
+<text filter="url(#solid)" x="1097" y="2174" stroke-width="1">50967:G>A</text>
+<text filter="url(#solid)" x="1789" y="6053" stroke-width="1">14449:G>T</text>
+<text filter="url(#solid)" x="1816" y="5714" stroke-width="1">43195:A>T</text>
+<text filter="url(#solid)" x="1816" y="5727" stroke-width="1">45446:G>A</text>
+<text filter="url(#solid)" x="1971" y="5760" stroke-width="1">35038:C>A</text>
+<text filter="url(#solid)" x="731" y="4171" stroke-width="1">40468:A>C</text>
+<text filter="url(#solid)" x="886" y="4259" stroke-width="1">28382:A>C</text>
+<text filter="url(#solid)" x="886" y="4272" stroke-width="1">35583:C>T</text>
+<text filter="url(#solid)" x="1041" y="4396" stroke-width="1">24773:G>T</text>
+<text filter="url(#solid)" x="1196" y="4424" stroke-width="1">7261:C>T</text>
+<text filter="url(#solid)" x="1196" y="4437" stroke-width="1">26080:C>G</text>
+<text filter="url(#solid)" x="1196" y="4450" stroke-width="1">38253:A>G</text>
+<text filter="url(#solid)" x="1196" y="4463" stroke-width="1">50629:G>A</text>
+<text filter="url(#solid)" x="448" y="167" stroke-width="1">1712:C>A</text>
+<text filter="url(#solid)" x="448" y="180" stroke-width="1">3653:A>T</text>
+<text filter="url(#solid)" x="448" y="193" stroke-width="1">34635:A>G</text>
+<text filter="url(#solid)" x="448" y="206" stroke-width="1">44532:C>A</text>
+<text filter="url(#solid)" x="448" y="219" stroke-width="1">51211:C>A</text>
+<text filter="url(#solid)" x="1351" y="5279" stroke-width="1">23030:T>G</text>
+<text filter="url(#solid)" x="1351" y="5292" stroke-width="1">44696:T>G</text>
+<text filter="url(#solid)" x="1479" y="5980" stroke-width="1">35124:A>G</text>
+<text filter="url(#solid)" x="1634" y="6017" stroke-width="1">45446:G>A</text>
+<text filter="url(#solid)" x="320" y="437" stroke-width="1">10046:C>G</text>
+<text filter="url(#solid)" x="320" y="450" stroke-width="1">13674:G>C</text>
+<text filter="url(#solid)" x="320" y="463" stroke-width="1">46057:A>C</text>
+<text filter="url(#solid)" x="475" y="564" stroke-width="1">41473:C>A</text>
+<text filter="url(#solid)" x="630" y="577" stroke-width="1">3242:T>A</text>
+<text filter="url(#solid)" x="630" y="590" stroke-width="1">9334:G>A</text>
+<text filter="url(#solid)" x="1351" y="5799" stroke-width="1">2734:C>G</text>
+<text filter="url(#solid)" x="1351" y="5812" stroke-width="1">4829:T>C</text>
+<text filter="url(#solid)" x="1351" y="5825" stroke-width="1">7261:C>T</text>
+<text filter="url(#solid)" x="1351" y="5838" stroke-width="1">10191:G>A</text>
+<text filter="url(#solid)" x="1351" y="5851" stroke-width="1">16418:G>A</text>
+<text filter="url(#solid)" x="1351" y="5864" stroke-width="1">39640:G>T</text>
+<text filter="url(#solid)" x="1351" y="5877" stroke-width="1">44503:G>A</text>
+<text filter="url(#solid)" x="1351" y="5890" stroke-width="1">44696:T>G</text>
+<text filter="url(#solid)" x="1351" y="5903" stroke-width="1">45703:A>G</text>
+<text filter="url(#solid)" x="1351" y="5916" stroke-width="1">50045:G>A</text>
+<text filter="url(#solid)" x="1789" y="6524" stroke-width="1">2580:C>A</text>
+<text filter="url(#solid)" x="1789" y="6537" stroke-width="1">46533:C>T</text>
+<text filter="url(#solid)" x="978" y="1670" stroke-width="1">335:T>C</text>
+<text filter="url(#solid)" x="978" y="1683" stroke-width="1">3122:T>C</text>
+<text filter="url(#solid)" x="978" y="1696" stroke-width="1">3429:C>T</text>
+<text filter="url(#solid)" x="978" y="1709" stroke-width="1">5724:T>C</text>
+<text filter="url(#solid)" x="978" y="1722" stroke-width="1">8901:T>A</text>
+<text filter="url(#solid)" x="978" y="1735" stroke-width="1">10309:C>T</text>
+<text filter="url(#solid)" x="978" y="1748" stroke-width="1">10533:T>A</text>
+<text filter="url(#solid)" x="978" y="1761" stroke-width="1">12225:G>A</text>
+<text filter="url(#solid)" x="978" y="1774" stroke-width="1">14099:A>G</text>
+<text filter="url(#solid)" x="978" y="1787" stroke-width="1">14366:G>A</text>
+<text filter="url(#solid)" x="978" y="1800" stroke-width="1">14616:A>C</text>
+<text filter="url(#solid)" x="978" y="1813" stroke-width="1">15424:G>T</text>
+<text filter="url(#solid)" x="978" y="1826" stroke-width="1">17266:A>T</text>
+<text filter="url(#solid)" x="978" y="1839" stroke-width="1">17721:A>T</text>
+<text filter="url(#solid)" x="978" y="1852" stroke-width="1">18403:T>C</text>
+<text filter="url(#solid)" x="978" y="1865" stroke-width="1">20670:T>G</text>
+<text filter="url(#solid)" x="978" y="1878" stroke-width="1">21667:C>A</text>
+<text filter="url(#solid)" x="978" y="1891" stroke-width="1">26549:T>G</text>
+<text filter="url(#solid)" x="978" y="1904" stroke-width="1">27100:G>A</text>
+<text filter="url(#solid)" x="978" y="1917" stroke-width="1">28196:G>A</text>
+<text filter="url(#solid)" x="978" y="1930" stroke-width="1">29041:C>T</text>
+<text filter="url(#solid)" x="978" y="1943" stroke-width="1">30469:G>A</text>
+<text filter="url(#solid)" x="978" y="1956" stroke-width="1">31847:T>G</text>
+<text filter="url(#solid)" x="978" y="1969" stroke-width="1">33182:G>T</text>
+<text filter="url(#solid)" x="978" y="1982" stroke-width="1">33234:T>C</text>
+<text filter="url(#solid)" x="978" y="1995" stroke-width="1">35583:T>C</text>
+<text filter="url(#solid)" x="978" y="2008" stroke-width="1">35847:C>T</text>
+<text filter="url(#solid)" x="978" y="2021" stroke-width="1">36368:G>A</text>
+<text filter="url(#solid)" x="978" y="2034" stroke-width="1">41053:A>T</text>
+<text filter="url(#solid)" x="978" y="2047" stroke-width="1">43022:C>T</text>
+<text filter="url(#solid)" x="978" y="2060" stroke-width="1">45537:C>T</text>
+<text filter="url(#solid)" x="978" y="2073" stroke-width="1">46226:C>T</text>
+<text filter="url(#solid)" x="978" y="2086" stroke-width="1">49883:T>C</text>
+<text filter="url(#solid)" x="1041" y="5051" stroke-width="1">6093:G>T</text>
+<text filter="url(#solid)" x="1041" y="5064" stroke-width="1">10096:A>T</text>
+<text filter="url(#solid)" x="1041" y="5077" stroke-width="1">15732:G>A</text>
+<text filter="url(#solid)" x="1041" y="5090" stroke-width="1">33368:A>T</text>
+<text filter="url(#solid)" x="1041" y="5103" stroke-width="1">37776:A>T</text>
+<text filter="url(#solid)" x="1041" y="5116" stroke-width="1">46533:C>T</text>
+<text filter="url(#solid)" x="1041" y="5129" stroke-width="1">52381:G>T</text>
+<text filter="url(#solid)" x="1169" y="5149" stroke-width="1">1950:A>G</text>
+<text filter="url(#solid)" x="1169" y="5162" stroke-width="1">29497:A>T</text>
+<text filter="url(#solid)" x="1169" y="5175" stroke-width="1">35723:C>A</text>
+<text filter="url(#solid)" x="1169" y="5188" stroke-width="1">43459:A>C</text>
+<text filter="url(#solid)" x="886" y="4733" stroke-width="1">1950:A>G</text>
+<text filter="url(#solid)" x="886" y="4746" stroke-width="1">44696:T>G</text>
+<text filter="url(#solid)" x="1014" y="4811" stroke-width="1">20000:G>A</text>
+<text filter="url(#solid)" x="1014" y="4824" stroke-width="1">52122:T>A</text>
+<text filter="url(#solid)" x="1169" y="4850" stroke-width="1">42167:C>A</text>
+<text filter="url(#solid)" x="1169" y="4863" stroke-width="1">45147:C>T</text>
+<text filter="url(#solid)" x="1506" y="6099" stroke-width="1">14747:G>T</text>
+<text filter="url(#solid)" x="1506" y="6112" stroke-width="1">15646:C>A</text>
+<text filter="url(#solid)" x="1506" y="6125" stroke-width="1">22166:C>T</text>
+<text filter="url(#solid)" x="1506" y="6138" stroke-width="1">23030:T>G</text>
+<text filter="url(#solid)" x="1506" y="6151" stroke-width="1">39472:G>A</text>
+<text filter="url(#solid)" x="1506" y="6164" stroke-width="1">45855:C>T</text>
+<text filter="url(#solid)" x="1506" y="6177" stroke-width="1">46533:C>T</text>
+<text filter="url(#solid)" x="1506" y="6190" stroke-width="1">49208:A>T</text>
+<text filter="url(#solid)" x="1506" y="6203" stroke-width="1">50629:G>A</text>
+<text filter="url(#solid)" x="1661" y="6232" stroke-width="1">14099:A>G</text>
+<text filter="url(#solid)" x="1196" y="5370" stroke-width="1">19377:C>T</text>
+<text filter="url(#solid)" x="1196" y="5383" stroke-width="1">37197:C>T</text>
+<text filter="url(#solid)" x="1196" y="5396" stroke-width="1">42167:C>A</text>
+<text filter="url(#solid)" x="1351" y="5487" stroke-width="1">40214:T>A</text>
+<text filter="url(#solid)" x="1351" y="5500" stroke-width="1">44503:G>A</text>
+<text filter="url(#solid)" x="1506" y="5579" stroke-width="1">46533:C>T</text>
+<text filter="url(#solid)" x="1506" y="5592" stroke-width="1">52208:A>C</text>
+<text filter="url(#solid)" x="1661" y="5646" stroke-width="1">25388:G>A</text>
+<text filter="url(#solid)" x="1661" y="5659" stroke-width="1">37197:T>C</text>
+<text filter="url(#solid)" x="1661" y="5672" stroke-width="1">49395:G>A</text>
+<text filter="url(#solid)" x="1661" y="5685" stroke-width="1">49734:A>T</text>
+<text filter="url(#solid)" x="1097" y="3033" stroke-width="1">979:T>C</text>
+<text filter="url(#solid)" x="1097" y="3046" stroke-width="1">1722:C>T</text>
+<text filter="url(#solid)" x="1097" y="3059" stroke-width="1">2153:C>T</text>
+<text filter="url(#solid)" x="1097" y="3072" stroke-width="1">3531:T>A</text>
+<text filter="url(#solid)" x="1097" y="3085" stroke-width="1">5632:C>T</text>
+<text filter="url(#solid)" x="1097" y="3098" stroke-width="1">10395:T>G</text>
+<text filter="url(#solid)" x="1097" y="3111" stroke-width="1">10445:G>A</text>
+<text filter="url(#solid)" x="1097" y="3124" stroke-width="1">11143:C>T</text>
+<text filter="url(#solid)" x="1097" y="3137" stroke-width="1">12495:T>A</text>
+<text filter="url(#solid)" x="1097" y="3150" stroke-width="1">13821:C>A</text>
+<text filter="url(#solid)" x="1097" y="3163" stroke-width="1">13982:A>G</text>
+<text filter="url(#solid)" x="1097" y="3176" stroke-width="1">14073:G>A</text>
+<text filter="url(#solid)" x="1097" y="3189" stroke-width="1">15228:C>A</text>
+<text filter="url(#solid)" x="1097" y="3202" stroke-width="1">16004:T>C</text>
+<text filter="url(#solid)" x="1097" y="3215" stroke-width="1">16151:T>C</text>
+<text filter="url(#solid)" x="1097" y="3228" stroke-width="1">16895:C>T</text>
+<text filter="url(#solid)" x="1097" y="3241" stroke-width="1">18337:A>C</text>
+<text filter="url(#solid)" x="1097" y="3254" stroke-width="1">18514:C>T</text>
+<text filter="url(#solid)" x="1097" y="3267" stroke-width="1">18636:G>A</text>
+<text filter="url(#solid)" x="1097" y="3280" stroke-width="1">19771:G>T</text>
+<text filter="url(#solid)" x="1097" y="3293" stroke-width="1">21368:G>A</text>
+<text filter="url(#solid)" x="1097" y="3306" stroke-width="1">22033:C>T</text>
+<text filter="url(#solid)" x="1097" y="3319" stroke-width="1">24880:G>A</text>
+<text filter="url(#solid)" x="1097" y="3332" stroke-width="1">25937:C>G</text>
+<text filter="url(#solid)" x="1097" y="3345" stroke-width="1">26166:T>G</text>
+<text filter="url(#solid)" x="1097" y="3358" stroke-width="1">26723:C>T</text>
+<text filter="url(#solid)" x="1097" y="3371" stroke-width="1">27431:G>A</text>
+<text filter="url(#solid)" x="1097" y="3384" stroke-width="1">28928:G>T</text>
+<text filter="url(#solid)" x="1097" y="3397" stroke-width="1">29919:C>T</text>
+<text filter="url(#solid)" x="1097" y="3410" stroke-width="1">30538:C>G</text>
+<text filter="url(#solid)" x="1097" y="3423" stroke-width="1">32266:G>T</text>
+<text filter="url(#solid)" x="1097" y="3436" stroke-width="1">33296:A>T</text>
+<text filter="url(#solid)" x="1097" y="3449" stroke-width="1">33458:C>G</text>
+<text filter="url(#solid)" x="1097" y="3462" stroke-width="1">33919:C>A</text>
+<text filter="url(#solid)" x="1097" y="3475" stroke-width="1">33986:T>C</text>
+<text filter="url(#solid)" x="1097" y="3488" stroke-width="1">34075:C>T</text>
+<text filter="url(#solid)" x="1097" y="3501" stroke-width="1">34226:A>T</text>
+<text filter="url(#solid)" x="1097" y="3514" stroke-width="1">35676:A>T</text>
+<text filter="url(#solid)" x="1097" y="3527" stroke-width="1">40368:A>G</text>
+<text filter="url(#solid)" x="1097" y="3540" stroke-width="1">40610:C>T</text>
+<text filter="url(#solid)" x="1097" y="3553" stroke-width="1">41423:G>A</text>
+<text filter="url(#solid)" x="1097" y="3566" stroke-width="1">42804:C>A</text>
+<text filter="url(#solid)" x="1097" y="3579" stroke-width="1">42906:C>T</text>
+<text filter="url(#solid)" x="1097" y="3592" stroke-width="1">42937:C>T</text>
+<text filter="url(#solid)" x="1097" y="3605" stroke-width="1">43173:C>A</text>
+<text filter="url(#solid)" x="1097" y="3618" stroke-width="1">43355:T>C</text>
+<text filter="url(#solid)" x="1097" y="3631" stroke-width="1">43706:A>C</text>
+<text filter="url(#solid)" x="1097" y="3644" stroke-width="1">44503:G>A</text>
+<text filter="url(#solid)" x="1097" y="3657" stroke-width="1">44968:C>G</text>
+<text filter="url(#solid)" x="1097" y="3670" stroke-width="1">45248:C>T</text>
+<text filter="url(#solid)" x="1097" y="3683" stroke-width="1">45313:G>T</text>
+<text filter="url(#solid)" x="1097" y="3696" stroke-width="1">46312:C>T</text>
+<text filter="url(#solid)" x="1097" y="3709" stroke-width="1">46497:G>A</text>
+<text filter="url(#solid)" x="1097" y="3722" stroke-width="1">46600:C>T</text>
+<text filter="url(#solid)" x="1097" y="3735" stroke-width="1">46894:G>T</text>
+<text filter="url(#solid)" x="1097" y="3748" stroke-width="1">48357:G>A</text>
+<text filter="url(#solid)" x="1097" y="3761" stroke-width="1">48517:A>G</text>
+<text filter="url(#solid)" x="1097" y="3774" stroke-width="1">48786:G>A</text>
+<text filter="url(#solid)" x="1097" y="3787" stroke-width="1">49642:C>T</text>
+<text filter="url(#solid)" x="1097" y="3800" stroke-width="1">50236:T>A</text>
+<text filter="url(#solid)" x="1097" y="3813" stroke-width="1">50481:G>A</text>
+<text filter="url(#solid)" x="1097" y="3826" stroke-width="1">50809:G>T</text>
+<text filter="url(#solid)" x="1097" y="3839" stroke-width="1">51300:C>T</text>
+<text filter="url(#solid)" x="1097" y="3852" stroke-width="1">51879:A>C</text>
+<text filter="url(#solid)" x="1097" y="3865" stroke-width="1">52276:A>T</text>
+<text filter="url(#solid)" x="1216" y="3920" stroke-width="1">11021:C>T</text>
+<text filter="url(#solid)" x="731" y="759" stroke-width="1">1484:C>T</text>
+<text filter="url(#solid)" x="731" y="772" stroke-width="1">4301:G>A</text>
+<text filter="url(#solid)" x="731" y="785" stroke-width="1">8775:C>T</text>
+<text filter="url(#solid)" x="731" y="798" stroke-width="1">23649:C>T</text>
+<text filter="url(#solid)" x="731" y="811" stroke-width="1">31526:G>A</text>
+<text filter="url(#solid)" x="731" y="824" stroke-width="1">38578:C>A</text>
+<text filter="url(#solid)" x="731" y="837" stroke-width="1">44160:A>G</text>
+<text filter="url(#solid)" x="731" y="850" stroke-width="1">51211:C>A</text>
+<text filter="url(#solid)" x="859" y="922" stroke-width="1">11071:G>A</text>
+<text filter="url(#solid)" x="165" y="97" stroke-width="1">2499:T>C</text>
+<text filter="url(#solid)" x="165" y="110" stroke-width="1">24668:C>G</text>
+<text filter="url(#solid)" x="165" y="123" stroke-width="1">41473:C>A</text>
+<text filter="url(#solid)" x="293" y="157" stroke-width="1">16930:A>T</text>
+<text filter="url(#solid)" x="293" y="170" stroke-width="1">23428:C>T</text>
+<text filter="url(#solid)" x="448" y="108" stroke-width="1">13899:C>T</text>
+<text filter="url(#solid)" x="448" y="121" stroke-width="1">21108:C>G</text>
+<text filter="url(#solid)" x="603" y="1479" stroke-width="1">9156:G>T</text>
+<text filter="url(#solid)" x="603" y="1492" stroke-width="1">10046:C>G</text>
+<text filter="url(#solid)" x="603" y="1505" stroke-width="1">35583:C>T</text>
+<text filter="url(#solid)" x="603" y="1518" stroke-width="1">38253:A>G</text>
+<text filter="url(#solid)" x="731" y="2017" stroke-width="1">405:T>G</text>
+<text filter="url(#solid)" x="731" y="2030" stroke-width="1">3606:G>T</text>
+<text filter="url(#solid)" x="731" y="2043" stroke-width="1">4198:C>T</text>
+<text filter="url(#solid)" x="731" y="2056" stroke-width="1">5332:G>T</text>
+<text filter="url(#solid)" x="731" y="2069" stroke-width="1">18283:A>G</text>
+<text filter="url(#solid)" x="731" y="2082" stroke-width="1">27913:A>G</text>
+<text filter="url(#solid)" x="731" y="2095" stroke-width="1">28382:A>C</text>
+<text filter="url(#solid)" x="731" y="2108" stroke-width="1">29233:T>A</text>
+<text filter="url(#solid)" x="731" y="2121" stroke-width="1">35930:T>G</text>
+<text filter="url(#solid)" x="731" y="2134" stroke-width="1">39844:C>T</text>
+<text filter="url(#solid)" x="731" y="2147" stroke-width="1">46996:G>A</text>
+<text filter="url(#solid)" x="731" y="2160" stroke-width="1">49208:A>T</text>
+<text filter="url(#solid)" x="731" y="2173" stroke-width="1">50236:A>T</text>
+<text filter="url(#solid)" x="731" y="2186" stroke-width="1">51410:C>G</text>
+<text filter="url(#solid)" x="850" y="2619" stroke-width="1">5811:A>G</text>
+<text filter="url(#solid)" x="850" y="2632" stroke-width="1">6736:G>A</text>
+<text filter="url(#solid)" x="850" y="2645" stroke-width="1">9619:A>G</text>
+<text filter="url(#solid)" x="850" y="2658" stroke-width="1">10268:C>T</text>
+<text filter="url(#solid)" x="850" y="2671" stroke-width="1">13126:G>C</text>
+<text filter="url(#solid)" x="850" y="2684" stroke-width="1">16584:A>G</text>
+<text filter="url(#solid)" x="850" y="2697" stroke-width="1">21420:T>C</text>
+<text filter="url(#solid)" x="850" y="2710" stroke-width="1">37608:T>G</text>
+<text filter="url(#solid)" x="850" y="2723" stroke-width="1">43294:A>C</text>
+<text filter="url(#solid)" x="850" y="2736" stroke-width="1">50284:C>T</text>
+<text filter="url(#solid)" x="850" y="2749" stroke-width="1">52006:C>T</text>
+<text filter="url(#solid)" x="978" y="2581" stroke-width="1">714:T>A</text>
+<text filter="url(#solid)" x="978" y="2594" stroke-width="1">767:C>T</text>
+<text filter="url(#solid)" x="978" y="2607" stroke-width="1">1558:G>A</text>
+<text filter="url(#solid)" x="978" y="2620" stroke-width="1">2285:T>A</text>
+<text filter="url(#solid)" x="978" y="2633" stroke-width="1">2966:C>T</text>
+<text filter="url(#solid)" x="978" y="2646" stroke-width="1">3876:A>C</text>
+<text filter="url(#solid)" x="978" y="2659" stroke-width="1">4009:C>T</text>
+<text filter="url(#solid)" x="978" y="2672" stroke-width="1">4108:T>C</text>
+<text filter="url(#solid)" x="978" y="2685" stroke-width="1">4409:A>T</text>
+<text filter="url(#solid)" x="978" y="2698" stroke-width="1">4735:A>G</text>
+<text filter="url(#solid)" x="978" y="2711" stroke-width="1">6910:G>A</text>
+<text filter="url(#solid)" x="978" y="2724" stroke-width="1">8241:C>T</text>
+<text filter="url(#solid)" x="978" y="2737" stroke-width="1">8749:A>C</text>
+<text filter="url(#solid)" x="978" y="2750" stroke-width="1">9936:A>G</text>
+<text filter="url(#solid)" x="978" y="2763" stroke-width="1">11203:G>A</text>
+<text filter="url(#solid)" x="978" y="2776" stroke-width="1">11993:T>C</text>
+<text filter="url(#solid)" x="978" y="2789" stroke-width="1">13288:A>G</text>
+<text filter="url(#solid)" x="978" y="2802" stroke-width="1">15169:G>T</text>
+<text filter="url(#solid)" x="978" y="2815" stroke-width="1">16505:T>A</text>
+<text filter="url(#solid)" x="978" y="2828" stroke-width="1">16690:A>T</text>
+<text filter="url(#solid)" x="978" y="2841" stroke-width="1">17376:G>C</text>
+<text filter="url(#solid)" x="978" y="2854" stroke-width="1">17852:T>A</text>
+<text filter="url(#solid)" x="978" y="2867" stroke-width="1">17953:G>T</text>
+<text filter="url(#solid)" x="978" y="2880" stroke-width="1">18024:C>T</text>
+<text filter="url(#solid)" x="978" y="2893" stroke-width="1">18650:C>T</text>
+<text filter="url(#solid)" x="978" y="2906" stroke-width="1">19184:T>A</text>
+<text filter="url(#solid)" x="978" y="2919" stroke-width="1">19411:G>A</text>
+<text filter="url(#solid)" x="978" y="2932" stroke-width="1">20299:G>T</text>
+<text filter="url(#solid)" x="978" y="2945" stroke-width="1">20375:G>T</text>
+<text filter="url(#solid)" x="978" y="2958" stroke-width="1">20756:C>T</text>
+<text filter="url(#solid)" x="978" y="2971" stroke-width="1">21175:G>A</text>
+<text filter="url(#solid)" x="978" y="2984" stroke-width="1">21201:T>G</text>
+<text filter="url(#solid)" x="978" y="2997" stroke-width="1">21892:T>C</text>
+<text filter="url(#solid)" x="978" y="3010" stroke-width="1">23324:A>G</text>
+<text filter="url(#solid)" x="978" y="3023" stroke-width="1">23578:G>T</text>
+<text filter="url(#solid)" x="978" y="3036" stroke-width="1">25145:G>A</text>
+<text filter="url(#solid)" x="978" y="3049" stroke-width="1">25762:T>C</text>
+<text filter="url(#solid)" x="978" y="3062" stroke-width="1">25858:T>C</text>
+<text filter="url(#solid)" x="978" y="3075" stroke-width="1">26096:A>G</text>
+<text filter="url(#solid)" x="978" y="3088" stroke-width="1">27227:C>T</text>
+<text filter="url(#solid)" x="978" y="3101" stroke-width="1">27354:C>A</text>
+<text filter="url(#solid)" x="978" y="3114" stroke-width="1">28050:C>T</text>
+<text filter="url(#solid)" x="978" y="3127" stroke-width="1">28259:A>G</text>
+<text filter="url(#solid)" x="978" y="3140" stroke-width="1">28737:A>C</text>
+<text filter="url(#solid)" x="978" y="3153" stroke-width="1">29430:C>G</text>
+<text filter="url(#solid)" x="978" y="3166" stroke-width="1">29770:A>C</text>
+<text filter="url(#solid)" x="978" y="3179" stroke-width="1">29972:C>T</text>
+<text filter="url(#solid)" x="978" y="3192" stroke-width="1">30308:C>T</text>
+<text filter="url(#solid)" x="978" y="3205" stroke-width="1">32408:G>A</text>
+<text filter="url(#solid)" x="978" y="3218" stroke-width="1">32910:T>G</text>
+<text filter="url(#solid)" x="978" y="3231" stroke-width="1">35307:G>C</text>
+<text filter="url(#solid)" x="978" y="3244" stroke-width="1">37455:C>G</text>
+<text filter="url(#solid)" x="978" y="3257" stroke-width="1">38350:T>C</text>
+<text filter="url(#solid)" x="978" y="3270" stroke-width="1">39654:T>A</text>
+<text filter="url(#solid)" x="978" y="3283" stroke-width="1">40312:A>T</text>
+<text filter="url(#solid)" x="978" y="3296" stroke-width="1">40489:G>A</text>
+<text filter="url(#solid)" x="978" y="3309" stroke-width="1">41124:A>G</text>
+<text filter="url(#solid)" x="978" y="3322" stroke-width="1">43087:T>C</text>
+<text filter="url(#solid)" x="978" y="3335" stroke-width="1">43746:G>A</text>
+<text filter="url(#solid)" x="978" y="3348" stroke-width="1">43815:T>C</text>
+<text filter="url(#solid)" x="978" y="3361" stroke-width="1">44304:G>A</text>
+<text filter="url(#solid)" x="978" y="3374" stroke-width="1">48421:T>C</text>
+<text filter="url(#solid)" x="978" y="3387" stroke-width="1">49956:A>G</text>
+<text filter="url(#solid)" x="978" y="3400" stroke-width="1">51267:C>A</text>
+<text filter="url(#solid)" x="978" y="3413" stroke-width="1">51506:T>C</text>
+<text filter="url(#solid)" x="1097" y="2376" stroke-width="1">67:C>A</text>
+<text filter="url(#solid)" x="1097" y="2389" stroke-width="1">1240:T>C</text>
+<text filter="url(#solid)" x="1097" y="2402" stroke-width="1">2206:G>A</text>
+<text filter="url(#solid)" x="1097" y="2415" stroke-width="1">6571:C>A</text>
+<text filter="url(#solid)" x="1097" y="2428" stroke-width="1">7168:C>G</text>
+<text filter="url(#solid)" x="1097" y="2441" stroke-width="1">8440:C>G</text>
+<text filter="url(#solid)" x="1097" y="2454" stroke-width="1">10729:A>T</text>
+<text filter="url(#solid)" x="1097" y="2467" stroke-width="1">11455:A>T</text>
+<text filter="url(#solid)" x="1097" y="2480" stroke-width="1">12379:G>A</text>
+<text filter="url(#solid)" x="1097" y="2493" stroke-width="1">13557:C>T</text>
+<text filter="url(#solid)" x="1097" y="2506" stroke-width="1">14332:A>T</text>
+<text filter="url(#solid)" x="1097" y="2519" stroke-width="1">15113:T>A</text>
+<text filter="url(#solid)" x="1097" y="2532" stroke-width="1">15798:G>A</text>
+<text filter="url(#solid)" x="1097" y="2545" stroke-width="1">15913:C>G</text>
+<text filter="url(#solid)" x="1097" y="2558" stroke-width="1">19081:C>T</text>
+<text filter="url(#solid)" x="1097" y="2571" stroke-width="1">19864:C>T</text>
+<text filter="url(#solid)" x="1097" y="2584" stroke-width="1">19925:G>A</text>
+<text filter="url(#solid)" x="1097" y="2597" stroke-width="1">20048:A>T</text>
+<text filter="url(#solid)" x="1097" y="2610" stroke-width="1">20932:A>G</text>
+<text filter="url(#solid)" x="1097" y="2623" stroke-width="1">22605:C>G</text>
+<text filter="url(#solid)" x="1097" y="2636" stroke-width="1">24292:C>A</text>
+<text filter="url(#solid)" x="1097" y="2649" stroke-width="1">24515:C>T</text>
+<text filter="url(#solid)" x="1097" y="2662" stroke-width="1">25654:A>G</text>
+<text filter="url(#solid)" x="1097" y="2675" stroke-width="1">27596:C>G</text>
+<text filter="url(#solid)" x="1097" y="2688" stroke-width="1">28869:C>T</text>
+<text filter="url(#solid)" x="1097" y="2701" stroke-width="1">29095:G>T</text>
+<text filter="url(#solid)" x="1097" y="2714" stroke-width="1">31694:C>T</text>
+<text filter="url(#solid)" x="1097" y="2727" stroke-width="1">33666:G>A</text>
+<text filter="url(#solid)" x="1097" y="2740" stroke-width="1">35184:G>C</text>
+<text filter="url(#solid)" x="1097" y="2753" stroke-width="1">37152:C>A</text>
+<text filter="url(#solid)" x="1097" y="2766" stroke-width="1">39059:C>T</text>
+<text filter="url(#solid)" x="1097" y="2779" stroke-width="1">39129:C>T</text>
+<text filter="url(#solid)" x="1097" y="2792" stroke-width="1">39554:T>C</text>
+<text filter="url(#solid)" x="1097" y="2805" stroke-width="1">40769:C>T</text>
+<text filter="url(#solid)" x="1097" y="2818" stroke-width="1">41530:T>G</text>
+<text filter="url(#solid)" x="1097" y="2831" stroke-width="1">41817:C>G</text>
+<text filter="url(#solid)" x="1097" y="2844" stroke-width="1">42335:G>C</text>
+<text filter="url(#solid)" x="1097" y="2857" stroke-width="1">42620:C>A</text>
+<text filter="url(#solid)" x="1097" y="2870" stroke-width="1">46114:C>T</text>
+<text filter="url(#solid)" x="1097" y="2883" stroke-width="1">46449:T>A</text>
+<text filter="url(#solid)" x="1097" y="2896" stroke-width="1">47101:T>A</text>
+<text filter="url(#solid)" x="1097" y="2909" stroke-width="1">47462:T>C</text>
+<text filter="url(#solid)" x="1097" y="2922" stroke-width="1">47493:T>C</text>
+<text filter="url(#solid)" x="1097" y="2935" stroke-width="1">47608:G>A</text>
+<text filter="url(#solid)" x="1097" y="2948" stroke-width="1">47928:A>G</text>
+<text filter="url(#solid)" x="1097" y="2961" stroke-width="1">48916:T>A</text>
+<text filter="url(#solid)" x="37" y="562" stroke-width="1">7829:C>G</text>
+<text filter="url(#solid)" x="37" y="575" stroke-width="1">13479:A>C</text>
+<text filter="url(#solid)" x="37" y="588" stroke-width="1">19035:A>C</text>
+<text filter="url(#solid)" x="37" y="601" stroke-width="1">31778:C>G</text>
+<text filter="url(#solid)" x="37" y="614" stroke-width="1">32553:C>T</text>
+<text filter="url(#solid)" x="37" y="627" stroke-width="1">34744:T>C</text>
+<text filter="url(#solid)" x="37" y="640" stroke-width="1">42167:A>C</text>
+<text filter="url(#solid)" x="37" y="653" stroke-width="1">48094:T>C</text>
+<text filter="url(#solid)" x="165" y="1118" stroke-width="1">17620:A>G</text>
+<text filter="url(#solid)" x="165" y="1131" stroke-width="1">22930:T>C</text>
+<text filter="url(#solid)" x="165" y="1144" stroke-width="1">28382:C>A</text>
+<text filter="url(#solid)" x="165" y="1157" stroke-width="1">28656:T>G</text>
+<text filter="url(#solid)" x="165" y="1170" stroke-width="1">39317:A>G</text>
+<text filter="url(#solid)" x="165" y="1183" stroke-width="1">45787:C>G</text>
+<text filter="url(#solid)" x="320" y="1878" stroke-width="1">1950:G>A</text>
+<text filter="url(#solid)" x="320" y="1891" stroke-width="1">12578:A>G</text>
+<text filter="url(#solid)" x="320" y="1904" stroke-width="1">38578:A>C</text>
+<text filter="url(#solid)" x="448" y="3024" stroke-width="1">25696:T>C</text>
+<text filter="url(#solid)" x="448" y="3037" stroke-width="1">28814:G>C</text>
+<text filter="url(#solid)" x="448" y="3050" stroke-width="1">41709:T>C</text>
+<text filter="url(#solid)" x="448" y="3063" stroke-width="1">45147:T>C</text>
+<text filter="url(#solid)" x="448" y="3076" stroke-width="1">47882:A>G</text>
+<text filter="url(#solid)" x="603" y="4582" stroke-width="1">7261:T>C</text>
+<text filter="url(#solid)" x="603" y="4595" stroke-width="1">22135:A>T</text>
+<text filter="url(#solid)" x="603" y="4608" stroke-width="1">35723:A>C</text>
+<text filter="url(#solid)" x="603" y="4621" stroke-width="1">37608:T>G</text>
+<text filter="url(#solid)" x="603" y="4634" stroke-width="1">50284:C>T</text>
+<text filter="url(#solid)" x="731" y="5045" stroke-width="1">29497:T>A</text>
+<text filter="url(#solid)" x="731" y="5058" stroke-width="1">36183:G>T</text>
+<text filter="url(#solid)" x="731" y="5071" stroke-width="1">36687:C>T</text>
+<text filter="url(#solid)" x="731" y="5084" stroke-width="1">37690:T>G</text>
+<text filter="url(#solid)" x="731" y="5097" stroke-width="1">51410:C>G</text>
+<text filter="url(#solid)" x="886" y="5423" stroke-width="1">35124:G>A</text>
+<text filter="url(#solid)" x="886" y="5436" stroke-width="1">37882:T>C</text>
+<text filter="url(#solid)" x="886" y="5449" stroke-width="1">44407:A>G</text>
+<text filter="url(#solid)" x="1041" y="5743" stroke-width="1">25858:T>C</text>
+<text filter="url(#solid)" x="1041" y="5756" stroke-width="1">40620:G>A</text>
+<text filter="url(#solid)" x="1041" y="5769" stroke-width="1">47882:G>A</text>
+<text filter="url(#solid)" x="1196" y="6143" stroke-width="1">33794:G>A</text>
+<text filter="url(#solid)" x="1351" y="6305" stroke-width="1">29497:A>T</text>
+<text filter="url(#solid)" x="1351" y="6318" stroke-width="1">30835:C>A</text>
+<text filter="url(#solid)" x="1351" y="6331" stroke-width="1">36183:T>G</text>
+<text filter="url(#solid)" x="1351" y="6344" stroke-width="1">37690:G>T</text>
+<text filter="url(#solid)" x="1351" y="6357" stroke-width="1">51410:G>C</text>
+<text filter="url(#solid)" x="1351" y="6370" stroke-width="1">52381:G>T</text>
+<text filter="url(#solid)" x="1506" y="6291" stroke-width="1">10936:C>G</text>
+<text filter="url(#solid)" x="1506" y="6304" stroke-width="1">12171:A>T</text>
+<text filter="url(#solid)" x="1506" y="6317" stroke-width="1">12326:T>A</text>
+<text filter="url(#solid)" x="1506" y="6330" stroke-width="1">17900:G>C</text>
+<text filter="url(#solid)" x="1506" y="6343" stroke-width="1">20204:T>A</text>
+<text filter="url(#solid)" x="1506" y="6356" stroke-width="1">24316:G>A</text>
+<text filter="url(#solid)" x="1506" y="6369" stroke-width="1">24957:C>T</text>
+<text filter="url(#solid)" x="1506" y="6382" stroke-width="1">25314:C>T</text>
+<text filter="url(#solid)" x="1506" y="6395" stroke-width="1">25696:C>T</text>
+<text filter="url(#solid)" x="1506" y="6408" stroke-width="1">31985:C>T</text>
+<text filter="url(#solid)" x="1506" y="6421" stroke-width="1">32553:T>C</text>
+<text filter="url(#solid)" x="1506" y="6434" stroke-width="1">33875:G>A</text>
+<text filter="url(#solid)" x="1506" y="6447" stroke-width="1">40040:A>T</text>
+<text filter="url(#solid)" x="1506" y="6460" stroke-width="1">41310:G>A</text>
+<text filter="url(#solid)" x="1506" y="6473" stroke-width="1">44036:C>T</text>
+<text filter="url(#solid)" x="1506" y="6486" stroke-width="1">44407:G>A</text>
+<text filter="url(#solid)" x="1506" y="6499" stroke-width="1">44871:G>A</text>
+<text filter="url(#solid)" x="1506" y="6512" stroke-width="1">48251:G>A</text>
+<text filter="url(#solid)" x="1506" y="6525" stroke-width="1">48695:G>C</text>
+<text filter="url(#solid)" x="1506" y="6538" stroke-width="1">51779:C>T</text>
+<text filter="url(#solid)" x="1661" y="6566" stroke-width="1">4978:T>A</text>
+<text filter="url(#solid)" x="1661" y="6579" stroke-width="1">7347:C>T</text>
+<text filter="url(#solid)" x="1661" y="6592" stroke-width="1">36021:G>T</text>
+<text filter="url(#solid)" x="1661" y="6605" stroke-width="1">37342:C>A</text>
+<text filter="url(#solid)" x="1789" y="6647" stroke-width="1">10891:C>T</text>
+<text filter="url(#solid)" x="1789" y="6660" stroke-width="1">34898:T>C</text>
+<text filter="url(#solid)" x="1789" y="6673" stroke-width="1">38321:C>T</text>
+<text filter="url(#solid)" x="886" y="3979" stroke-width="1">1722:C>T</text>
+<text filter="url(#solid)" x="886" y="3992" stroke-width="1">6093:G>T</text>
+<text filter="url(#solid)" x="886" y="4005" stroke-width="1">11828:T>G</text>
+<text filter="url(#solid)" x="886" y="4018" stroke-width="1">19377:C>T</text>
+<text filter="url(#solid)" x="886" y="4031" stroke-width="1">19650:C>T</text>
+<text filter="url(#solid)" x="886" y="4044" stroke-width="1">22349:C>T</text>
+<text filter="url(#solid)" x="886" y="4057" stroke-width="1">22535:C>G</text>
+<text filter="url(#solid)" x="886" y="4070" stroke-width="1">33092:C>G</text>
+<text filter="url(#solid)" x="630" y="265" stroke-width="1">17900:G>C</text>
+<text filter="url(#solid)" x="630" y="278" stroke-width="1">31526:G>A</text>
+<text filter="url(#solid)" x="630" y="291" stroke-width="1">34635:A>G</text>
+<text filter="url(#solid)" x="630" y="304" stroke-width="1">44160:A>G</text>
+<text filter="url(#solid)" x="630" y="317" stroke-width="1">47760:G>A</text>
+<text filter="url(#solid)" x="630" y="330" stroke-width="1">47882:A>G</text>
+<text filter="url(#solid)" x="2126" y="5721" stroke-width="1">4829:T>C</text>
+<text filter="url(#solid)" x="2126" y="5734" stroke-width="1">11469:C>A</text>
+<text filter="url(#solid)" x="2126" y="5747" stroke-width="1">33794:G>A</text>
+<text filter="url(#solid)" x="1169" y="4694" stroke-width="1">2734:C>G</text>
+<text filter="url(#solid)" x="1169" y="4707" stroke-width="1">11919:C>T</text>
+<text filter="url(#solid)" x="1169" y="4720" stroke-width="1">15322:T>A</text>
+<text filter="url(#solid)" x="1169" y="4733" stroke-width="1">22535:C>G</text>
+<text filter="url(#solid)" x="1169" y="4746" stroke-width="1">31083:T>A</text>
+<text filter="url(#solid)" x="1169" y="4759" stroke-width="1">39640:G>T</text>
+<text filter="url(#solid)" x="1169" y="4772" stroke-width="1">44129:C>G</text>
+<text filter="url(#solid)" x="1169" y="4785" stroke-width="1">51109:C>A</text>
+<text filter="url(#solid)" x="1944" y="6602" stroke-width="1">29555:C>T</text>
+<text filter="url(#solid)" x="785" y="356" stroke-width="1">1814:A>T</text>
+<text filter="url(#solid)" x="785" y="369" stroke-width="1">9560:T>A</text>
+<text filter="url(#solid)" x="785" y="382" stroke-width="1">23973:C>G</text>
+<text filter="url(#solid)" x="1661" y="5435" stroke-width="1">1950:A>G</text>
+<text filter="url(#solid)" x="1661" y="5448" stroke-width="1">30138:C>T</text>
+<text filter="url(#solid)" x="1661" y="5461" stroke-width="1">36277:G>C</text>
+<text filter="url(#solid)" x="1661" y="5474" stroke-width="1">38814:T>A</text>
+<text filter="url(#solid)" x="1661" y="5487" stroke-width="1">39414:G>T</text>
+<text filter="url(#solid)" x="1661" y="5500" stroke-width="1">42167:A>C</text>
+<text filter="url(#solid)" x="1014" y="805" stroke-width="1">1950:A>G</text>
+<text filter="url(#solid)" x="1014" y="818" stroke-width="1">3748:G>A</text>
+<text filter="url(#solid)" x="1014" y="831" stroke-width="1">6639:C>G</text>
+<text filter="url(#solid)" x="1014" y="844" stroke-width="1">8384:A>C</text>
+<text filter="url(#solid)" x="1014" y="857" stroke-width="1">15579:C>T</text>
+<text filter="url(#solid)" x="1014" y="870" stroke-width="1">30288:G>A</text>
+<text filter="url(#solid)" x="1014" y="883" stroke-width="1">30986:C>A</text>
+<text filter="url(#solid)" x="1014" y="896" stroke-width="1">42353:G>A</text>
+<text filter="url(#solid)" x="1014" y="909" stroke-width="1">52053:C>T</text>
+<text filter="url(#solid)" x="1944" y="6628" stroke-width="1">24316:A>G</text>
+<text filter="url(#solid)" x="1944" y="6641" stroke-width="1">30889:A>T</text>
+<text filter="url(#solid)" x="1944" y="6667" stroke-width="1">24316:A>G</text>
+<text filter="url(#solid)" x="1944" y="6680" stroke-width="1">30889:A>T</text>
+<text filter="url(#solid)" x="1216" y="3810" stroke-width="1">17129:A>G</text>
+<text filter="url(#solid)" x="978" y="1605" stroke-width="1">49315:A>C</text>
+<text filter="url(#solid)" x="1452" y="4460" stroke-width="1">37608:G>T</text>
+<text filter="url(#solid)" x="1324" y="4811" stroke-width="1">4198:C>T</text>
+<text filter="url(#solid)" x="1324" y="4824" stroke-width="1">25257:C>T</text>
+<text filter="url(#solid)" x="1324" y="4837" stroke-width="1">38851:C>T</text>
+<text filter="url(#solid)" x="293" y="76" stroke-width="1">5985:C>G</text>
+<text filter="url(#solid)" x="1816" y="6200" stroke-width="1">2773:G>A</text>
+<text filter="url(#solid)" x="1324" y="4863" stroke-width="1">21855:G>A</text>
+<text filter="url(#solid)" x="1225" y="2890" stroke-width="1">2038:C>A</text>
+<text filter="url(#solid)" x="1225" y="2903" stroke-width="1">36540:C>A</text>
+<text filter="url(#solid)" x="1225" y="2916" stroke-width="1">50603:C>A</text>
+<text filter="url(#solid)" x="37" y="50" stroke-width="1">48568:G>A</text>
+<text filter="url(#solid)" x="1169" y="4915" stroke-width="1">679:T>G</text>
+<text filter="url(#solid)" x="1169" y="4928" stroke-width="1">5517:A>G</text>
+<text filter="url(#solid)" x="1169" y="4941" stroke-width="1">5897:C>A</text>
+<text filter="url(#solid)" x="1169" y="4954" stroke-width="1">7504:C>T</text>
+<text filter="url(#solid)" x="1169" y="4967" stroke-width="1">8139:G>A</text>
+<text filter="url(#solid)" x="1169" y="4980" stroke-width="1">16731:C>A</text>
+<text filter="url(#solid)" x="1169" y="4993" stroke-width="1">26859:C>T</text>
+<text filter="url(#solid)" x="1169" y="5006" stroke-width="1">30889:A>T</text>
+<text filter="url(#solid)" x="1169" y="5019" stroke-width="1">35776:C>T</text>
+<text filter="url(#solid)" x="1169" y="5032" stroke-width="1">36183:T>G</text>
+<text filter="url(#solid)" x="1169" y="5045" stroke-width="1">36687:T>C</text>
+<text filter="url(#solid)" x="1169" y="5058" stroke-width="1">37608:G>T</text>
+<text filter="url(#solid)" x="1169" y="5071" stroke-width="1">47165:C>T</text>
+<text filter="url(#solid)" x="630" y="434" stroke-width="1">855:G>A</text>
+<text filter="url(#solid)" x="630" y="447" stroke-width="1">1950:G>A</text>
+<text filter="url(#solid)" x="630" y="460" stroke-width="1">2499:T>C</text>
+<text filter="url(#solid)" x="630" y="473" stroke-width="1">5293:A>G</text>
+<text filter="url(#solid)" x="630" y="486" stroke-width="1">9156:G>T</text>
+<text filter="url(#solid)" x="630" y="499" stroke-width="1">26696:C>G</text>
+<text filter="url(#solid)" x="630" y="512" stroke-width="1">40093:C>T</text>
+<text filter="url(#solid)" x="630" y="525" stroke-width="1">45103:G>A</text>
+<text filter="url(#solid)" x="630" y="538" stroke-width="1">50022:A>G</text>
+<text filter="url(#solid)" x="1252" y="2025" stroke-width="1">223:G>A</text>
+<text filter="url(#solid)" x="1252" y="2038" stroke-width="1">20810:G>A</text>
+<text filter="url(#solid)" x="1407" y="2246" stroke-width="1">1312:G>A</text>
+<text filter="url(#solid)" x="1407" y="2259" stroke-width="1">28196:A>G</text>
+<text filter="url(#solid)" x="1407" y="2272" stroke-width="1">28467:A>C</text>
+<text filter="url(#solid)" x="448" y="629" stroke-width="1">1122:A>T</text>
+<text filter="url(#solid)" x="448" y="642" stroke-width="1">2625:A>G</text>
+<text filter="url(#solid)" x="448" y="655" stroke-width="1">13379:A>G</text>
+<text filter="url(#solid)" x="448" y="668" stroke-width="1">17900:G>C</text>
+<text filter="url(#solid)" x="448" y="681" stroke-width="1">23428:C>T</text>
+<text filter="url(#solid)" x="448" y="694" stroke-width="1">23749:A>T</text>
+<text filter="url(#solid)" x="448" y="707" stroke-width="1">31722:C>G</text>
+<text filter="url(#solid)" x="448" y="720" stroke-width="1">34744:C>T</text>
+<text filter="url(#solid)" x="448" y="733" stroke-width="1">49503:C>T</text>
+<text filter="url(#solid)" x="1407" y="2298" stroke-width="1">7910:C>T</text>
+<text filter="url(#solid)" x="1407" y="2311" stroke-width="1">27647:G>A</text>
+<text filter="url(#solid)" x="1407" y="2324" stroke-width="1">31924:C>T</text>
+<text filter="url(#solid)" x="1407" y="2337" stroke-width="1">33234:C>T</text>
+<text filter="url(#solid)" x="1407" y="2350" stroke-width="1">47784:T>A</text>
+<text filter="url(#solid)" x="576" y="174" stroke-width="1">3305:A>G</text>
+<text filter="url(#solid)" x="576" y="187" stroke-width="1">17620:A>G</text>
+<text filter="url(#solid)" x="576" y="200" stroke-width="1">46057:A>C</text>
+<text filter="url(#solid)" x="1944" y="6008" stroke-width="1">2734:G>C</text>
+<text filter="url(#solid)" x="1944" y="6021" stroke-width="1">30138:C>T</text>
+<text filter="url(#solid)" x="1944" y="6034" stroke-width="1">38466:G>T</text>
+<text filter="url(#solid)" x="978" y="1631" stroke-width="1">7604:T>G</text>
+<text filter="url(#solid)" x="978" y="1644" stroke-width="1">8161:C>A</text>
+<text filter="url(#solid)" x="1506" y="5331" stroke-width="1">6408:G>A</text>
+<text filter="url(#solid)" x="1506" y="5344" stroke-width="1">16246:T>A</text>
+<text filter="url(#solid)" x="1506" y="5357" stroke-width="1">25314:C>T</text>
+<text filter="url(#solid)" x="1506" y="5370" stroke-width="1">25858:C>T</text>
+<text filter="url(#solid)" x="1506" y="5383" stroke-width="1">36183:T>G</text>
+<text filter="url(#solid)" x="1506" y="5396" stroke-width="1">44281:G>A</text>
+<text filter="url(#solid)" x="1506" y="5409" stroke-width="1">45951:C>A</text>
+<text filter="url(#solid)" x="859" y="766" stroke-width="1">36595:T>A</text>
+<text filter="url(#solid)" x="859" y="779" stroke-width="1">45147:C>T</text>
+<text filter="url(#solid)" x="1041" y="4096" stroke-width="1">4829:T>C</text>
+<text filter="url(#solid)" x="1041" y="4109" stroke-width="1">21513:G>A</text>
+<text filter="url(#solid)" x="1041" y="4122" stroke-width="1">24668:C>G</text>
+<text filter="url(#solid)" x="1041" y="4135" stroke-width="1">32553:T>C</text>
+<text filter="url(#solid)" x="1041" y="4148" stroke-width="1">41294:A>C</text>
+<text filter="url(#solid)" x="1196" y="4174" stroke-width="1">4562:G>C</text>
+<text filter="url(#solid)" x="1196" y="4187" stroke-width="1">6190:A>G</text>
+<text filter="url(#solid)" x="1196" y="4200" stroke-width="1">6218:C>T</text>
+<text filter="url(#solid)" x="1196" y="4213" stroke-width="1">6374:G>T</text>
+<text filter="url(#solid)" x="1196" y="4226" stroke-width="1">12846:C>G</text>
+<text filter="url(#solid)" x="1196" y="4239" stroke-width="1">16492:T>G</text>
+<text filter="url(#solid)" x="1196" y="4252" stroke-width="1">19499:C>G</text>
+<text filter="url(#solid)" x="1196" y="4265" stroke-width="1">25696:C>T</text>
+<text filter="url(#solid)" x="1196" y="4278" stroke-width="1">25858:T>C</text>
+<text filter="url(#solid)" x="1196" y="4291" stroke-width="1">34323:G>T</text>
+<text filter="url(#solid)" x="1196" y="4304" stroke-width="1">36687:C>T</text>
+<text filter="url(#solid)" x="1196" y="4317" stroke-width="1">38536:G>C</text>
+<text filter="url(#solid)" x="1196" y="4330" stroke-width="1">42167:C>A</text>
+<text filter="url(#solid)" x="1297" y="5097" stroke-width="1">8063:C>A</text>
+<text filter="url(#solid)" x="1297" y="5110" stroke-width="1">11828:T>G</text>
+<text filter="url(#solid)" x="1297" y="5123" stroke-width="1">12517:G>T</text>
+<text filter="url(#solid)" x="1297" y="5136" stroke-width="1">30323:T>C</text>
+<text filter="url(#solid)" x="1297" y="5149" stroke-width="1">40742:T>C</text>
+<text filter="url(#solid)" x="1297" y="5162" stroke-width="1">41907:C>G</text>
+<text filter="url(#solid)" x="1252" y="2064" stroke-width="1">5685:C>T</text>
+<text filter="url(#solid)" x="1252" y="2077" stroke-width="1">26384:A>C</text>
+<text filter="url(#solid)" x="1252" y="2090" stroke-width="1">37806:T>C</text>
+<text filter="url(#solid)" x="1506" y="5240" stroke-width="1">9056:T>A</text>
+<text filter="url(#solid)" x="1506" y="5253" stroke-width="1">22391:A>C</text>
+<text filter="url(#solid)" x="1506" y="5266" stroke-width="1">35124:A>G</text>
+<text filter="url(#solid)" x="1506" y="5279" stroke-width="1">44129:C>G</text>
+<text filter="url(#solid)" x="1762" y="5878" stroke-width="1">5219:T>A</text>
+<text filter="url(#solid)" x="1762" y="5891" stroke-width="1">36183:T>G</text>
+<text filter="url(#solid)" x="1762" y="5904" stroke-width="1">36755:T>A</text>
+<text filter="url(#solid)" x="1762" y="5917" stroke-width="1">42167:C>A</text>
+<text filter="url(#solid)" x="1762" y="5930" stroke-width="1">50022:G>A</text>
+<text filter="url(#solid)" x="1762" y="5956" stroke-width="1">27100:G>A</text>
+<text filter="url(#solid)" x="1452" y="4486" stroke-width="1">6312:C>T</text>
+<text filter="url(#solid)" x="1452" y="4499" stroke-width="1">17404:A>G</text>
+<text filter="url(#solid)" x="1452" y="4512" stroke-width="1">38536:G>C</text>
+<text filter="url(#solid)" x="1452" y="4525" stroke-width="1">39640:G>T</text>
+<text filter="url(#solid)" x="1661" y="6420" stroke-width="1">9265:C>T</text>
+<text filter="url(#solid)" x="1661" y="6433" stroke-width="1">12119:G>A</text>
+<text filter="url(#solid)" x="1661" y="6446" stroke-width="1">28147:G>A</text>
+<text filter="url(#solid)" x="1661" y="6459" stroke-width="1">31581:G>A</text>
+<text filter="url(#solid)" x="1661" y="6472" stroke-width="1">38536:G>C</text>
+<text filter="url(#solid)" x="758" y="564" stroke-width="1">31033:G>T</text>
+<text filter="url(#solid)" x="758" y="577" stroke-width="1">45147:T>C</text>
+<text filter="url(#solid)" x="1252" y="2116" stroke-width="1">5685:C>T</text>
+<text filter="url(#solid)" x="1252" y="2129" stroke-width="1">7208:A>T</text>
+<text filter="url(#solid)" x="1252" y="2142" stroke-width="1">7910:C>T</text>
+<text filter="url(#solid)" x="1252" y="2155" stroke-width="1">18859:G>A</text>
+<text filter="url(#solid)" x="1252" y="2168" stroke-width="1">20281:T>G</text>
+<text filter="url(#solid)" x="1252" y="2181" stroke-width="1">29271:C>T</text>
+<text filter="url(#solid)" x="1252" y="2194" stroke-width="1">44859:T>A</text>
+<text filter="url(#solid)" x="1252" y="2207" stroke-width="1">45992:C>G</text>
+<text filter="url(#solid)" x="1252" y="2220" stroke-width="1">51758:T>G</text>
+<text filter="url(#solid)" x="1971" y="5669" stroke-width="1">22808:C>T</text>
+<text filter="url(#solid)" x="1971" y="5682" stroke-width="1">26579:T>C</text>
+<text filter="url(#solid)" x="1971" y="5695" stroke-width="1">27100:G>A</text>
+<text filter="url(#solid)" x="1944" y="6060" stroke-width="1">21201:T>G</text>
+<text filter="url(#solid)" x="1944" y="6073" stroke-width="1">36183:T>G</text>
+<text filter="url(#solid)" x="1324" y="4356" stroke-width="1">1199:G>C</text>
+<text filter="url(#solid)" x="1324" y="4369" stroke-width="1">10046:C>G</text>
+<text filter="url(#solid)" x="1324" y="4382" stroke-width="1">14680:G>A</text>
+<text filter="url(#solid)" x="1324" y="4395" stroke-width="1">19681:C>G</text>
+<text filter="url(#solid)" x="1324" y="4408" stroke-width="1">27791:T>C</text>
+<text filter="url(#solid)" x="1324" y="4421" stroke-width="1">28814:C>G</text>
+<text filter="url(#solid)" x="1324" y="4434" stroke-width="1">38578:C>A</text>
+<text filter="url(#solid)" x="1014" y="4551" stroke-width="1">9694:T>C</text>
+<text filter="url(#solid)" x="1014" y="4564" stroke-width="1">12846:C>G</text>
+<text filter="url(#solid)" x="1014" y="4577" stroke-width="1">17244:C>T</text>
+<text filter="url(#solid)" x="1014" y="4590" stroke-width="1">24448:T>G</text>
+<text filter="url(#solid)" x="1014" y="4603" stroke-width="1">26461:C>G</text>
+<text filter="url(#solid)" x="1014" y="4616" stroke-width="1">32846:C>T</text>
+<text filter="url(#solid)" x="1014" y="4629" stroke-width="1">36948:G>A</text>
+<text filter="url(#solid)" x="1014" y="4642" stroke-width="1">39942:G>A</text>
+<text filter="url(#solid)" x="1014" y="4655" stroke-width="1">43474:A>C</text>
+<text filter="url(#solid)" x="1014" y="4668" stroke-width="1">44160:A>G</text>
+<text filter="url(#solid)" x="576" y="226" stroke-width="1">7760:G>A</text>
+<text filter="url(#solid)" x="576" y="239" stroke-width="1">29271:C>T</text>
+<text filter="url(#solid)" x="1661" y="6174" stroke-width="1">38154:T>A</text>
+<text filter="url(#solid)" x="1506" y="5305" stroke-width="1">22283:A>T</text>
+<text filter="url(#solid)" x="1789" y="5982" stroke-width="1">10641:G>A</text>
+<text filter="url(#solid)" x="1479" y="5839" stroke-width="1">33075:C>T</text>
+<text filter="url(#solid)" x="1479" y="5852" stroke-width="1">49395:G>A</text>
+<text filter="url(#solid)" x="1097" y="1947" stroke-width="1">1866:C>T</text>
+<text filter="url(#solid)" x="1097" y="1960" stroke-width="1">2417:C>A</text>
+<text filter="url(#solid)" x="1097" y="1973" stroke-width="1">20810:G>A</text>
+<text filter="url(#solid)" x="1097" y="1986" stroke-width="1">42457:G>T</text>
+<text filter="url(#solid)" x="1097" y="1999" stroke-width="1">45992:C>G</text>
+<text filter="url(#solid)" x="1297" y="5188" stroke-width="1">11299:A>G</text>
+<text filter="url(#solid)" x="1297" y="5201" stroke-width="1">22391:A>C</text>
+<text filter="url(#solid)" x="1297" y="5214" stroke-width="1">33092:C>G</text>
+<text filter="url(#solid)" x="1816" y="6226" stroke-width="1">8999:C>T</text>
+<text filter="url(#solid)" x="1816" y="6239" stroke-width="1">30889:A>T</text>
+<text filter="url(#solid)" x="1816" y="6252" stroke-width="1">40620:A>G</text>
+<text filter="url(#solid)" x="1816" y="6265" stroke-width="1">44304:G>A</text>
+<text filter="url(#solid)" x="1816" y="5526" stroke-width="1">2838:G>C</text>
+<text filter="url(#solid)" x="1816" y="5539" stroke-width="1">10936:C>G</text>
+<text filter="url(#solid)" x="1816" y="5552" stroke-width="1">13194:A>T</text>
+<text filter="url(#solid)" x="1816" y="5565" stroke-width="1">13620:T>A</text>
+<text filter="url(#solid)" x="1816" y="5578" stroke-width="1">15732:G>A</text>
+<text filter="url(#solid)" x="1816" y="5591" stroke-width="1">15798:G>A</text>
+<text filter="url(#solid)" x="1816" y="5604" stroke-width="1">19246:G>A</text>
+<text filter="url(#solid)" x="1816" y="5617" stroke-width="1">20000:G>A</text>
+<text filter="url(#solid)" x="1816" y="5630" stroke-width="1">45951:C>A</text>
+<text filter="url(#solid)" x="1816" y="5643" stroke-width="1">52381:G>T</text>
+<text filter="url(#solid)" x="1371" y="3914" stroke-width="1">7136:T>C</text>
+<text filter="url(#solid)" x="1371" y="3927" stroke-width="1">16418:G>A</text>
+<text filter="url(#solid)" x="1371" y="3940" stroke-width="1">42005:C>T</text>
+<text filter="url(#solid)" x="1371" y="3953" stroke-width="1">47021:G>T</text>
+<text filter="url(#solid)" x="1014" y="935" stroke-width="1">29041:C>T</text>
+<text filter="url(#solid)" x="603" y="128" stroke-width="1">17900:G>C</text>
+<text filter="url(#solid)" x="603" y="141" stroke-width="1">30835:C>A</text>
+<text filter="url(#solid)" x="1225" y="2942" stroke-width="1">495:C>A</text>
+<text filter="url(#solid)" x="1225" y="2955" stroke-width="1">911:C>A</text>
+<text filter="url(#solid)" x="1225" y="2968" stroke-width="1">10794:G>C</text>
+<text filter="url(#solid)" x="1225" y="2981" stroke-width="1">35266:C>T</text>
+<text filter="url(#solid)" x="1225" y="2994" stroke-width="1">49577:G>A</text>
+<text filter="url(#solid)" x="1225" y="3007" stroke-width="1">51934:C>T</text>
+<text filter="url(#solid)" x="1944" y="6732" stroke-width="1">19543:T>A</text>
+<text filter="url(#solid)" x="1944" y="6745" stroke-width="1">25603:G>T</text>
+</g>
+</svg>

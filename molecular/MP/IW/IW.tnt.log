@@ -1,0 +1,117 @@
+Default target for goto is /usr/share/tnt/tnt_scripts/guoyi.run 
+Taxon names is ON 
+TNT - max. ram = 10240 Mbytes 
+No ram used yet 
+Matrices will be read as DNA data 
+Matrix space: allocate for up to 8 states 
+Gaps will be read as missing 
+Implied Weighting is ON 
+Reading from mimi.tnt 
+' '
+Matrix (52408x73, 8 states). Memory required for data: 32.57 Mbytes 
+Again reading from /usr/share/tnt/tnt_scripts/guoyi.run 
+Space for 10000 trees in memory 
+/-----------------------------------------------\
+|    Implied weighting will be used, K is 12.    |
+|    TBR Mult will be performed.                 |
+|    Strict consensus will be used.              |
+|    resample.svg will contain a tree with       |
+|        jackknifing                             |
+|        symmetric resampling                    |
+|    Apomorphic characters mapping will be shown |
+|        on the apo.svg and saved to apo*.tre.   |
+|    TL, CI and RI will be calculated finally.   |
+\------------------------------------------------/
+Using a single weighting function for all characters 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+1000  SPR      527 of 527    ------      17.51060     0:00:06    126,984,853   
+Completed 1000 random addition sequences.
+Total rearrangements examined: 126,984,853. 
+Best score hit 797 times out of 1000 (some replications overflowed).
+Best score (TBR): 17.51060.  80 trees retained. 
+Start swapping from 80 trees (score 17.51060)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      17.51060     0:00:00    6,892,247     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,892,247. 
+Best score (TBR): 17.51060.  81 trees found. 
+Taxon names is OFF 
+Tree file: IW.trees.tnt.tre 
+Taxon names is ON 
+Tree file: IW.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Placed 1 trees in vault (vault now with 1 trees)
+Selecting tree(s) 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80,  
+81 trees selected 
+Retrieved 1 trees from vault (82 trees now in memory)
+Selecting tree(s) 81,  
+1 trees selected 
+Suboptimal 0.000 x 0.000 
+Copied legends: "GC values, 1000 replicates, cut=0 (tree 0) - Jacknifing (P=36)" 
+ 
+Copied legends: "GC values, 1000 replicates, cut=0 (tree 0) - Symmetric Resampling (P=33)" 
+ 
+Saved trees (Nexus format) to file IW.resample.tre 
+Taxon names is OFF 
+Saved trees (Nexus format) to file IW.resample_no.tre 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+Taxon names is ON 
+Selecting tree(s) 0,  
+1 trees selected 
+Saved trees (Nexus format) to file IW.original.tre 
+Taxon names is OFF 
+Saved trees (Nexus format) to file IW.original_no.tre 
+Tree file: IW.original.ctf 
+Tree file: IW.original.tnt.tre 
+Taxon names is ON 
+Copied legends: "Synapomorphies common to 1 trees" 
+Saved trees (Nexus format) to file IW.apo.tre 
+Taxon names is OFF 
+Saved trees (Nexus format) to file IW.apo_no.tre 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+/----------------------------------------------\
+|      The analysis has been finished.         |
+|      The file `tnt.log` contains             |
+|          the performing details              |
+|      The file `trees*.tre` contain           |
+|          trees found by mult and xmult       |
+|      The file `original*.tre` contain        |
+|          consensus tree without label        |
+|      The file `resample*.tre` contain        |
+|          consensus tree with support         |
+|      The file `apo*.tre` contain             |
+|          tree with apomorphic character      |
+|      The file `*_no.tre` contain             |
+|          tree with `taxname-`                |
+|      The file `*.ctf` tree file is           |
+|          only readable for TNT               |
+|      The file `*.tnt.tre` contain            |
+|          is the tre file without taxname     |
+|      The file `resample.svg` contain         |
+|          strict consensus tree with          |
+|          jackknifing                         |
+|          symmetric resampling                |
+|          under implied weighting,            |
+|          K value is 12                       |
+|      The file `apo.svg` contains the         |
+|          tree with apomorphy mapping         |
+|      The file `report.log` contains the      |
+|          CI RI TL publish-needed info        |
+|      The file `resample/apo.log` contains    |
+|          the tree tags text                  |
+|      The file `homo.log` contains the report |
+|          of character homoplasy              |
+|      The file `winclada.tre` can be          |
+|          converted by tnt2winclada           |
+|      The file `winclada.ss` can be read by   |
+|          winclada directly                   |
+\----------------------------------------------/

@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        gl_output_rmq.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            73
+  #sites:           52408
+  #patterns:        3749
+  Max. thread mem:  133 MB
+
+Output:
+  Log:           gl_output_rmq.fasta.log
+  Starting tree: gl_output_rmq.fasta.tree
+  Results:       gl_output_rmq.fasta.out
+
+Selection options:
+  # dna schemes:      3
+  # dna models:       12
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     false
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          1/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G4           6    -81292.5749    164204.3051         0.0000    1.0000
+       2  GTR+I+G4          10    -81291.5373    164245.6972        41.3921    0.0000
+       3  F81+I+G4           5    -81396.4353    164401.1591       196.8540    0.0000
+       4  HKY+I              5    -81456.3287    164520.9460       316.6408    0.0000
+       5  GTR+I              9    -81453.1380    164558.0318       353.7267    0.0000
+       6  F81+I              4    -81561.4526    164720.3270       516.0218    0.0000
+       7  HKY+G4             5    -81714.6036    165037.4958       833.1906    0.0000
+       8  GTR+G4             9    -81709.9585    165071.6727       867.3676    0.0000
+       9  F81+G4             4    -81820.2696    165237.9609      1033.6558    0.0000
+      10  HKY                4    -82081.7875    165760.9966      1556.6915    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+I+G4
+lnL:                -81292.5749
+Frequencies:        0.2833 0.2094 0.2264 0.2808
+Subst. Rates:       1.0000 2.5248 1.0000 1.0000 2.5248 1.0000 
+Inv. sites prop:    0.9150
+Gamma shape:        0.2967
+Score:              164204.3051
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0216
+Alpha-P.Inv:        0.2967
+P.Inv-Alpha:        0.9150
+Frequencies:        0.2833 0.2094 0.2264 0.2808 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G4
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G4           6    -81292.5749    162883.1498         0.0000    0.9508
+       2  GTR+I+G4          10    -81291.5373    162889.0746         5.9248    0.0492
+       3  F81+I+G4           5    -81396.4353    163088.8706       205.7208    0.0000
+       4  HKY+I              5    -81456.3287    163208.6574       325.5076    0.0000
+       5  GTR+I              9    -81453.1380    163210.2760       327.1262    0.0000
+       6  F81+I              4    -81561.4526    163416.9053       533.7555    0.0000
+       7  GTR+G4             9    -81709.9585    163723.9169       840.7672    0.0000
+       8  HKY+G4             5    -81714.6036    163725.2072       842.0574    0.0000
+       9  F81+G4             4    -81820.2696    163934.5392      1051.3894    0.0000
+      10  GTR                8    -82076.6101    164455.2203      1572.0705    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              HKY+I+G4
+lnL:                -81292.5749
+Frequencies:        0.2833 0.2094 0.2264 0.2808
+Subst. Rates:       1.0000 2.5248 1.0000 1.0000 2.5248 1.0000 
+Inv. sites prop:    0.9150
+Gamma shape:        0.2967
+Score:              162883.1498
+Weight:             0.9508
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0215
+Alpha-P.Inv:        0.2962
+P.Inv-Alpha:        0.9150
+Frequencies:        0.2833 0.2094 0.2264 0.2809 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G4
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G4           6    -81292.5749    162883.1498         0.0000    0.9508
+       2  GTR+I+G4          10    -81291.5373    162889.0746         5.9248    0.0492
+       3  F81+I+G4           5    -81396.4353    163088.8706       205.7208    0.0000
+       4  HKY+I              5    -81456.3287    163208.6574       325.5076    0.0000
+       5  GTR+I              9    -81453.1380    163210.2760       327.1262    0.0000
+       6  F81+I              4    -81561.4526    163416.9053       533.7555    0.0000
+       7  GTR+G4             9    -81709.9585    163723.9169       840.7672    0.0000
+       8  HKY+G4             5    -81714.6036    163725.2072       842.0574    0.0000
+       9  F81+G4             4    -81820.2696    163934.5392      1051.3894    0.0000
+      10  GTR                8    -82076.6101    164455.2203      1572.0705    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              HKY+I+G4
+lnL:                -81292.5749
+Frequencies:        0.2833 0.2094 0.2264 0.2808
+Subst. Rates:       1.0000 2.5248 1.0000 1.0000 2.5248 1.0000 
+Inv. sites prop:    0.9150
+Gamma shape:        0.2967
+Score:              162883.1498
+Weight:             0.9508
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0215
+Alpha-P.Inv:        0.2962
+P.Inv-Alpha:        0.9150
+Frequencies:        0.2833 0.2094 0.2264 0.2809 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G4
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G4
+Done

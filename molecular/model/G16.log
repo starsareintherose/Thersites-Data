@@ -1,0 +1,210 @@
+Physical cores: 4
+Logical cores:  8
+Memory:         15.3GB
+Extensions:     AVX
+
+WARNING: MSA has not enough sites to infer reliable results
+Creating new checkpoint file: G16.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        gl_output_rmq.fasta
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            73
+  #sites:           52408
+  #patterns:        3749
+  Max. thread mem:  527 MB
+
+Output:
+  Log:           G16.log
+  Starting tree: G16.tree
+  Results:       G16.out
+
+Selection options:
+  # dna schemes:      3
+  # dna models:       12
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     false
+    estimated freqs: true
+    #categories:     16
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          1/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng -i gl_output_rmq.fasta -d nt -T raxml -o G16 -c 16 
+
+
+modeltest-ng: Warning: You are using one single thread out of 4 physical cores.
+modeltest-ng:          You can set the number of threads with -p argument.
+modeltest-ng: Try 'modeltest-ng --help' or 'modeltest-ng --usage' for more information
+
+Partition 1/1
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:19
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G16          6    -81255.5357    164130.2268         0.0000    1.0000
+       2  GTR+I+G16         10    -81261.0724    164184.7675        54.5407    0.0000
+       3  F81+I+G16          5    -81359.4883    164327.2652       197.0385    0.0000
+       4  HKY+G16            5    -81402.8823    164414.0532       283.8265    0.0000
+       5  GTR+G16            9    -81400.2334    164452.2226       321.9959    0.0000
+       6  HKY+I              5    -81456.3287    164520.9460       390.7192    0.0000
+       7  GTR+I              9    -81453.1380    164558.0318       427.8050    0.0000
+       8  F81+G16            4    -81507.7329    164612.8876       482.6608    0.0000
+       9  F81+I              4    -81561.4526    164720.3270       590.1002    0.0000
+      10  HKY                4    -82081.7875    165760.9966      1630.7699    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+I+G16
+lnL:                -81255.5357
+Frequencies:        0.2833 0.2095 0.2265 0.2808
+Subst. Rates:       1.0000 2.5313 1.0000 1.0000 2.5313 1.0000 
+Inv. sites prop:    0.9288
+Gamma shape:        0.4458
+Score:              164130.2268
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0217
+Alpha-P.Inv:        0.4458
+P.Inv-Alpha:        0.9288
+Frequencies:        0.2833 0.2095 0.2265 0.2808 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 16 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G16
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G16
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G16          6    -81255.5357    162809.0714         0.0000    0.9999
+       2  GTR+I+G16         10    -81261.0724    162828.1449        19.0735    0.0001
+       3  F81+I+G16          5    -81359.4883    163014.9767       205.9053    0.0000
+       4  HKY+G16            5    -81402.8823    163101.7647       292.6933    0.0000
+       5  GTR+G16            9    -81400.2334    163104.4668       295.3954    0.0000
+       6  HKY+I              5    -81456.3287    163208.6574       399.5860    0.0000
+       7  GTR+I              9    -81453.1380    163210.2760       401.2046    0.0000
+       8  F81+G16            4    -81507.7329    163309.4659       500.3944    0.0000
+       9  F81+I              4    -81561.4526    163416.9053       607.8338    0.0000
+      10  GTR                8    -82076.6101    164455.2203      1646.1488    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              HKY+I+G16
+lnL:                -81255.5357
+Frequencies:        0.2833 0.2095 0.2265 0.2808
+Subst. Rates:       1.0000 2.5313 1.0000 1.0000 2.5313 1.0000 
+Inv. sites prop:    0.9288
+Gamma shape:        0.4458
+Score:              162809.0714
+Weight:             0.9999
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0217
+Alpha-P.Inv:        0.4458
+P.Inv-Alpha:        0.9288
+Frequencies:        0.2833 0.2095 0.2265 0.2808 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 16 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G16
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G16
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G16          6    -81255.5357    162809.0714         0.0000    0.9999
+       2  GTR+I+G16         10    -81261.0724    162828.1449        19.0735    0.0001
+       3  F81+I+G16          5    -81359.4883    163014.9767       205.9053    0.0000
+       4  HKY+G16            5    -81402.8823    163101.7647       292.6933    0.0000
+       5  GTR+G16            9    -81400.2334    163104.4668       295.3954    0.0000
+       6  HKY+I              5    -81456.3287    163208.6574       399.5860    0.0000
+       7  GTR+I              9    -81453.1380    163210.2760       401.2046    0.0000
+       8  F81+G16            4    -81507.7329    163309.4659       500.3944    0.0000
+       9  F81+I              4    -81561.4526    163416.9053       607.8338    0.0000
+      10  GTR                8    -82076.6101    164455.2203      1646.1488    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              HKY+I+G16
+lnL:                -81255.5357
+Frequencies:        0.2833 0.2095 0.2265 0.2808
+Subst. Rates:       1.0000 2.5313 1.0000 1.0000 2.5313 1.0000 
+Inv. sites prop:    0.9288
+Gamma shape:        0.4458
+Score:              162809.0714
+Weight:             0.9999
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.9150
+Alpha:              0.0217
+Alpha-P.Inv:        0.4458
+P.Inv-Alpha:        0.9288
+Frequencies:        0.2833 0.2095 0.2265 0.2808 
+
+Commands:
+  > phyml  -i gl_output_rmq.fasta -m 010010 -f m -v e -a e -c 16 -o tlr
+  > raxmlHPC-SSE3 -s gl_output_rmq.fasta -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa gl_output_rmq.fasta --model HKY+I+G16
+  > paup -s gl_output_rmq.fasta
+  > iqtree -s gl_output_rmq.fasta -m HKY+I+G16
+Summary:
+
+Partition 1/1:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC           HKY+I+G16   164130.2268        1.0000
+       AIC           HKY+I+G16   162809.0714        0.9999
+      AICc           HKY+I+G16   162809.0714        0.9999
+
+Execution results written to G16.out
+Starting tree written to G16.tree
