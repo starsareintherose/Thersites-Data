@@ -1,0 +1,9 @@
+macro=;
+nstates 32;
+nstates NOGAPS;
+taxname+100;
+p morpho.tnt;
+p %1;
+collapse 0;
+wincladtree %1.svg noalign shade rotate squaresize 15 taxangle 0;
+zzz;
