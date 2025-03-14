@@ -8,6 +8,7 @@ import os
 import warnings
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
+from matplotlib.colors import LinearSegmentedColormap
 from scipy.stats import kruskal
 from ete3 import Tree, TreeStyle, faces, AttrFace, ImgFace, TextFace
 from PIL import Image
@@ -63,6 +64,85 @@ def compute_node_pvalues(node, df):
         compute_node_pvalues.counter += 1
         return combined
 
+def compute_node_pvalues(node, df):
+    """
+    Recursively compute p-values for each internal node using the Kruskal-Wallis test.
+    
+    For leaf nodes, the function attaches the corresponding data (from the CSV) to the node.
+    For internal nodes, it combines data from its children and computes p-values for each variable.
+    If, for any variable, one of the groups is empty (i.e. has no valid data), the test is skipped
+    and the p-value is set to NaN.
+    
+    Parameters:
+        node: an ete3 Tree node
+        df: pandas DataFrame with data indexed by sequence name
+    
+    Returns:
+        A combined list of data dictionaries from all leaves under the current node.
+    """
+    # If the node is a leaf, retrieve its data from the DataFrame
+    if node.is_leaf():
+        seq = node.name
+        if seq in df.index:
+            data = df.loc[seq].to_dict()
+            node.add_feature("data", data)
+            node.add_feature("data_list", [data])
+        else:
+            sys.stderr.write(f"Warning: {seq} not found in CSV\n")
+            node.add_feature("data", None)
+            node.add_feature("data_list", [])
+        return node.data_list
+    else:
+        # For internal nodes, compute the data list for each child recursively
+        child_data_lists = []
+        for child in node.get_children():
+            child_data = compute_node_pvalues(child, df)
+            child_data_lists.append(child_data)
+        
+        # Combine all child data into a single list
+        combined = []
+        for group in child_data_lists:
+            combined.extend(group)
+        node.add_feature("data_list", combined)
+        
+        # Initialize dictionary to store p-values for each variable
+        pvals = {}
+        # Loop through each variable and compute the Kruskal-Wallis p-value
+        for var in VARIABLES:
+            groups = []  # List to hold the data groups for the current variable
+            # Iterate over each child's data list
+            for group in child_data_lists:
+                # Extract non-NaN values for the current variable from this group
+                values = [d[var] for d in group if pd.notna(d[var])]
+                # If a group has no valid data, skip the test for this variable
+                if not values:
+                    groups = []  # Clear groups to ensure the test is not run
+                    break
+                groups.append(values)
+            # If fewer than 2 valid groups exist, set p-value to NaN
+            if len(groups) < 2:
+                pvals[var] = np.nan
+            else:
+                try:
+                    # Perform the Kruskal-Wallis test across the groups
+                    stat, pval = kruskal(*groups)
+                    pvals[var] = pval
+                except Exception as e:
+                    pvals[var] = np.nan
+        
+        # Attach the computed p-values to the current node
+        node.add_feature("pvalues", pvals)
+        
+        # Assign a unique node_id to the internal node
+        if not hasattr(compute_node_pvalues, "counter"):
+            compute_node_pvalues.counter = 1
+        node.add_feature("node_id", f"Node{compute_node_pvalues.counter}")
+        compute_node_pvalues.counter += 1
+        
+        # Return the combined data from the subtree for further processing
+        return combined
+
+
 def draw_heatmap_imgface(data, width=60, height=45, thresh_levels=(0.05, 0.01, 0.001)):
     """
     Draw a 2×3 heatmap, resize the heatmap displayed on the node.
@@ -71,8 +151,7 @@ def draw_heatmap_imgface(data, width=60, height=45, thresh_levels=(0.05, 0.01, 0
         return None
     fig, ax = plt.subplots(figsize=(1.5, 1))
     masked_data = np.ma.masked_invalid(data)
-    cmap = plt.cm.viridis.copy()
-    cmap.set_bad(color='none')
+    cmap = LinearSegmentedColormap.from_list("custom_cmap", ['#68cff7', '#b9db89', '#ffe966', '#f5969f'])
     ax.imshow(masked_data, interpolation='nearest', cmap=cmap, vmin=0, vmax=1)
     ax.set_xticks([])
     ax.set_yticks([])
@@ -93,7 +172,8 @@ def create_heatmap_bar_horizontal(width=8, height=0.5):
     """
     fig, ax = plt.subplots(figsize=(width, height))
     data = np.linspace(0, 1, 100).reshape((1, 100))
-    ax.imshow(data, aspect="auto", cmap=plt.cm.viridis)
+    cmap = LinearSegmentedColormap.from_list("custom_cmap", ['#68cff7', '#b9db89', '#ffe966', '#f5969f'])
+    ax.imshow(data, aspect="auto", cmap=cmap)
     ax.set_xticks([])
     ax.set_yticks([])
     tmp = tempfile.NamedTemporaryFile(suffix=".svg", delete=False)
@@ -156,7 +236,7 @@ def main():
     # read data
     df = pd.read_csv(args.csv, na_values=["?"])
     if "seq" not in df.columns:
-        sys.stderr.write("CSV 文件中必须包含 'seq' 列\n")
+        sys.stderr.write("It must include 'seq' column\n")
         sys.exit(1)
     df.set_index("seq", inplace=True)
 
@@ -164,7 +244,7 @@ def main():
     try:
         tree = Tree(args.tree, format=1)
     except Exception as e:
-        sys.stderr.write(f"读取树失败: {e}\n")
+        sys.stderr.write(f"fail to read: {e}\n")
         sys.exit(1)
 
     # compute p-values for each internal node

@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-03-11T22:28:19.845976</dc:date>
+    <dc:date>2025-03-14T12:12:43.005212</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -39,9 +39,9 @@ L 0 27.72
 z
 " style="fill: none"/>
    </g>
-   <g clip-path="url(#p7d6d217a51)">
+   <g clip-path="url(#pb84a31e05b)">
     <image xlink:href="data:image/png;base64,
-iVBORw0KGgoAAAANSUhEUgAAAmwAAAAnCAYAAACylRSjAAAB0UlEQVR4nO3WQXLbMAwFUJKS4h4sR+j9L9LW7sJbfM4o4wUW7y0REBBtR/Pn9/z9GpV1lOV5nWV9jDHmEc6c4UzoH6F/nqF/OyvU1yrLr9S/2f0Ks8YZdhwz1FN/mL+blXav1B/qof+9u64/b85Kc3a7n/FMqIfP6e6c96zP7L4752e7b/Z/dHf9avnk7rHCjvisdf/YvFrSPcZMs0I93G8ez7h7huedYcda9awV5hyb3enMGXacYdaR+kN997fr+FfXV11Pc77W39u705lr1v2Po+7f7b5mfY9H3F33/1p/wpy6vp016zPXrJ8p7f4K83c7bu8O9fQdvc+ke9e//yvOqf/Br1AfY4zHrKdds34hbV6RAAB0ILABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADQnsAEANCewAQA0J7ABADT3Hx2lVlVT7PddAAAAAElFTkSuQmCC" id="image80eee0d7f5" transform="scale(1 -1) translate(0 -28.08)" x="0" y="0.36" width="446.4" height="28.08"/>
+iVBORw0KGgoAAAANSUhEUgAAAmwAAAAnCAYAAACylRSjAAABo0lEQVR4nO3WQY4jIRAEwGr7s/Pbfc5eZuw97JVEwuqR8hBxxEAV0Jby+vrz9z0L1/yshuc538vxmZlHWnOtx/P8dY197dd6POwVa4caqadd7bTmtPZ1rfffrUnjj/AWz9BT6nXm/J3SOWKvH9SOb3H4rvva69+uWf6V5hm/zfX8R9jnkzVp/Bn2SWfYrYm1b+r1f+31HV6/PH/X113nTvc6s/mmbrrb1Osna/J3vt7//fOItecVFoU1ca/DfWZm3q/w22GN2NOd5z7tdXfu9+FdnZ479bqpcdu7pvm7GofnOO51V+O9Ht/cIAAADQQ2AIByAhsAQDmBDQCgnMAGAFBOYAMAKCewAQCUE9gAAMoJbAAA5QQ2AIByAhsAQDmBDQCgnMAGAFBOYAMAKCewAQCUE9gAAMoJbAAA5QQ2AIByAhsAQDmBDQCgnMAGAFBOYAMAKCewAQCUE9gAAMoJbAAA5QQ2AIByAhsAQDmBDQCgnMAGAFBOYAMAKCewAQCUE9gAAMoJbAAA5QQ2AIByAhsAQDmBDQCgnMAGAFBOYAMAKPcPEJ1td2SHMbYAAAAASUVORK5CYII=" id="image30b8c9a6a9" transform="scale(1 -1) translate(0 -28.08)" x="0" y="0.36" width="446.4" height="28.08"/>
    </g>
    <g id="matplotlib.axis_1"/>
    <g id="matplotlib.axis_2"/>
@@ -68,7 +68,7 @@ L 446.4 -0
   </g>
  </g>
  <defs>
-  <clipPath id="p7d6d217a51">
+  <clipPath id="pb84a31e05b">
    <rect x="0" y="-0" width="446.4" height="27.72"/>
   </clipPath>
  </defs>
