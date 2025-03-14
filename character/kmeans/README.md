@@ -20,6 +20,10 @@ Then it can use `lm_nts.py` to run the K means clustering.
 
 This has been implemented in `lm_tps.py` script. Compared to `nts2csv.py`, it has been modified to read the TPS file directly and perfrom Generalized Procrustes Analysis.
 
+## Bar plot
+
+The script `barchart.py` can be used to plot the bar chart for the occurence of each species in the clusters.
+
 ## Usage
 
 ```bash
