@@ -6,35 +6,34 @@ library(readr)
 add.left.color.bar <- function(cols, lims, digits = 3, lwd = 3) {
   usr <- par("usr")
   # get the axis limits
-  offset <- (usr[2] - usr[1]) * 3
+  offset <- (usr[2] - usr[1]) * 150
   xleft <- usr[1] - offset
   xright <- usr[1]
   
   # fix the y-axis limits
   y_range <- usr[4] - usr[3]
-  ybottom <- usr[3] + y_range * 0.05  # 下扩5%
-  ytop <- usr[4] - y_range * 0.05     # 上扩5%
-  
+  ybottom <- usr[3] + y_range * 0.05  # up 5%
+  ytop <- usr[4] - y_range * 0.05     # down 5%
   n <- length(cols)
   y_seq <- seq(ybottom, ytop, length.out = n + 1)
   
   # draw the color bar
   for (i in 1:n) {
-    rect(xleft, y_seq[i], xright, y_seq[i+1], col = cols[i], border = NA)
+    rect(xleft-0.3, y_seq[i], xright+0.3, y_seq[i+1], col = cols[i], border = NA)
   }
-  rect(xleft, ybottom, xright, ytop, border = "black", lwd = 1)
+ #rect(xleft, ybottom, xright, ytop, border = "black", lwd = 1)
   
   # add the axis labels
   tick_values <- pretty(lims, n = 5)
   tick_positions <- ybottom + (tick_values - lims[1])/(diff(lims)) * (ytop - ybottom)
   axis(side = 2, at = tick_positions, labels = format(tick_values, digits = digits),
-       las = 1, line = 2, tick = FALSE, cex.axis = 1.2, font = 2)
+       las = 1, line = 2, tick = FALSE, cex.axis = 1.7, font = 7)
 }
 
 # get the command line arguments
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 3) {
-  stop("用法: Rscript contmap4.R <tree_file> <csv_file> <output_svg_file>")
+  stop("Usage: Rscript contmap.R <tree_file> <csv_file> <output_svg_file>")
 }
 tree_file   <- args[1]  # tree file
 csv_file    <- args[2]  # CSV file which must include seq Width, Height, phallus, epiphallus1, epiphallus2, flagellum）
@@ -67,6 +66,7 @@ for (v in vars) {
   trait <- data[[v]]
   names(trait) <- data$seq  # tip labels must match the tree
   contmaps[[v]] <- contMap(tree, trait, plot = FALSE)
+  contmaps[[v]] <- setMap(contmaps[[v]], c('#68cff7', '#b9db89', '#ffe966', '#f5969f'))
 }
 
 # set up the plot
@@ -85,7 +85,7 @@ for (i in seq_along(vars)) {
   cm <- contmaps[[v]]
   
   # plot the continuous mapping
-  plot(cm, fsize = 1.2, lwd = 3, legend = FALSE)
+  plot(cm, fsize = 1.2, lwd = 10, legend = FALSE, outline=FALSE)
   
   # add the color bar
   add.left.color.bar(cm$cols, cm$lims, digits = 3, lwd = 3)
