@@ -8,19 +8,21 @@ graph TD
     A --> D[DNA]
     A --> E[Localities]
 
-    B --> B1[categories]
-    B --> B2[landmarks]
-    B --> B4[measurements]
+    B --> B1[Categories]
+    B --> B2[Landmarks]
+    B --> B4[Measurements]
 
-    B2 --> B3[covariance matrix]
-    B3 --> B1
+    B2 --> B3[Covariance matrix]
+    B3 --> B7[K-means]
+    B7 --> B8[Silhouette score]
+    B8 --> B1
     B3 --> B5[PCA]
   
-    C --> C1[voronoi]
+    C --> C1[Voronoi]
     C --> B4
     C1 --> B2
 
-    B4 --> C2[Kruskal-Wallis]
+    B4 --> C2[Kruskal-Wallis test]
     B4 --> B6[Shapiro-Wilk test]
     B1 --> C3[Apomorphy]
     C2 --> C4[Dunn's test]
