@@ -13,7 +13,7 @@ Right click `*Straight*` -> Select `*Segmented Line*`
 ## Python
 
 ```bash
-for pyscript in gen_distribution.py gen_scatter_plot.py gen_violin_plot.py; do
+for pyscript in gen_distribution.py gen_scatter_plot.py gen_violin_plot.py gen_sig_heatmap.py; do
     python3 $pyscript
 done
 ```
