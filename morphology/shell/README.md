@@ -132,3 +132,11 @@ for (i = 0; i < list.length; i++) {
 print("Batch processing complete. Results saved to " + outputFile);
 
 ```
+
+## Measurement
+
+```bash
+for py in gen_violin_plot.py gen_distribution.py calculate.py draw_shell_width_height.py ; do
+    python "$py"
+done
+```
