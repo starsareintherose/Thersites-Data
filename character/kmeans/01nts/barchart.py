@@ -69,7 +69,7 @@ def parse_file(filename):
 file_list = ["fl50_clusters.txt", "lm_clusters.txt", "slm1_clusters.txt", "slm2_clusters.txt"]
 
 # Create 2x2 subplots
-fig, axs = plt.subplots(1, 4, figsize=(12, 4))
+fig, axs = plt.subplots(1, 4, figsize=(10, 4))
 axs = axs.flatten()
 
 # Create legend patches for species
@@ -119,7 +119,7 @@ for i, filename in enumerate(file_list):
     
     # Annotate subplot with label A, B, C, D at the bottom left (in English)
     letter = chr(65 + i)  # A, B, C, D
-    ax.text(0.05, -0.15, letter, transform=ax.transAxes, fontsize=12, fontweight='bold', va='top')
+    ax.text(-0.25, 0, letter, transform=ax.transAxes, fontsize=12, fontweight='bold', va='top')
 
 # Adjust layout to leave space for subplot labels at the bottom
 fig.tight_layout(rect=[0, 0.05, 1, 1])
