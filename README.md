@@ -13,8 +13,8 @@ graph TD
     B --> B4[Measurements]
 
     B2 --> B3[Covariance matrix]
-    B3 --> B7[K-means]
-    B7 --> B8[Silhouette score]
+    B3 --> B7[Silhouette score]
+    B7 --> B8[K-means]
     B8 --> B1
     B3 --> B5[PCA]
   
