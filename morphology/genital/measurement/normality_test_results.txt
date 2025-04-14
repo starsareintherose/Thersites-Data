@@ -1,0 +1,99 @@
+Overall normality test results:
+flagellum: statistic=0.913, p-value=0.000
+phallus: statistic=0.974, p-value=0.072
+epiphallus1: statistic=0.991, p-value=0.820
+epiphallus2: statistic=0.976, p-value=0.095
+epiphallus: statistic=0.988, p-value=0.614
+ep+ph: statistic=0.986, p-value=0.461
+fl_ph: statistic=0.959, p-value=0.007
+fl_ep1: statistic=0.930, p-value=0.000
+fl_ep: statistic=0.990, p-value=0.746
+fl_ep1+ph: statistic=0.959, p-value=0.007
+fl_ep+ph: statistic=0.988, p-value=0.567
+ep1_ep: statistic=0.981, p-value=0.217
+
+Normality test results by species:
+
+Species: novaehollandiae
+  flagellum: statistic=0.943, p-value=0.008
+  phallus: statistic=0.978, p-value=0.344
+  epiphallus1: statistic=0.989, p-value=0.890
+  epiphallus2: statistic=0.989, p-value=0.885
+  epiphallus: statistic=0.989, p-value=0.867
+  ep+ph: statistic=0.985, p-value=0.700
+  fl_ph: statistic=0.979, p-value=0.411
+  fl_ep1: statistic=0.982, p-value=0.552
+  fl_ep: statistic=0.990, p-value=0.912
+  fl_ep1+ph: statistic=0.985, p-value=0.696
+  fl_ep+ph: statistic=0.990, p-value=0.922
+  ep1_ep: statistic=0.987, p-value=0.759
+
+Species: mitchellae
+  flagellum: statistic=0.953, p-value=0.740
+  phallus: statistic=0.935, p-value=0.564
+  epiphallus1: statistic=0.930, p-value=0.516
+  epiphallus2: statistic=0.887, p-value=0.221
+  epiphallus: statistic=0.960, p-value=0.808
+  ep+ph: statistic=0.978, p-value=0.955
+  fl_ph: statistic=0.855, p-value=0.106
+  fl_ep1: statistic=0.902, p-value=0.302
+  fl_ep: statistic=0.852, p-value=0.099
+  fl_ep1+ph: statistic=0.931, p-value=0.528
+  fl_ep+ph: statistic=0.949, p-value=0.705
+  ep1_ep: statistic=0.881, p-value=0.193
+
+Species: darlingtoni
+  flagellum: statistic=0.729, p-value=0.024
+  phallus: statistic=0.846, p-value=0.214
+  epiphallus1: statistic=0.971, p-value=0.846
+  epiphallus2: statistic=0.920, p-value=0.538
+  epiphallus: statistic=0.922, p-value=0.546
+  ep+ph: statistic=0.905, p-value=0.455
+  fl_ph: statistic=0.933, p-value=0.613
+  fl_ep1: statistic=0.876, p-value=0.323
+  fl_ep: statistic=0.994, p-value=0.979
+  fl_ep1+ph: statistic=0.999, p-value=0.997
+  fl_ep+ph: statistic=0.952, p-value=0.729
+  ep1_ep: statistic=0.866, p-value=0.282
+
+Species: richmondiana
+  flagellum: statistic=0.836, p-value=0.019
+  phallus: statistic=0.898, p-value=0.124
+  epiphallus1: statistic=0.932, p-value=0.366
+  epiphallus2: statistic=0.957, p-value=0.714
+  epiphallus: statistic=0.945, p-value=0.523
+  ep+ph: statistic=0.873, p-value=0.057
+  fl_ph: statistic=0.946, p-value=0.539
+  fl_ep1: statistic=0.821, p-value=0.012
+  fl_ep: statistic=0.940, p-value=0.455
+  fl_ep1+ph: statistic=0.864, p-value=0.043
+  fl_ep+ph: statistic=0.950, p-value=0.596
+  ep1_ep: statistic=0.950, p-value=0.593
+
+Species: sp1
+  flagellum: statistic=nan, p-value=nan
+  phallus: statistic=nan, p-value=nan
+  epiphallus1: statistic=nan, p-value=nan
+  epiphallus2: statistic=nan, p-value=nan
+  epiphallus: statistic=nan, p-value=nan
+  ep+ph: statistic=nan, p-value=nan
+  fl_ph: statistic=nan, p-value=nan
+  fl_ep1: statistic=nan, p-value=nan
+  fl_ep: statistic=nan, p-value=nan
+  fl_ep1+ph: statistic=nan, p-value=nan
+  fl_ep+ph: statistic=nan, p-value=nan
+  ep1_ep: statistic=nan, p-value=nan
+
+Species: sp2
+  flagellum: statistic=nan, p-value=nan
+  phallus: statistic=nan, p-value=nan
+  epiphallus1: statistic=nan, p-value=nan
+  epiphallus2: statistic=nan, p-value=nan
+  epiphallus: statistic=nan, p-value=nan
+  ep+ph: statistic=nan, p-value=nan
+  fl_ph: statistic=nan, p-value=nan
+  fl_ep1: statistic=nan, p-value=nan
+  fl_ep: statistic=nan, p-value=nan
+  fl_ep1+ph: statistic=nan, p-value=nan
+  fl_ep+ph: statistic=nan, p-value=nan
+  ep1_ep: statistic=nan, p-value=nan
