@@ -1,4 +1,4 @@
-# Thersites
+# When discrete characters are wanting: Continuous character integration under the phylospecies concept informs the revision of the Australian land snail *Thersites* (Eupulmonata, Camaenidae) 
 
 ## Description
 
