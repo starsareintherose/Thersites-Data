@@ -2,6 +2,8 @@
 
 Continuous character integration under the phylospecies concept informs the revision of the Australian land snail *Thersites* (Eupulmonata, Camaenidae) 
 
+![](cover.svg)
+
 ## Description
 
 Folder structure of the *Thersites* project.
