@@ -499,3 +499,504 @@ Starting gl2snapp
   Writing results to nexus file ./snapp.nex 
 Completed: gl2snapp 
 NULL
+Loading required package: utils
+Tracing function "install.packages" in package "utils"
+Loading required package: adegenet
+Loading required package: ade4
+
+   /// adegenet 2.1.11 is loaded ////////////
+
+   > overview: '?adegenet'
+   > tutorials/doc/questions: 'adegenetWeb()' 
+   > bug reports/feature requests: adegenetIssues()
+
+
+Loading required package: ggplot2
+Loading required package: dplyr
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+Loading required package: dartR.data
+**** Welcome to dartR.data [Version 1.0.8 ] ****
+
+Registered S3 method overwritten by 'pegas':
+  method      from
+  print.amova ade4
+Registered S3 method overwritten by 'GGally':
+  method from   
+  +.gg   ggplot2
+Registered S3 method overwritten by 'genetics':
+  method      from 
+  [.haplotype pegas
+**** Welcome to dartR [Version 2.9.7 ] ****
+
+Be aware that owing to CRAN requirements and compatibility reasons not all functions of the package may run after the basic installation, as some packages could still be missing. Hence for a most enjoyable experience we recommend to run the function 
+gl.install.vanilla.dartR()
+This installs all missing and required packages for your version of dartR. In case something fails during installation please refer to this tutorial: https://github.com/green-striped-gecko/dartR/wiki/Installation-tutorial.
+
+For information how to cite dartR, please use:
+citation('dartR')
+Global verbosity is set to: 2
+
+
+**** Have fun using dartR! ****
+
+Attaching package: ‘dartR’
+
+The following objects are masked from ‘package:dartR.data’:
+
+    bandicoot.gl, possums.gl, testset.gl, testset.gs
+
+Starting gl.read.dart 
+Starting utils.read.dart 
+  Topskip not provided.
+ Setting topskip to 6 .
+  Reading in the SNP data
+  Detected 2 row format.
+Number of rows per clone (should be only  2 s): 2 
+ Added the following locus metrics:
+AlleleID CloneID AlleleSequence TrimmedSequence SNP SnpPosition CallRate OneRatioRef OneRatioSnp FreqHomRef FreqHomSnp FreqHets PICRef PICSnp AvgPIC AvgCountRef AvgCountSnp RepAvg .
+Recognised: 80 individuals and 103926  SNPs in a 2 row format using Report_DFigu25-10193_SNP_1.csv 
+Completed: utils.read.dart 
+Starting utils.dart2genlight 
+Starting conversion....
+Format is 2 rows.
+Please note conversion of bigger data sets will take some time!
+Once finished, we recommend to save the object using save(object, file="object.rdata")
+Adding individual metrics: meta.ind.csv .
+  Ids for individual metadata (at least a subset of) are matching!
+  Found  80 matching ids out of 80 ids provided in the ind.metadata file.
+  Added population assignments.
+  Added latlon data.
+ Added  id  to the other$ind.metrics slot.
+  Added  pop  to the other$ind.metrics slot.
+  Added  lat  to the other$ind.metrics slot.
+  Added  lon  to the other$ind.metrics slot.
+Completed: utils.dart2genlight 
+ Data read in. Please check carefully the output above
+  Read depth calculated and added to the locus metrics
+  Minor Allele Frequency (MAF) calculated and added to the locus metrics
+  Recalculating locus metrics provided by DArT (optionally specified)
+Completed: gl.read.dart 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 80 genotypes,  103,926 SNPs , size: 92.5 Mb
+
+    missing data: 3926455 (=47.23 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 80 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  80 individual labels
+   @loc.names:  103926 locus labels
+   @loc.all:  103926 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-53)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.report.rdepth 
+  Processing genlight object with SNP data
+  Reporting Read Depth by Locus
+  No. of loci = 103926 
+  No. of individuals = 80 
+    Minimum      :  2.5 
+    1st quartile :  8.4 
+    Median       :  17 
+    Mean         :  23.52262 
+    3r quartile  :  32.2 
+    Maximum      :  215.2 
+    Missing Rate Overall:  0.47 
+
+   Quantile Threshold Retained Percent Filtered Percent
+1      100%     215.2        1     0.0   103925   100.0
+2       95%      64.9     5215     5.0    98711    95.0
+3       90%      50.8    10425    10.0    93501    90.0
+4       85%      42.5    15634    15.0    88292    85.0
+5       80%      36.7    20811    20.0    83115    80.0
+6       75%      32.2    26088    25.1    77838    74.9
+7       70%      28.4    31283    30.1    72643    69.9
+8       65%      25.0    36395    35.0    67531    65.0
+9       60%      22.0    41617    40.0    62309    60.0
+10      55%      19.3    46926    45.2    57000    54.8
+11      50%      17.0    52018    50.1    51908    49.9
+12      45%      14.8    57378    55.2    46548    44.8
+13      40%      12.9    62593    60.2    41333    39.8
+14      35%      11.2    67874    65.3    36052    34.7
+15      30%       9.7    73009    70.3    30917    29.7
+16      25%       8.4    78121    75.2    25805    24.8
+17      20%       7.2    83280    80.1    20646    19.9
+18      15%       6.2    88412    85.1    15514    14.9
+19      10%       5.2    93998    90.4     9928     9.6
+20       5%       4.4    98983    95.2     4943     4.8
+21       0%       2.5   103926   100.0        0     0.0
+Completed: gl.report.rdepth 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 80 genotypes,  103,926 SNPs , size: 92.5 Mb
+
+    missing data: 3926455 (=47.23 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 80 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  80 individual labels
+   @loc.names:  103926 locus labels
+   @loc.all:  103926 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-53)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.rdepth 
+  Processing genlight object with SNP data
+  Removing loci with rdepth <= 5 and >= 30 
+Completed: gl.filter.rdepth 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 80 genotypes,  66,394 SNPs , size: 74.4 Mb
+
+    missing data: 2618651 (=49.3 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 80 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  80 individual labels
+   @loc.names:  66394 locus labels
+   @loc.all:  66394 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-53)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.reproducibility 
+  Processing genlight object with SNP data
+  Removing loci with repeatability less than 1 
+Completed: gl.filter.reproducibility 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 80 genotypes,  50,276 SNPs , size: 66.6 Mb
+
+    missing data: 2054534 (=51.08 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 80 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  80 individual labels
+   @loc.names:  50276 locus labels
+   @loc.all:  50276 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-53)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.callrate 
+  Processing genlight object with SNP data
+  Warning: Data may include monomorphic loci in call rate 
+                    calculations for filtering
+  Recalculating Call Rate
+  Removing loci based on Call Rate, threshold = 0.8 
+Starting gl.recalc.metrics 
+  Processing genlight object with SNP data
+Starting utils.recalc.avgpic 
+  Processing genlight object with SNP data
+  Recalculating OneRatioRef, OneRatioSnp, PICRef, PICSnp, AvgPIC
+Completed: utils.recalc.avgpic 
+Starting utils.recalc.callrate 
+  Processing genlight object with SNP data
+  Recalculating locus metric CallRate
+Completed: utils.recalc.callrate 
+Starting utils.recalc.maf 
+  Processing genlight object with SNP data
+  Recalculating FreqHoms and FreqHets
+Starting utils.recalc.freqhets 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHets
+Completed: utils.recalc.freqhets 
+Starting utils.recalc.freqhomref 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHomRef
+Completed: utils.recalc.freqhomref 
+Starting utils.recalc.freqhomsnp 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHomSnp
+Completed: utils.recalc.freqhomsnp 
+  Recalculating Minor Allele Frequency (MAF)
+Completed: utils.recalc.maf 
+  Locus metrics recalculated
+Completed: gl.recalc.metrics 
+Completed: gl.filter.callrate 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 80 genotypes,  920 SNPs , size: 40.8 Mb
+
+    missing data: 12575 (=17.09 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 80 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  80 individual labels
+   @loc.names:  920 locus labels
+   @loc.all:  920 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-53)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth, maf 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.callrate 
+  Processing genlight object with SNP data
+  Recalculating Call Rate
+  Removing individuals based on Call Rate, threshold = 0.5 
+Recursively removing individuals with call rate < 0.5 , recalculating Call Rate after deleting monomorphs,
+                        and repeating until final Call Rate is >= 0.5 
+  Removing monomorphic loci
+Starting gl.recalc.metrics 
+  Processing genlight object with SNP data
+Starting utils.recalc.avgpic 
+  Processing genlight object with SNP data
+  Recalculating OneRatioRef, OneRatioSnp, PICRef, PICSnp, AvgPIC
+Completed: utils.recalc.avgpic 
+Starting utils.recalc.callrate 
+  Processing genlight object with SNP data
+  Recalculating locus metric CallRate
+Completed: utils.recalc.callrate 
+Starting utils.recalc.maf 
+  Processing genlight object with SNP data
+  Recalculating FreqHoms and FreqHets
+Starting utils.recalc.freqhets 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHets
+Completed: utils.recalc.freqhets 
+Starting utils.recalc.freqhomref 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHomRef
+Completed: utils.recalc.freqhomref 
+Starting utils.recalc.freqhomsnp 
+  Processing genlight object with SNP data
+  Recalculating locus metric freqHomSnp
+Completed: utils.recalc.freqhomsnp 
+  Recalculating Minor Allele Frequency (MAF)
+Completed: utils.recalc.maf 
+  Locus metrics recalculated
+Completed: gl.recalc.metrics 
+  Note: Locus metrics recalculated
+  Note: Resultant monomorphic loci deleted
+Completed: gl.filter.callrate 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 73 genotypes,  914 SNPs , size: 40.7 Mb
+
+    missing data: 6669 (=10 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 73 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  73 individual labels
+   @loc.names:  914 locus labels
+   @loc.all:  914 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-50)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth, maf 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.maf 
+  Processing genlight object with SNP data
+  Removing loci with MAF < 0.01 over all the dataset 
+                and recalculating FreqHoms and FreqHets
+Completed: gl.filter.maf 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 73 genotypes,  870 SNPs , size: 40.7 Mb
+
+    missing data: 6388 (=10.06 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 73 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  73 individual labels
+   @loc.names:  870 locus labels
+   @loc.all:  870 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-50)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth, maf 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.filter.secondaries 
+  Processing genlight object with SNP data
+  Selecting one SNP per sequence tag at random
+Completed: gl.filter.secondaries 
+ ********************
+ *** DARTR OBJECT ***
+ ********************
+
+ ** 73 genotypes,  765 SNPs , size: 40.7 Mb
+
+    missing data: 5603 (=10.03 %) scored as NA
+
+ ** Genetic data
+   @gen: list of 73 SNPbin
+   @ploidy: ploidy of each individual  (range: 2-2)
+
+ ** Additional data
+   @ind.names:  73 individual labels
+   @loc.names:  765 locus labels
+   @loc.all:  765 allele labels
+   @position: integer storing positions of the SNPs [within 69 base sequence]
+   @pop: population of each individual (group size range: 2-50)
+   @other: a list containing: loc.metrics, ind.metrics, latlon, loc.metrics.flags, verbose, history 
+    @other$ind.metrics: id, pop, lat, lon, service, plate_location 
+    @other$loc.metrics: AlleleID, CloneID, AlleleSequence, TrimmedSequence, SNP, SnpPosition, CallRate, OneRatioRef, OneRatioSnp, FreqHomRef, FreqHomSnp, FreqHets, PICRef, PICSnp, AvgPIC, AvgCountRef, AvgCountSnp, RepAvg, clone, uid, rdepth, maf 
+   @other$latlon[g]: coordinates for all individuals are attached
+Starting gl.pcoa 
+  Processing genlight object with SNP data
+  Performing a PCA, individuals as entities, loci as attributes, SNP genotype as state
+Completed: gl.pcoa 
+Starting gl.pcoa.plot 
+  Processing an ordination file (glPca)
+  Processing genlight object with SNP data
+  Plotting populations in a space defined by the SNPs
+  Preparing plot .... please wait
+Completed: gl.pcoa.plot 
+Starting gl.pcoa.plot 
+  Processing an ordination file (glPca)
+  Processing genlight object with SNP data
+  Plotting populations in a space defined by the SNPs
+  Preparing plot .... please wait
+Completed: gl.pcoa.plot 
+              PC1          PC2         PC3          PC4         PC5
+4388   1.33241782  0.113555112  3.02424020 -0.038751215 -1.86466188
+4366   1.44030547 -2.101302817 -2.88972037  0.578274107 -2.14005187
+4379  -6.37832314  1.859300863 -1.84131793 -9.470433456 -1.44682248
+4364   1.83426165 -2.474742497 -3.34833282  0.805565561 -2.46172485
+4829   1.50393933 -0.103224164  2.46249080  0.104227208 -2.00984740
+4755   1.06510750  0.534378312  1.88824852  0.002362514 -0.66542226
+4853 -10.96008303 -1.429225073  0.47381967  1.746898102  0.32845948
+4868 -13.20293248 -1.696026515  0.53675534  1.841866179  0.20077602
+4373   1.35095389 -0.772776447 -0.91668671 -0.331196210  2.63508447
+4881   0.68514801 -0.225765444 -0.49486466 -0.041271828  0.57994393
+4382   1.49989582 -0.848303768  0.73684507 -0.378407083  1.63651811
+4391   1.21692337 -0.467286996 -0.02369907 -0.189764317  1.65845832
+4381  -0.22939035  6.431565912 -1.84522144  1.555916267 -0.12865985
+4363   1.75986241 -2.445146823 -3.16610265  0.720699374 -2.22961430
+4392   1.50822805 -0.950619016 -0.50340338 -0.366917909  2.51162721
+4753   1.31978814 -0.005107958  2.55367363 -0.010449412 -1.45703988
+4855   1.46134932 -1.195941977 -0.50422396 -0.335727828  2.45551046
+4385   1.49217891 -0.823719715 -0.68544092 -0.202487187  1.84104747
+4880   1.28031039 -0.825569902 -0.93037287  0.001971261  1.22176736
+4859   1.39487137  0.159908197  3.10966705  0.003178976 -2.03327724
+4398   1.39536367 -0.566000018  0.55028170 -0.290885221  1.48129924
+4360   1.74084010 -2.490815772 -3.32997991  0.753950350 -2.25022555
+4399   1.20115204 -0.014375994  1.62555382 -0.096470544  0.03158535
+4390   1.42234365 -0.695840992 -0.65186771 -0.333379510  2.92722158
+4361   1.77658375 -2.502842083 -3.29580708  0.759138089 -2.36136777
+4857   1.41798285 -1.128145860 -0.48129377 -0.417945278  2.30461837
+4393   1.45688995 -0.637290522 -0.75812169 -0.319933324  2.91645427
+4872  -0.44276287  7.060586222 -2.14150740  1.618141638  0.05882471
+4389   1.37832041  0.055810228  2.42610618  0.043332402 -1.57499009
+4380 -13.61767112 -1.522498803  0.49081294  1.696647256  0.21909299
+4367   1.65976724 -2.180022335 -2.94380712  0.690615153 -2.09678986
+4401   1.12611497  0.011148655  1.29693830 -0.100072400  0.31494273
+4858   1.45956048 -1.032039502 -0.24826905 -0.421980039  2.76145181
+4856   1.46272551 -0.995902716 -0.16675391 -0.359052433  2.41999434
+4750   1.54884333 -0.853677919 -0.17069596 -0.266714036  1.94924574
+4874  -0.09047719  4.125724088 -1.25633841  1.085242724 -0.49341609
+4387   1.26318368 -0.385929874 -0.13217256 -0.048902483  1.21416242
+4862   1.07110527  0.178201066  0.46908211 -0.099279163  0.31701618
+4861   1.03208713 -0.341091273  0.65957921 -0.073337287  0.02565183
+4371   0.97301185  0.786764670  2.15398566  0.051354414 -0.68797248
+4370   1.48963170 -0.858501600 -0.26493191 -0.135778680  1.45075298
+4395   1.33136331  0.176642391  2.74322989  0.003376970 -1.63010439
+4854 -13.63528135 -1.534452260  0.42435984  1.799505352  0.25800609
+4378   0.14500761  2.710729710  0.23491272  0.168909360  0.27400160
+4749   1.55004943 -1.047923911 -0.51121528 -0.320073274  2.55611830
+4827   1.41542518  0.141012522  2.89872523  0.045165419 -1.88035831
+4876  -0.45393263  6.719664876 -1.75991233  1.613644104 -0.17622560
+4400   1.46223382 -0.205711853  2.17385114  0.039575344 -1.27219075
+4886  -0.56251628  7.148115890 -2.10149848  1.566885481 -0.20791139
+4873  -0.45328517  7.094483092 -2.15381241  1.674340447 -0.05519691
+4374   1.17531844  0.149409748  2.16951039 -0.004138400 -1.26383095
+4397   1.22666318 -0.474915133 -0.03618569 -0.211149958  1.32029348
+4754   1.33721732  0.119848451  2.99512417 -0.007017986 -1.86854804
+4376  -5.98805847  1.885900967 -1.83449904 -9.342058937 -1.61375796
+4362   1.81427273 -2.489186604 -3.20590292  0.744041858 -2.15022757
+4751   1.56299999 -0.662015344  1.04269892 -0.204509339  0.87495679
+4828   1.57009535 -0.367780958  2.09170986 -0.110199050 -0.31492260
+4884   1.06648966 -0.596042026 -0.83938805  0.126248697  0.94378837
+4384   1.43292598 -0.015188622  3.07400763 -0.006530387 -1.84325146
+4860   1.28513648 -0.447153331  0.49713305 -0.280805136  1.28304823
+4372   1.24583875 -0.137764450  1.67445968 -0.107671626  0.16515180
+4863   0.02735937  2.818005597  0.31542984  0.085896302  0.26489918
+4377 -13.73652097 -1.581683545  0.47676167  1.780830396  0.29787546
+4369   1.65646087 -2.356824318 -3.36255366  0.732718962 -2.39561753
+4368   1.80430116 -2.531276148 -3.40707439  0.804038720 -2.45998298
+4756   1.04461928  0.586089479  2.20685661  0.024840996 -0.94017685
+4375   1.32095130 -0.844556003 -0.42269100 -0.212706564  1.81084899
+4383   1.39629152  0.077542979  2.63849824  0.007003170 -1.49682921
+4365   1.18071381 -1.610748682 -2.27102453  0.494166920 -1.63634480
+4394   1.50210459 -0.661210141  0.60901484 -0.397038458  1.96111528
+3902   1.23613957 -0.573480161 -0.81831819 -0.292925962  2.53328352
+4752   1.32817028  0.093356152  2.58279186  0.010847036 -1.32605110
+4864   0.61203706 -0.330097319  0.40785344  0.044544816  0.42851779
+Starting gl2fasta 
+  Processing genlight object with SNP data
+  Assigning ambiguity codes to heterozygote SNPs, concatenating trimmed sequence
+  Removing loci for which SNP position is outside the length of the trimmed sequences
+Generating haplotypes ... This may take some time
+Completed: gl2fasta 
+NULL
+Starting gl2bpp 
+  Processing genlight object with SNP data
+Assigning ambiguity codes to heterozygote SNPs
+  Removing loci for which SNP position is outside the length of the trimmed sequences
+Generating haplotypes ... This may take some time
+Completed: gl2bpp 
+NULL
+Starting gl2snapp 
+  Processing genlight object with SNP data
+  Extacting SNP data and creating records for each individual
+  Writing results to nexus file ./snapp.nex 
+Completed: gl2snapp 
+NULL

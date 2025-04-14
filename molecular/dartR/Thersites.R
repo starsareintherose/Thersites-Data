@@ -1,5 +1,7 @@
 library(dartR)
+library(patchwork)
 library(logging)
+
 ##Log file
 basicConfig()
 addHandler(writeToFile, file = "Rfile.log")
@@ -55,11 +57,18 @@ custom_colors = c("darlingtoni" = "#75ff66",
                    "sp_MtKaputar" = "#0057b7")
 
 # plot
-ggplot(pcoa_data, aes(x = PC1, y = PC2, color = pop)) +
+g1 = ggplot(pcoa_data, aes(x = PC1, y = PC2, color = pop)) +
   geom_point(size = 3) +
   scale_color_manual(values = custom_colors) +
-  labs(x = "PC1", y = "PC2", title = "PCoA") +
+  labs(x = "PC1(33.3%)", y = "PC2(12.2%)", title = "PCoA") +
   theme_classic()
+
+g2 = ggplot(pcoa_data, aes(x = PC1, y = PC3, color = pop)) +
+  geom_point(size = 3) +
+  scale_color_manual(values = custom_colors) +
+  labs(x = "PC1(33.3%)", y = "PC3(8.4%)", title = "PCoA") +
+  theme_classic()
+g1 + g2
 
 gl2fasta(
   x = gl5,
