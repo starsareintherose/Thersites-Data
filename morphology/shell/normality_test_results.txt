@@ -1,0 +1,36 @@
+Overall normality test results:
+Height: statistic=0.985, p-value=0.002
+Width: statistic=0.989, p-value=0.013
+Height_Width: statistic=0.993, p-value=0.176
+
+Normality test results by species:
+
+Species: novaehollandiae
+  Height: statistic=0.972, p-value=0.007
+  Width: statistic=0.988, p-value=0.289
+  Height_Width: statistic=0.983, p-value=0.085
+
+Species: mitchellae
+  Height: statistic=0.983, p-value=0.199
+  Width: statistic=0.963, p-value=0.004
+  Height_Width: statistic=0.995, p-value=0.980
+
+Species: darlingtoni
+  Height: statistic=0.894, p-value=0.255
+  Width: statistic=0.976, p-value=0.943
+  Height_Width: statistic=0.872, p-value=0.159
+
+Species: richmondiana
+  Height: statistic=0.924, p-value=0.001
+  Width: statistic=0.926, p-value=0.001
+  Height_Width: statistic=0.985, p-value=0.629
+
+Species: sp1
+  Height: statistic=0.750, p-value=0.000
+  Width: statistic=0.750, p-value=0.000
+  Height_Width: statistic=0.750, p-value=0.000
+
+Species: sp2
+  Height: statistic=0.729, p-value=0.024
+  Width: statistic=0.729, p-value=0.024
+  Height_Width: statistic=0.729, p-value=0.024
