@@ -1,0 +1,404 @@
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: dar -- mit
+
+Difference between means:
+Procrustes distance:  0.08728988
+Mahalanobis distance:     26.5733
+T-square: 5259.5437,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: dar
+Group 2: mit
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           0             108             108
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           4               4               8
+Group 2           4             104             108
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: dar -- nov
+
+Difference between means:
+Procrustes distance:  0.03616105
+Mahalanobis distance:     11.1620
+T-square:  941.3467,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: 0.0010
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: dar
+Group 2: nov
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           0             136             136
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           3               5               8
+Group 2           6             130             136
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: dar -- ric
+
+Difference between means:
+Procrustes distance:  0.09362862
+Mahalanobis distance:     11.9249
+T-square: 1012.9559,   P-value (parametric): 0.9711
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: 0.0180
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: dar
+Group 2: ric
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           0              65              65
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           5               3               8
+Group 2          12              53              65
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: dar -- sp1
+
+Difference between means:
+Procrustes distance:  0.03888527
+Mahalanobis distance:      5.6748
+T-square:   51.5258,   P-value (parametric): 0.7026
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: 0.2630
+T-square: 0.0100
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: dar
+Group 2: sp1
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           1               1               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: dar -- sp2
+
+Difference between means:
+Procrustes distance:  0.06147285
+Mahalanobis distance:      5.4527
+T-square:   47.5706,   P-value (parametric): 0.7205
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: 0.0430
+T-square: 0.0430
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: dar
+Group 2: sp2
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           8               0               8
+Group 2           2               0               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: mit -- nov
+
+Difference between means:
+Procrustes distance:  0.05947463
+Mahalanobis distance:      5.6617
+T-square: 1929.5762,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: mit
+Group 2: nov
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         107               1             108
+Group 2           1             135             136
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1          99               9             108
+Group 2           8             128             136
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: mit -- ric
+
+Difference between means:
+Procrustes distance:  0.16859077
+Mahalanobis distance:     14.3258
+T-square: 8327.7158,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: mit
+Group 2: ric
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           0              65              65
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           1              64              65
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: mit -- sp1
+
+Difference between means:
+Procrustes distance:  0.08015795
+Mahalanobis distance:    101.4328
+T-square: 20203.0893,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: mit
+Group 2: sp1
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           1               1               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: mit -- sp2
+
+Difference between means:
+Procrustes distance:  0.10168180
+Mahalanobis distance:    103.7835
+T-square: 21150.3383,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: 0.0010
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: mit
+Group 2: sp2
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         108               0             108
+Group 2           1               1               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: nov -- ric
+
+Difference between means:
+Procrustes distance:  0.12499380
+Mahalanobis distance:     11.9217
+T-square: 6250.7983,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: nov
+Group 2: ric
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         136               0             136
+Group 2           0              65              65
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         136               0             136
+Group 2           2              63              65
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: nov -- sp1
+
+Difference between means:
+Procrustes distance:  0.02531469
+Mahalanobis distance:     13.2253
+T-square:  344.7467,   P-value (parametric): 0.3964
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: 0.3160
+T-square: 0.4390
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: nov
+Group 2: sp1
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         136               0             136
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         132               4             136
+Group 2           2               0               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: nov -- sp2
+
+Difference between means:
+Procrustes distance:  0.06452362
+Mahalanobis distance:     25.1262
+T-square: 1244.3541,   P-value (parametric): <.0001
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: nov
+Group 2: sp2
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         136               0             136
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1         136               0             136
+Group 2           2               0               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: ric -- sp1
+
+Difference between means:
+Procrustes distance:  0.11958219
+Mahalanobis distance:     36.0192
+T-square: 2517.3113,   P-value (parametric): 0.8003
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: <.0001
+T-square: <.0001
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: ric
+Group 2: sp1
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1          65               0              65
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1          64               1              65
+Group 2           0               2               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: ric -- sp2
+
+Difference between means:
+Procrustes distance:  0.10276041
+Mahalanobis distance:     26.4956
+T-square: 1362.1218,   P-value (parametric): 0.9171
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: 0.0030
+T-square: 0.0070
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: ric
+Group 2: sp2
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1          65               0              65
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1          63               2              65
+Group 2           2               0               2
+
+
+Discriminant Function Analysis 'Discriminant function ...'
+Comparison: sp1 -- sp2
+
+Difference between means:
+Procrustes distance:  0.06163101
+Mahalanobis distance:      5.4552
+T-square:   29.7593,   P-value (parametric): 0.2509
+P-values for permutation tests (1000 permutation runs):
+Procrustes distance: 0.3080
+T-square: 0.3080
+(Note: The permutation test using the T-square statistic is equivalent to a test using Mahalanobis distance.)
+
+Classification/misclassification tables
+Group 1: sp1
+Group 2: sp2
+From discriminant function:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           2               0               2
+Group 2           0               2               2
+From cross-validation:
+True                Allocated to
+Group         Group 1         Group 2          Total
+Group 1           0               2               2
+Group 2           1               1               2
+

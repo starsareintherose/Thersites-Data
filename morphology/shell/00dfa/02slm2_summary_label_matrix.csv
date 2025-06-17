@@ -1,0 +1,7 @@
+,dar,mit,nov,ric,sp1,sp2
+dar,—,NS,NS,M,SN,M
+mit,NS,—,SN,S,NS,L
+nov,NS,SN,—,S,NS,M
+ric,M,S,S,—,L,NS
+sp1,SN,NS,NS,L,—,NS
+sp2,M,L,M,NS,NS,—
