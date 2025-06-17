@@ -1,0 +1,7 @@
+taxname+500;
+dmerge| morpho.tnt = . fl50.tps lm.tps slm1.tps slm2.tps;
+;
+p morpho.tnt;
+p 00tre/bi_ml.tre;
+lmrealign tree 0 cycles 2 level 2/.;
+proc/;
