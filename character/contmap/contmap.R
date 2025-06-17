@@ -55,9 +55,6 @@ vars = vars[vars %in% colnames(data)]
 # convert the variables to numeric and replace NA with the mean
 for (v in vars) {
   data[[v]] = as.numeric(data[[v]])
-  if (any(is.na(data[[v]]))) {
-    data[[v]][is.na(data[[v]])] = mean(data[[v]], na.rm = TRUE)
-  }
 }
 
 # create the continuous mapping for each variable
@@ -65,7 +62,7 @@ contmaps = list()
 for (v in vars) {
   trait = data[[v]]
   names(trait) = data$seq  # tip labels must match the tree
-  contmaps[[v]] = contMap(tree, trait, plot = FALSE)
+  contmaps[[v]] = contMap(tree, trait[!is.na(trait)], method="anc.ML", plot = FALSE)
   contmaps[[v]] = setMap(contmaps[[v]], c('#68cff7', '#b9db89', '#ffe966', '#f5969f'))
 }
 
