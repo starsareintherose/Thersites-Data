@@ -1,0 +1,18 @@
+macro=;
+taxname+5000;
+nstates cont;
+coll 0;
+p %1;
+nake -;
+ttags=;
+tp/;
+ttags & %1.naked.svg thickness 7 italics fontsize 15;
+ttags-;
+nake =;
+ttags=;
+apo>0;
+wincladtree %1.wincladtree.svg noalign shade rotate bheight 30 squaresize 15 xlabel 5 taxangle 0;
+ttags-;
+log %1.log;
+apo-;
+zzz;

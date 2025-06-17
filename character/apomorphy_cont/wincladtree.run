@@ -1,0 +1,831 @@
+macro-; 
+macro*10 1000000 ; 
+macro[60000 ; 
+macro=; 
+
+/***********************************************************\
+|  CHANGE HISTORY:                                          |
+|   - Feb 2025, fixed a small problem with branch align-    |
+|     ments when using squares instead of character names   |
+|                                                           |
+\***********************************************************/
+goto = %0 ; 
+lquote[ ; 
+if ( ntrees < 0 && !ttags ) 
+   errmsg &10&10 
+   To run this script, you either need to have trees in memory,
+   or a tagged tree (i.e. a tree with labels).; 
+   end 
+if ( !gtk && !windows ) 
+if ( !argnumber ) 
+   errmsg &10&10
+   Must specify at least name of SVG file! &10
+   Use &34wincladtree help&34  to see usage ; 
+   end 
+end 
+if ( argnumber ) 
+if ( eqstring[ %1 help ] ) 
+  report- ; 
+  sil = all ; 
+  goto dohelp ; 
+  sil-all; 
+  proc/; 
+  end 
+end   
+var: squares squaresize near strays colorfile[50] svgfile[50] xlabel taxup taxnamextra numbers fillcolor[10] 
+extrax bheight coord[(2*root-1) 2] center usertags plot label names rotate tmp taxlist[root] nprunes display[50] 
+categlist[(2*root)] bchis[(2*root-1)] xchg[500] marksize taxsize taxangle labelsize markup align shade namesize ; 
+set * categlist 1 ; 
+set * taxlist 1 ; 
+set nprunes 0 ; 
+set shade 0 ; 
+set align 1 ; 
+set bheight 10 ;    
+set label 0 ; 
+set labelsize 18 ; 
+set marksize 14 ;    
+set markup 0 ; 
+set numbers 1 ; 
+set taxangle 10 ; 
+set taxsize 16 ; 
+set taxup 0 ; 
+set taxnamextra 0 ; 
+set xlabel 0 ; 
+set rotate 0 ; 
+set colorfile $none ; 
+set fillcolor $none ; 
+set display $none ; 
+set usertags 0 ; 
+set names 0 ; 
+set plot (-1) ; 
+set near 1 ; 
+set strays 1 ; 
+set center 0 ; 
+set squares 1 ; 
+set squaresize 8 ; 
+set namesize 14 ; 
+warn - ; 
+report - ; 
+if ( argnumber ) 
+   set svgfile $%1 ; 
+   goto getargs %1 %2 %3 %4 %5 %6 %7 %8 %9 %(10) %(11) %(12) %(13) %(14) %(15) %(16) %(17) %(18) %(19) %(20) %(21) %(22) %(23) %(24) %(25) %(26) %(27) %(28) %(29) %(30) ; 
+else 
+   goto userdialog ; 
+   if ( !exstatus ) proc/; end 
+   end 
+if ( isinstring[ $svgfile .svg ] != lenstring[ $svgfile ] ) 
+   errmsg File to save the diagram (&34%1&34) must have the &34.svg&34  extension! ; 
+   end 
+if ( !'usertags' ) ttag - ; else set squares 0 ; end 
+if ( ( !eqstring[ $fillcolor none ] ) || ( !eqstring[ $colorfile none ] ) ) 
+   set label 1 ; 
+   if ( eqstring[ $fillcolor none ] ) 
+       set fillcolor $255,0,0,7 ; 
+       end 
+   end 
+if ( 'label' && eqstring[ $fillcolor none ] ) 
+   set fillcolor $255,0,0,7 ; 
+   end  
+if ( 'names' ) set numbers 0 ; end 
+if ( !'numbers' ) set squares 0 ; end 
+if ( 'usertags' ) 
+   if ( 'plot' >= 0 ) errmsg Cannot use both &34plot&34  and &34usertags&34  --one or the other! ; end 
+   tsave * tmptagtree.tre ; 
+   save * ; 
+   tsave /; 
+   end  
+if ( 'plot' >= 0 ) set bheight *= 2.5 ; end
+goto fillbchlens ; 
+goto savetaxnames ; 
+set extrax 100 ; 
+if ( 'squares' ) set 'bheight' += 0.5 * 'marksize' ; end  
+goto setextrax ; 
+if ( 'rotate' ) 
+     ttag & $svgfile xysave coord colors bheight '/.0bheight' extra '/.0extrax',100 ; 
+else ttag & $svgfile xysave coord colors bheight '/.0bheight' extra '/.0extrax',100 rotate ; end 
+if ( 'label' && 'squares' && 'numbers' ) 
+  goto doclades ; 
+  end 
+goto domarks ; 
+if ( 'label' && ( !'squares' || !'numbers' ) ) 
+  goto doclades ; 
+  end 
+ttag & ; 
+if ( !windows ) 
+   if ( linux ) system rm tmptagtree.tre ; 
+   else system del tmptagtree.tre ; 
+   xend 
+silent - all ; 
+report = ; 
+quote &10&10
+---------------------------------------------------------------
+Saved tree-diagram to file &34$svgfile&34
+---------------------------------------------------------------
+;
+proc/; 
+
+label getargs ; 
+var: i toset ; 
+set toset (-1) ; 
+loop 2+1 argnumber 
+   set i #1 ; 
+   if ( 'toset' >= 0 ) 
+      quote &32 &32 &32 --> %('i');
+      if ( eqstring[ $tmp fillcolor ] || eqstring[ $tmp colorfile ] || eqstring[ $tmp display ] ) 
+          set ('toset' ) $%('i');
+          set toset (-1) ; 
+      else 
+         set ('toset' ) %('i') ; 
+         set toset (-1) ; 
+         end 
+      continue ; 
+      end 
+   set tmp $%('i'); 
+   if ( eqstring[ $tmp align ] || eqstring[ $tmp noalign ] || 
+        eqstring[ $tmp center ] || eqstring[ $tmp nocenter ] || 
+        eqstring[ $tmp rotate ] || eqstring[ $tmp norotate ] || 
+        eqstring[ $tmp strays ] || eqstring[ $tmp nostrays ] || 
+        eqstring[ $tmp squares ] || eqstring[ $tmp nosquares ] || 
+        eqstring[ $tmp label ] || eqstring[ $tmp nolabel ] || 
+        eqstring[ $tmp names ] || eqstring[ $tmp nonames ] ||
+        eqstring[ $tmp shade ] || eqstring[ $tmp noshade ] ||
+        eqstring[ $tmp usertags ] ) 
+        if ( eqstring[ $tmp:2 no ] ) 
+            quote Setting value of $tmp:+2 ; 
+            quote &32 &32 &32 --> NO ;
+            set ($tmp:+2 ) 0 ; 
+        else 
+            quote Setting value of $tmp ; 
+            quote &32 &32 &32 --> yes ;
+            set ($tmp ) 1 ; 
+            end 
+        continue ; 
+        end 
+   if ( eqstring[ bheight $tmp ] || eqstring[ display $tmp ] || 
+        eqstring[ colorfile $tmp ] || eqstring[ fillcolor $tmp ] || 
+        eqstring[ $tmp label ] || eqstring[ labelsize $tmp ] || 
+        eqstring[ marksize $tmp ] || eqstring[ markup $tmp ] || 
+        eqstring[ namesize $tmp ] || 
+        eqstring[ near $tmp ] || eqstring[ plot $tmp ] || 
+        eqstring[ squaresize $tmp ] || 
+        eqstring[ taxangle $tmp ] || eqstring[ taxsize $tmp ] || eqstring[ taxup $tmp ] || 
+        eqstring[ xlabel $tmp ] ) 
+        set toset ($tmp ) ; 
+        quote Setting value of $tmp ; 
+        continue ; 
+        end 
+   errmsg &10&10Unrecognized option: %('i') &10; 
+   stop
+if ( 'toset' >= 0 ) errmsg Expected a value for $tmp ; end 
+if ( !eqstring [ $display none ] ) 
+   set nprunes 1 ; 
+   agroup =1 { $display } ; 
+   agroup =0 ( pruned_taxa ) . <0 { 1 } ; 
+   end
+silent = buffer con ; 
+proc/; 
+
+label fillbchlens ; 
+var: i wid[(2*root)] n w sum at maxsum ; 
+set i ntrees + 1 ; 
+if ( 'usertags' ) 
+   ttag - ; 
+   p tmptagtree.tre ; 
+else 
+   ttag- ; ttag = ; 
+   if ( 'plot' >= 0 ) 
+        naked=; tp 'plot' ; 
+   else if ( 'numbers' ) cnames < ; end apo > ( 'namesize' ) ; end 
+   end
+if ( maxtrees - 1 == ntrees ) 
+   hold + 1 ; 
+   end
+if ( 'nprunes' ) 
+    pruntax * / { pruned_taxa } ; 
+    end 
+copytree + ; 
+loop 0 nnodes[ ntrees ] 
+    if ( !isintree [ ntrees #1 ] ) ttag <#1; continue ; end 
+    set bchis[ #1 ] ttaghei[ #1 ] * 0.75 + 1 * ( 'marksize' / 10 ) ; 
+    set w ttagwid [ #1 ] ; 
+    if ( !'w' ) 
+       set wid[#1] 1 ; 
+       ttag <#1 ; 
+       ttag +#1 (0,0,0,3:'bchis[ #1 ]')/ \\; 
+       if ( 'plot' >= 0 ) continue ; end 
+       set w 'bheight' * 2 * 'taxsize' / 10 ; set w '/.0w' ; set w ++ ; 
+       if( 'names' ) 
+           loop 1 'w' ttag +#1 \; stop 
+           end 
+       continue ; 
+       end 
+    set wid[#1] 'w' * 0.66 * 'marksize' / 10 * ( 'bheight' / 9 ) ; 
+    if ( 'numbers' ) set wid[ #1 ] /= 0.85 ; 
+    else set wid[ #1 ] *= 0.66 ; end 
+    set wid[#1] '/.0wid[#1]' ; 
+    if ( !'wid[ #1 ]' ) set wid[ #1 ] 1 ; end 
+    ttag <#1 ; 
+    ttag +#1 (0,0,0,3:'bchis[ #1 ]')/ ; 
+    if ( #1 > root ) continue ; end     /** i.e. a trick to make tree narrower: skip widths of labels for internal nodes ***/
+    set w 'wid[#1]' ; 
+    loop 1+1 'w'
+        if ( #2 > 1 ) ttag +#1 \ ; end 
+        stop 
+    stop
+loop (root+1) nnodes[ ntrees ]  
+    set w 0 ; 
+    travtree up terms ntrees #1 n 
+       if ( 'n' < root ) 
+          set w += 'wid[ 'n' ]' ; 
+          end 
+       endtrav ; 
+    if ( 'w' >= 'wid[ #1 ]' ) 
+        set wid[ #1 ] 0 ; 
+        if ( !'align' )     
+           ttag <#1 ; 
+           ttag +#1 (0,0,0,3:'bchis[ #1 ]'); 
+           end 
+        continue ; 
+        end 
+    ttag <#1 ; 
+    ttag +#1 (0,0,0,3:'bchis[ #1 ]')/ ; 
+    set w 'wid[#1]' ;     
+    if ( 'names' ) 
+       loop 1+1 'w'
+          if ( #2 > 1 ) ttag +#1 \ ; end 
+          stop 
+       end 
+    stop           
+set maxsum 0 ; 
+loop 0 ntax 
+   if ( !isintree[ ntrees #1 ] ) continue ; end 
+   set sum  'bchis[ #1 ]' ;  
+   set at anc [ ntrees #1 ] ; 
+   loop 1 1  
+      if ( 'at' == root ) endloop ; end 
+      set sum += 'bchis[ 'at' ]' ; 
+      set at anc[ ntrees 'at' ] ; 
+      setloop 1 ; 
+      stop
+   if ( 'maxsum' < 'sum' ) set maxsum 'sum' ; end 
+   stop
+loop 0 ntax 
+   if ( !isintree[ ntrees #1 ] ) continue ; end 
+   set at anc [ ntrees #1 ] ; 
+   set sum  0 ;  
+   loop 1 1  
+      if ( 'at' == root ) endloop ; end 
+      set sum += 'bchis[ 'at' ]' ; 
+      set at anc[ ntrees 'at' ] ; 
+      setloop 1 ; 
+      stop
+   set sum 'maxsum' - 'sum' ; 
+   ttag <#1; 
+   if ( 'align' ) 
+        ttag +#1 (0,0,0,3:'sum')/ ; 
+   else ttag +#1 (0,0,0,3:'bchis[ #1 ]')/ ; end 
+   loop 1+1 'wid[#1]' 
+       if ( #2 > 1 ) ttag +#1 \ ; end 
+       stop 
+   stop
+keep 'i' ; 
+ttag[c ; 
+proc/; 
+  
+label domarks ; 
+var: mywid i segm tot at ystar r1 r2 r3 r4 rotx myx mktxt[50] ; 
+if ( 'shade' ) 
+   if ( ( 'plot' >= 0 ) || ( 'usertags' ) ) set shade 0 ; 
+   else 
+     var: homos[ (nchar+1) ] maxhomo tone ; 
+     maketable + homos ; 
+     chomo 0 ; 
+     maketable - ; 
+     set maxhomo maxval [ homos ] ; 
+     /***Place a legend with homoplasy values *****/     
+     set segm 0; 
+     loop 0 ntax if ( 'coord[ #1 1 ]' > 'segm' ) set segm 'coord[ #1 1 ]' ; end stop
+     set segm -= 200 ; 
+     set tot ( 'coord[ root 0]' + ( 15 * 6 ) ) ; 
+     ttag &+ write <text x=&34 'tot'&34&32y=&34 'segm'&34&32 stroke-width=&34 1&34&32 font-size=&34 12&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'tot','segm')&34>Homoplasy</text>; 
+     set r2 ( -1 ) ; 
+     set i 'maxhomo' * 0.20 ; set i -= 0.5 ; set i '/.0i' ; 
+     set tot += 2 ; 
+     loop 0 4  
+        set r1 'r2' + 1 ; 
+        set r2 'r1' + 'i' ; 
+        set tone ( ( 'maxhomo' - 'r1' ) / 'maxhomo' ) * 4 ; 
+        set tone '/.0tone' ; if ( 'tone' < 0 ) set tone 0 ; end 
+        set tone 255 * 'tone' / 4 ; 
+        set tot -= 15 ;  
+        set r3 'segm' ; 
+        set r4 'segm' + 12 ; set myx 'tot' + 10 ; 
+        ttag &+ rect 'tot' 'r3' 'myx' 'r4' (0,0,0,1) ('tone','tone','tone',100); 
+        set r3 'segm' + 18 ; 
+        ttag &+ write <text x=&34 'tot'&34&32y=&34 'r3'&34&32 stroke-width=&34 1&34&32 font-size=&34 12&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'tot','r3')&34>'r1'-'r2'</text>; 
+        stop
+     end 
+   end   
+set i ntrees + 1 ; 
+if ( 'usertags' ) 
+   ttag - ; 
+   p tmptagtree.tre ; 
+else  
+   ttag- ; ttag = ;
+   if ( 'plot' >= 0 ) 
+        naked=; tp 'plot' ; 
+   else 
+      if ( 'numbers' ) cnames < ; ; end  
+      apo > ( 'namesize' ) ; 
+      end 
+   end 
+if ( maxtrees - 1 == ntrees ) 
+   hold + 1 ; 
+   end 
+if ( 'nprunes' ) 
+    pruntax * / { pruned_taxa } ; 
+    end 
+copytree + ; 
+p tmptaxnames ; 
+if ( !windows ) 
+   if ( linux ) system rm tmptaxnames ^ ; 
+   else system del tmptaxnames ^ ; 
+   xend 
+loop 0 nnodes[ ntrees ] 
+    if ( !isintree[ ntrees #1 ] ) continue ; end 
+    if ( #1 < root ) 
+        set myx 'coord[ #1 0 ]' + 5 ;
+        if ( 'taxangle' > 10 )  
+             set ystar 'coord[ #1 1]' - 5 - 'taxup' ; 
+        else set ystar 'coord[ #1 1]' - 'taxup' ; end 
+        ttag &+ write <text x=&34 'myx' &34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'taxsize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate('taxangle','myx','ystar')&34>$taxon #1</text>; 
+        end 
+    if ( !ttaghei[ #1 ] ) continue ; end 
+    set mywid ttagwid[ #1 ] * 0.5 * 'marksize' ; 
+    set tot 'coord[ #1 0 ]' - 'coord[ anc[ ntrees #1 ] 0 ]' ; 
+    set segm 'tot' / ( ttaghei[ #1 ] + 1 ) ; 
+    set at 'coord[ #1 0 ]' - 'segm' ; 
+    set ystar 'coord[ #1 1 ]' - 'markup' - ( 'mywid' / 2 ) ;  
+    if ( 'align' && ( #1 < root ) ) 
+        set at 'coord[ #1 0 ]' - ( 2 * 'marksize' ) ; 
+        loop 0 ( ttaghei[ #1 ] - 1 ) 
+           if ( !'squares' ) 
+              if ( 'center' )
+                set mywid lenstring [ $ttag::#2 #1 ] * 0.5 * 'marksize' ; 
+                set ystar 'coord[ #1 1 ]' - 'markup' - ( 'mywid' / 2 ) ;  
+                end 
+              set rotx 'at' ; 
+              set r1 'at' - 2 ; set r3 'r1' + 'marksize' + 1 ; 
+              set r2 'coord[ #1 1 ]' - 3 ; set r4 'coord[ #1 1 ]' + 3 ; 
+              ttag &+ rect 'r1' 'r2' 'r3' 'r4' (255,255,255,0) (255,255,255,100); 
+              ttag &+ write <text x=&34 'at'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'rotx','ystar')&34>$ttag::#2 #1</text>; 
+           else 
+              set r1 'at' ; set r3 'r1' + 'squaresize' ; 
+              set r2 'coord[ #1 1 ]' - ( 'squaresize' / 2 ) ; set r4 'coord[ #1 1 ]' + ( 'squaresize' / 2 ) ; 
+              if ( 'shade' ) 
+                   set mktxt $$ttag::#2 #1; 
+                   set tone ( ( 'maxhomo' - 'homos[ $mktxt<: ]' ) / 'maxhomo' ) * 4 ; 
+                   set tone '/.0tone' ; if ( 'tone' < 0 ) set tone 0 ; end 
+                   set tone 255 * 'tone' / 4 ; 
+                   ttag &+ rect 'r1' 'r2' 'r3' 'r4' (0,0,0,2) ('tone','tone','tone',100); 
+              else 
+                   ttag &+ rect 'r1' 'r2' 'r3' 'r4' (0,0,0,2) (255,255,255,100);     
+                   end 
+              set mktxt $$ttag::#2 #1; 
+              set r2 -= lenstring[ $mktxt<: ] + 1 * 0.6 * 'marksize' ;  
+              ttag &+ write <text x=&34 'at'&34&32y=&34 'r2'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'at','r2')&34>$mktxt<: </text>; 
+              set r2 'r4' + ( 0.3 * 'marksize' ) ;  
+              ttag &+ write <text x=&34 'at'&34&32y=&34 'r2'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'at','r2')&34>$mktxt>: </text>; 
+              end 
+           set at -= 'marksize' + 5 ; 
+           stop
+         continue ; 
+         end 
+    set ystar 'coord[ #1 1 ]' - 'markup' - ( 'mywid' / 2 ) ;  
+    loop 0 ( ttaghei[ #1 ] - 1 ) 
+       if ( !'squares' )   
+           if ( 'center' ) 
+              set mywid lenstring [ $ttag::#2 #1 ] * 0.5 * 'marksize' ; 
+              set ystar 'coord[ #1 1 ]' - 'markup' - ( 'mywid' / 2 ) ;  
+              end 
+           set rotx 'at' ; 
+           set r1 'at' + 'marksize' ; set r3 'r1' - 'segm' + 3 ; 
+           set r2 'coord[ #1 1 ]' - 3 ; set r4 'coord[ #1 1 ]' + 3 ; 
+           ttag &+ rect 'r1' 'r2' 'r3' 'r4' (255,255,255,0) (255,255,255,100); 
+           ttag &+ write <text x=&34 'at'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'rotx','ystar')&34>$ttag::#2 #1</text>; 
+       else 
+           set r1 'at' ; set r3 'r1' + 'squaresize' ; 
+           set r2 'coord[ #1 1 ]' - ( 'squaresize' / 2 ) ; set r4 'coord[ #1 1 ]' + ( 'squaresize' / 2 ) ; 
+           if ( 'shade' ) 
+               set mktxt $$ttag::#2 #1; 
+               set tone ( ( 'maxhomo' - 'homos[ $mktxt<: ]' ) / 'maxhomo' ) * 4 ; 
+               set tone '/.0tone' ; if ( 'tone' < 0 ) set tone 0 ; end 
+               set tone 255 * 'tone' / 4 ; 
+               ttag &+ rect 'r1' 'r2' 'r3' 'r4' (0,0,0,2) ('tone','tone','tone',100); 
+           else 
+               ttag &+ rect 'r1' 'r2' 'r3' 'r4' (0,0,0,2) (255,255,255,100);     
+               end 
+           set mktxt $$ttag::#2 #1; 
+           set r2 -= lenstring[ $mktxt<: ] + 1 * 0.6 * 'marksize' ;  
+           ttag &+ write <text x=&34 'at'&34&32y=&34 'r2'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'at','r2')&34>$mktxt<: </text>; 
+           set r2 'r4' + ( 0.3 * 'marksize' ) ;  
+           ttag &+ write <text x=&34 'at'&34&32y=&34 'r2'&34&32 stroke-width=&34 1&34&32 font-size=&34 'marksize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'at','r2')&34>$mktxt>: </text>; 
+           end 
+       set at -= 'segm' ; 
+       stop 
+    stop
+keep 'i' ; 
+proc/; 
+
+label savetaxnames ; 
+var: mvnam[50] q maxnam ;
+sil = con buf ; 
+log tmptaxnames ; 
+set maxnam 0 ; 
+loop 0 ntax 
+   set q 60 ; 
+   if ( isinstring[ $taxon #1 ____ ] ) 
+      set q isinstring[ $taxon #1 ____ ] - 4 ; 
+      set mvnam $$taxon:'q' #1; 
+   else if ( isinstring[ $taxon #1 @ ] )    
+      set q isinstring[ $taxon #1 @ ] - 1 ; 
+      set mvnam $$taxon:'q' #1; 
+   else set mvnam $$taxon:'q' #1; end end    
+   if ( lenstring[ $mvnam ] ) set maxnam lenstring[ $mvnam ] ; end 
+   quote taxname /$mvnam #1 ., ; 
+   stop
+quote proc/., ; 
+log / ; 
+taxname /- . ; 
+if ( 'maxnam' > 40 ) 
+   set taxnamextra ( 'taxsize' * 0.5 ) * ( 'maxnam' - 40 ) ; 
+   end 
+proc/; 
+
+label dohelp ; 
+quote :&10&10
+A SCRIPT TO PLOT GRAPHIC TREES 
+By default, does lists of synapomorphies
+(reformatting output from &34apo>&34) &10
+It can also plot existing tree-tags 
+or individual trees.&10&10
+Every option is followed by a value, except the yes/no
+ones (which can be given as &34noalign&34, &34norotate&34, etc.).&10
+   ---------------------------------------------------------------------------
+                 DEFAULT
+     OPTION      VALUE      ACTION
+   ---------------------------------------------------------------------------
+     align         yes      Align all terminals  
+     bheight       10       Separation between branches 
+     center        no       Center each line of marks individually
+     colorfile    none      For names of higher taxa contained in file, use 
+                            colors. File format: 
+                                  Mammalia 255,0,0,10
+                                  Archosauria 0,255,0,10
+                            where first three numbers are RGB code, and fourth 
+                            number opacity. Unspecified higher taxa use the
+                            color indicated with &34fillcolor&34. This 
+                            automatically connects &34label&34.
+     display      none      Show only the taxa in specified taxon group (you
+                            can refer to the group by name or number)
+     fillcolor  255,0,0,10  Color of frame around clades (RGB code in first 
+                            three numbers), and opacity (last number). Make 
+                            sure you leave no spaces between the commas. 
+                            N.B. If used together with &34colorfile&34, 
+                            indicating opacity=0 skips the groups not 
+                            contained in colorfile. This automatically 
+                            connects &34label&34.
+     label         no       Label taxonomic clades (requires a taxonomy)
+     labelsize     18       Font size for clade names (only with &34label&34)
+     marksize      14       Font size for marks on tree 
+     markup        0        Raise (i.e. move to the left) the marks
+     names         no       Use character names. Without this, it forces the 
+                            use of character numbers in the branch marks, 
+                            even if character names defined (N.B. this
+                            undefines character names). To use &34names&34
+                            you probably need to increase &34bheight&34  
+                            substantially (so that labels fit!).
+     namesize      0        maximum width of name columns (when using &34names&34)
+     near          1        If labeling taxonomic groups, label groups with a
+                            &34similarity&34 to a taxonomic group within the 
+                            &34near&34 value (0-1). Groups not recovered 
+                            exactly are asterisked.
+     plot          T        plot tree T, with no branch legends (if unspecified, 
+                            it uses &34apo>&34)
+     rotate        no       Rotate diagram 90&248
+     shade         no       Only when using &34squares&34, shade them with degrees
+                            of homoplasy (darker, more homoplasy). Homoplasy is 
+                            measured on tree 0.
+     squares       yes      Mark synapomorphies as squares (only together with 
+                            &34numbers&34)
+     squaresize    8        Size of synapomorphy squares 
+     strays        yes      If &34label&34ing clades that are &34near&34, mark 
+                            strays. A misplaced taxon gets an asterisk &34*&34 if 
+                            it is placed out of one or more groups to which it 
+                            should belong, or a &34[+]&34  if it is placed inside 
+                            of a group where it does not belong. 
+     taxangle      10       Angle for taxon names 
+     taxsize       16       Font size for terminal taxon names 
+     taxup         0        Raise (i.e. move to the left) taxon names 
+     usertags      no       Instead of diagnosing existing trees with
+                            &34apo>&34, use existing tree-tags (N.B. tags
+                            cannot contain blank spaces!)
+     xlabel        0        Leave some extra space with clade labels (use
+                            if long taxon names overlap with clade names)
+   ---------------------------------------------------------------------------
+&10&10; 
+proc/; 
+
+label doclades ; 
+var: isapprox skipothers i n namstr[20] namhei nex q r taxtree tagtree to basx myx ystar maxdep top bot maxx found ; 
+if ( 'near' < 1 && 'strays' ) var: misplaced[root] ; set * misplaced 0 ; end 
+set i ntrees + 1 ; 
+if ( maxtrees - 2 <= ntrees ) 
+   hold + 2 ; 
+   end 
+copytree ! ; set taxtree ntrees ; 
+copytree + ; set tagtree ntrees ; 
+travtree + ; /*** i.e. honor node numbering!! ****/
+set maxdep 0 ; 
+loop (root+1) nnodes[ 'taxtree' ] 
+   set n distnode [ 'taxtree' #1 root ] ; 
+   if ( 'n' > 'maxdep' ) set maxdep 'n' ; end 
+   stop
+set maxx 0 ; 
+loop 0 ntax 
+  if ( 'maxx' < 'coord[ #1 0 ]' ) set maxx 'coord[ #1 0 ]' ; end 
+  stop 
+set maxx += 100 ; 
+var: from to ; 
+if ( !eqstring[ $colorfile none ] ) 
+   hifile open $colorfile ; 
+   end 
+set skipothers 0 ; 
+set r 2 ; 
+loop 2 4 
+    if ( isinstring[ $fillcolor:-#1 , ] ) 
+       set r #1 - 1 ; 
+       endloop ; 
+       end  
+    stop
+if ( $fillcolor:-'r' == 0 ) 
+  if ( eqstring[ $colorfile none ] ) 
+     errmsg &10&10
+     Oooops! You want to label taxonomy, but used an 
+     opacity of ZERO (i.e. not visible!) ; end   
+     set skipothers 1 ; 
+  end 
+if ( 'nprunes' ) 
+   set bchis grptogrp 'tagtree' 'taxtree' / { pruned_taxa } ; 
+   end 
+loop (root+1) nnodes[ 'taxtree' ] 
+   if ( !'categlist[ #1 ]' ) continue ; end 
+   if ( 'nprunes' ) set to 'bchis[ #1 ]' ; 
+   else 
+       set to eqgroup[ 'taxtree' #1 'tagtree' ] ; 
+       end 
+   set isapprox 0 ; 
+   if ( 'to' < root ) 
+        if ( 'near' < 1 ) 
+           set to simgroup[ 'taxtree' #1 'tagtree' ] ;  
+           if ( 'to' > root ) 
+               if ( ( regalfa + regbeta ) / numdes [ 'taxtree' #1 ] < 'near' ) continue ; end 
+               if ( 'strays' ) 
+                  loop 0 ntax 
+                     if ( !isintree[ 'taxtree' #2 ] ) continue ; end 
+                     if ( !isintree[ 'tagtree' #2 ] ) continue ; end 
+                     if ( 'misplaced[ #2 ]' == 3 ) continue ; end 
+                     if ( isanc[ 'taxtree' #1 #2 ] && !isanc[ 'tagtree' 'to' #2 ] ) set misplaced[ #2 ] |= 1 ; 
+                     else 
+                     if ( isanc[ 'tagtree' 'to' #2 ] && !isanc[ 'taxtree' #1 #2 ] ) set misplaced[ #2 ] |= 2 ; 
+                     end end 
+                     stop
+                  end 
+               set isapprox 1 ; 
+           else continue ; end     
+        else continue ; end end 
+   set q 'to' ; 
+   loop 1 1 
+       if ( 'q' > ntax ) 
+          set q firstdes[ 'tagtree' 'q' ] ; 
+          setloop 1 ; 
+          end 
+       stop
+   set top 'coord[ 'q' 1 ]' - ( 'bheight' * 0.3 ) ; 
+   set r sister [ 'tagtree' firstdes[ 'tagtree' 'to' ] ] ; 
+   set q 'to' ;    
+   set found 0 ; 
+   loop 1 1 
+       if ( 'found' ) endloop ; end 
+       if ( nodfork[ 'tagtree' 'q' ] == 2 ) 
+           set r sister [ 'tagtree' firstdes[ 'tagtree' 'q' ] ] ; 
+           set q 'r' ; 
+           if ( 'r' < root ) endloop ; end 
+           setloop 1 ; 
+       else 
+         set r sister [ 'tagtree' firstdes[ 'tagtree' 'q' ] ] ; 
+         set found 0 ; 
+         loop 1 1
+           set nex sister[ 'tagtree' 'r' ] ; 
+           if ( 'nex' < 0 ) 
+               if ( 'r' < root ) set found 1 ; end 
+               set q 'r' ; 
+               endloop ; 
+               end 
+           set r 'nex' ; 
+           setloop 1 ; 
+           stop
+         end   
+       setloop 1 ;   
+       stop
+   set bot 'coord[ 'r' 1 ]' + ( 'bheight' * 0.3 ) ; 
+   if ( !'align' ) 
+      set maxx 0 ; 
+      loop 0 ntax 
+         if ( !isintree[ 'taxtree' #2 ] ) continue ; end 
+         if ( !isanc[ 'taxtree' #1 #2 ] ) continue ; end 
+         if ( 'maxx' < 'coord[ #2 0 ]' ) set maxx 'coord[ #2 0 ]' ; end 
+         stop 
+      set maxx += 100 ; 
+      end     
+   set myx 'maxx' + ( 'maxdep' + 1 - distnode[ 'taxtree' #1 root ] * ( 'labelsize'+15 ) ) + 'taxnamextra' + 'xlabel' ; 
+   set basx 'coord[ anc[ 'tagtree' 'to' ] 0 ]' + 'marksize' ; 
+   set found 0 ;
+   set top -= ( 'maxdep' - distnode[ 'taxtree' #1 root ] * 7 ) ; 
+   set bot += ( 'maxdep' - distnode[ 'taxtree' #1 root ] * 7 ) ; 
+   if ( eqstring[ $colorfile none ] ) 
+       set found 1 ;
+       ttag &+ rect 'basx' 'top' 'myx' 'bot' (255,0,0,0) ( $fillcolor ) ;
+   else 
+       set namstr $$taxonomy #1 ; 
+       loop 1 1 
+          set tmp $$hifstring ; 
+          if ( hifeof ) endloop ; end 
+          if ( eqstring[ $tmp:80 $namstr:80 ] ) 
+              set tmp $$hifstring ; 
+              set found 1 ; 
+              endloop ; 
+              end 
+          setloop 1 ; 
+          stop
+       hifile rewind ; 
+       if ( !'found' ) 
+           if ( 'skipothers' ) continue ; end 
+           set tmp $$fillcolor ; 
+           end 
+       ttag &+ rect 'basx' 'top' 'myx' 'bot' (255,0,0,0) ( $tmp ) ;
+       end 
+   if ( 'skipothers' && !'found' ) continue ; end 
+   set myx += 'labelsize / 3 ; 
+   set namhei lenstring[ $taxonomy #1 ] * 0.6660 * 'labelsize' ; 
+   set q ( 'bot' - 'top') - 'namhei' / 2 ; 
+   set ystar 'top' + 'q' ; 
+   if ( 'isapprox' ) 
+       ttag &+ write <text x=&34 'myx'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'labelsize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'myx','ystar')&34>*$taxonomy #1</text>;
+   else 
+       ttag &+ write <text x=&34 'myx'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'labelsize'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate(90,'myx','ystar')&34>$taxonomy #1</text>;
+       end 
+   stop   
+if ( 'near' < 1 && 'strays' ) 
+    set q 'taxsize' / 2 ; 
+    loop 0 ntax 
+      if ( !'misplaced[ #1 ]' ) continue ; end 
+      set myx 'coord[ #1 0 ]' + 5 ;
+      if ( 'taxangle' > 10 )  
+          set ystar 'coord[ #1 1]' - 5 - 'taxup' ; 
+      else set ystar 'coord[ #1 1]' - 'taxup' ; end 
+      set ystar -= 0.75 * 'taxsize' ; 
+      if ( 'misplaced[ #1 ]' & 1 ) 
+          ttag &+ write <text x=&34 'myx'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'q'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate('taxangle','myx','ystar')&34>*</text>;  
+          end 
+      set myx += 1.5 * 'q' ; 
+      if ( 'misplaced[ #1 ]' & 2 ) 
+          ttag &+ write <text x=&34 'myx'&34&32y=&34 'ystar'&34&32 stroke-width=&34 1&34&32 font-size=&34 'q'&34&32 style=&34stroke:rgb(0,0,0)&34&32 transform=&34rotate('taxangle','myx','ystar')&34>[+]</text>;  
+          end 
+    stop
+end 
+keep 'i' ; 
+proc/; 
+
+label setextrax ; 
+set extrax 100 ; 
+var: i n maxis namsiz ; 
+set i ntrees + 1 ; 
+if ( maxtrees - 1 == ntrees ) 
+   hold + 1 ; 
+   end 
+if ( 'label' ) 
+   copytree ! ; 
+else 
+   if ( 'plot' >= 0 ) copytree 'plot' ; 
+   else copytree + ; end 
+   end 
+set maxis 0 ; 
+set namsiz 0 ; 
+p tmptaxnames ; 
+loop 0 ntax 
+   set n lenstring[ $taxon #1 ] ; 
+   if ( 'n' > 'namsiz' ) set namsiz 'n' ; end 
+   stop
+set extrax += ( 'namsiz' / 3 ) * 'taxsize' ; 
+loop (root+1) nnodes[ ntrees ] 
+   set n distnode[ ntrees #1 root ] ; 
+   if ( 'n' > 'maxis' ) set maxis 'n' ; end 
+   stop
+set extrax += 'labelsize' + 20 * 'maxis' ; 
+keep 'i' ; 
+taxname /- . ; 
+proc/; 
+
+label userdialog ; 
+var: n sourcetype treechoice taxtoright marktoright getcolorfile nforspin ; 
+set svgfile $treediagram.svg; 
+set sourcetype 0 ; 
+set treechoice 0 ; 
+set taxtoright 0 ; 
+set marktoright 0 ; 
+set fillcolor $255,0,0,30 ; 
+set near 100 ; 
+set getcolorfile 0 ; 
+set nforspin ntrees ; if ( ntrees < 0 ) set nforspin 0 ; end 
+if ( ntrees < 0 ) set sourcetype 2 ; end 
+opendlg 100 100 670 390 Save a tree diagram... ; 
+ frame 10 10 250 100 Source tree ; 
+      choose sourcetype 
+          [ ( ntrees >= 0 ) ] 30 55 150 15 List of synapomorphies  
+          [ ( ntrees >= 0 ) ] 30 30 50 15 Tree  
+                                 + spin 0 'nforspin' treechoice 85 25 0 20 ; = 
+               [ ttags ]      30 80 100 15 Existing tree-tags ; 
+      subdlg 140 80 100 18 Tree orientation ; 
+         120 120 180 160 Draw tree... ; 
+         choose rotate 
+            20 25 90 15 ...vertically 
+            20 50 90 15 ...horizontally ; 
+         closedlg ; 
+ frame 10 120 250 80 Files ; 
+      showtxt 20 140 210 15 Save SVG diagram to file:
+      gettxt svgfile 20 165 210 20 ; 
+ frame 280 10 350 120 Terminal taxa; 
+      showtxt 300 30 50 15 Font size ; 
+      spin 3 50 taxsize 360 30 0 20 ;  
+      taxsel taxlist 460 30 65 20 ; 
+      showtxt 300 55 60 15 Angle ; 
+      spin 0 90 taxangle 370 55 30 20 ;  
+      showtxt 300 80 60 15 Shift names; 
+      spin 0 300 taxup 370 80 0 20 ;  
+      check taxtoright 450 85 80 15 to the right ;  
+      check align 300 100 80 15 Align taxa ; 
+ frame 280 140 350 150 Branches / legends; 
+      showtxt 300 160 50 15 Font size ; 
+      spin 3 50 marksize 360 160 0 20 ; 
+      spin 0 200 namesize 440 160 100 20 Column width ; 
+      check [ +1 ] numbers 300 185 110 15 Use char. numbers ;  
+         +
+            check shade 485 185 50 15 Shade ;
+            check squares 415 185 60 15 Squares ;  
+            - 
+               check center 300 265 180 15 Center legends individually ;  
+               showtxt 300 240 70 15 Shift legends; 
+               spin 0 300 markup 375 240 0 20 ;  
+               check marktoright 460 245 80 15 to the right ;  
+            =  
+         =
+      showtxt 300 210 120 15 Min. branch separation; 
+      spin 3 50 bheight 430 210 0 20 ; 
+ frame 10 210 250 130 Taxonomic labels; 
+      check [ (numcategs) ] label 30 230 85 15 Label groups;  
+      +   spin 1 100 near 125 230 60 20 similarity ; 
+          check strays 145 253 80 20 Mark strays;  
+          showtxt 30 260 60 15 RGB code and opacity; 
+          gettxt fillcolor 30 280 100 20 ; 
+          check getcolorfile 170 275 65 15 Get colors; 
+          showtxt 195 290 60 15 from file; 
+          spin 5 50 labelsize 30 310 60 20 Label size; 
+          cladsel categlist 170 310 50 20 ; 
+      = 
+  closedlg ; 
+if ( 'getcolorfile' ) 
+   getfname colorfile read File with label colors; 
+   if ( !exstatus ) return 0 ; end 
+   end 
+set near /= 100 ; 
+if ( !exstatus ) return 0 ; end 
+if ( eqstring[ $svgfile none ] ) errmsg Must give name of SVG file to save diagram ; end 
+if ( isinstring[ $svgfile .svg ] != lenstring[ $svgfile ] ) 
+   errmsg File to save the diagram ($svgfile) must have an *.svg extension ; 
+   end 
+if ( !eqstring[ $colorfile none ] ) set label 1 ; end 
+if ( eqstring[ $colorfile none ] && !'label' ) set fillcolor $none ; end 
+if ( 'sourcetype' == 1 ) set plot 'treechoice' ; end 
+if ( 'sourcetype' == 2 ) set usertags 1 ; end 
+set n 'taxlist[0-ntax &43 ]' ; 
+if ( 'n' < root ) 
+   set nprunes 1 ; 
+   agroup =0 ( pruned_taxa ) ; 
+   loop 0 ntax 
+      if ( !'taxlist[ #1 ]' ) ag >0 #1 ; end 
+      stop 
+   end    
+proc/; 
+
+
