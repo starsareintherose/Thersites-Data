@@ -1,0 +1,2316 @@
+If needed, increasing memory when reading a dataset
+Matrices will be read as DNA data 
+Matrix space: allocate for up to 8 states 
+Implied Weighting is ON 
+Reading from EIW.winclada.ss 
+'
+Data saved from TNT
+'
+Matrix (52408x73, 8 states). Memory required for data: 59.11 Mbytes 
+N.B.: allocating no less than 2.00 of expected RAM 
+'set of 1 trees'
+1 trees read (trees 0-0) 
+Again reading from 01_K.run 
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 83.01310)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      80.08651     0:00:01    6,669,008     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,669,008. 
+Best score (TBR): 80.08651.  81 trees found. 
+Tree file: 1.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 1 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 60.44675)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      59.11342     0:00:00    6,606,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,606,030. 
+Best score (TBR): 59.11342.  81 trees found. 
+Tree file: 2.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 2 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 48.34275)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      47.34275     0:00:00    6,606,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,606,030. 
+Best score (TBR): 47.34275.  81 trees found. 
+Tree file: 3.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 3 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 40.46850)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      39.51742     0:00:00    7,000,731     
+Completed TBR branch-swapping.
+Total rearrangements examined: 7,000,731. 
+Best score (TBR): 39.51742.  81 trees found. 
+Tree file: 4.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 4 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 34.70400)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      34.03734     0:00:00    6,963,267     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,963,267. 
+Best score (TBR): 34.03734.  81 trees found. 
+Tree file: 5.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 5 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 30.50658)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      29.93515     0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 29.93515.  54 trees found. 
+Tree file: 6.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 6 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 26.98962)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      26.73962     0:00:00    6,958,332     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,958,332. 
+Best score (TBR): 26.73962.  81 trees found. 
+Tree file: 7.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 7 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 24.61950)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      24.17506     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 24.17506.  81 trees found. 
+Tree file: 8.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 8 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 22.46856)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      22.06856     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 22.06856.  81 trees found. 
+Tree file: 9.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 9 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 20.66942)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      20.30499     0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 20.30499.  54 trees found. 
+Tree file: 10.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 10 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 18.96960)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      18.80293     0:00:01    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 18.80293.  81 trees found. 
+Tree file: 11.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 11 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 17.81829)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      17.51060     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 17.51060.  81 trees found. 
+Tree file: 12.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 12 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 16.67222)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      16.38650     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 16.38650.  81 trees found. 
+Tree file: 13.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 13 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 15.66617)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      15.39950     0:00:00    6,963,267     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,963,267. 
+Best score (TBR): 15.39950.  81 trees found. 
+Tree file: 14.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 14 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 14.77575)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      14.52575     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 14.52575.  81 trees found. 
+Tree file: 15.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 15 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 13.98196)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      13.74667     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 13.74667.  81 trees found. 
+Tree file: 16.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 16 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 13.26978)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      13.04756     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 13.04756.  81 trees found. 
+Tree file: 17.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 17 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 12.62715)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      12.41662     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 12.41662.  81 trees found. 
+Tree file: 18.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 18 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 12.04429)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      11.84429     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 11.84429.  81 trees found. 
+Tree file: 19.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 19 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 11.51320)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      11.32272     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 11.32272.  81 trees found. 
+Tree file: 20.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 20 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 11.02723)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      10.84541     0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 10.84541.  81 trees found. 
+Tree file: 21.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 21 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 10.58084)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      10.40693     0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 10.40693.  81 trees found. 
+Tree file: 22.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 22 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 10.16937)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      10.00270     0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 10.00270.  54 trees found. 
+Tree file: 23.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 23 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 9.70884)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      9.62884      0:00:00    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 9.62884.  81 trees found. 
+Tree file: 24.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 24 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 9.43589)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      9.28204      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 9.28204.  81 trees found. 
+Tree file: 25.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 25 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 9.10761)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      8.95946      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 8.95946.  81 trees found. 
+Tree file: 26.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 26 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 8.80149)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      8.65863      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 8.65863.  81 trees found. 
+Tree file: 27.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 27 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 8.51535)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      8.37742      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 8.37742.  81 trees found. 
+Tree file: 28.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 28 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 8.24729)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      8.11396      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 8.11396.  81 trees found. 
+Tree file: 29.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 29 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 7.99565)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      7.86662      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 7.86662.  81 trees found. 
+Tree file: 30.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 30 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 7.75896)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      7.63396      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 7.63396.  81 trees found. 
+Tree file: 31.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 31 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 7.53592)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      7.41471      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 7.41471.  81 trees found. 
+Tree file: 32.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 32 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 7.32538)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      7.20773      0:00:01    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 7.20773.  54 trees found. 
+Tree file: 33.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 33 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 7.06917)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      7.01202      0:00:00    6,874,104     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,104. 
+Best score (TBR): 7.01202.  81 trees found. 
+Tree file: 34.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 34 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.93780)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.82669      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 6.82669.  81 trees found. 
+Tree file: 35.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 35 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.75904)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.65093      0:00:00    7,061,493     
+Completed TBR branch-swapping.
+Total rearrangements examined: 7,061,493. 
+Best score (TBR): 6.65093.  81 trees found. 
+Tree file: 36.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 36 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.58927)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.48401      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 6.48401.  81 trees found. 
+Tree file: 37.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 37 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.42784)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.32528      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 6.32528.  81 trees found. 
+Tree file: 38.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 38 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.27415)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.17415      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 6.17415.  81 trees found. 
+Tree file: 39.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 39 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 6.12765)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      6.03009      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 6.03009.  81 trees found. 
+Tree file: 40.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 40 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.98785)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.89261      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.89261.  81 trees found. 
+Tree file: 41.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 41 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.85430)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.76128      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.76128.  81 trees found. 
+Tree file: 42.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 42 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.72659)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.63568      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.63568.  81 trees found. 
+Tree file: 43.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 43 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.60433)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.51545      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.51545.  81 trees found. 
+Tree file: 44.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 44 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.48720)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.40024      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.40024.  81 trees found. 
+Tree file: 45.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 45 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.37487)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.28977      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 5.28977.  81 trees found. 
+Tree file: 46.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 46 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.26706)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      5.18372      0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 5.18372.  54 trees found. 
+Tree file: 47.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 47 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.12267)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      5.08185      0:00:00    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 5.08185.  81 trees found. 
+Tree file: 48.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 48 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 5.06392)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.98392      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.98392.  81 trees found. 
+Tree file: 49.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 49 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.96812)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.88969      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.88969.  81 trees found. 
+Tree file: 50.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 50 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.87589)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.79896      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.79896.  81 trees found. 
+Tree file: 51.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 51 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.78702)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.71155      0:00:00    7,149,810     
+Completed TBR branch-swapping.
+Total rearrangements examined: 7,149,810. 
+Best score (TBR): 4.71155.  81 trees found. 
+Tree file: 52.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 52 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.70134)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.62726      0:00:00    6,963,267     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,963,267. 
+Best score (TBR): 4.62726.  81 trees found. 
+Tree file: 53.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 53 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.61867)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.54594      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.54594.  81 trees found. 
+Tree file: 54.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 54 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.53887)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.46744      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.46744.  81 trees found. 
+Tree file: 55.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 55 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.46177)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.39160      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.39160.  81 trees found. 
+Tree file: 56.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 56 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.38726)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.31830      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.31830.  81 trees found. 
+Tree file: 57.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 57 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.31520)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.24740      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.24740.  81 trees found. 
+Tree file: 58.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 58 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.24547)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.17880      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.17880.  81 trees found. 
+Tree file: 59.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 59 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.17795)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      4.11238      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 4.11238.  81 trees found. 
+Tree file: 60.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 60 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.11256)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      4.04804      0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 4.04804.  54 trees found. 
+Tree file: 61.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 61 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 4.01743)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      3.98569      0:00:00    4,705,056     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,705,056. 
+Best score (TBR): 3.98569.  54 trees found. 
+Tree file: 62.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 62 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.95648)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.92523      0:00:00    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 3.92523.  81 trees found. 
+Tree file: 63.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 63 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.92811)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.86657      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.86657.  81 trees found. 
+Tree file: 64.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 64 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.87026)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.80965      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.80965.  81 trees found. 
+Tree file: 65.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 65 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.81408)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.75438      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.75438.  81 trees found. 
+Tree file: 66.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 66 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.75951)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.70069      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.70069.  81 trees found. 
+Tree file: 67.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 67 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.70649)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.64852      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.64852.  81 trees found. 
+Tree file: 68.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 68 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.65494)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.59779      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.59779.  81 trees found. 
+Tree file: 69.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 69 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.60480)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.54846      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.54846.  81 trees found. 
+Tree file: 70.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 70 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.55602)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.50047      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.50047.  81 trees found. 
+Tree file: 71.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 71 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.50855)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.45376      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.45376.  81 trees found. 
+Tree file: 72.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 72 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.46233)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.40827      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.40827.  81 trees found. 
+Tree file: 73.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 73 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.41731)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.36398      0:00:00    6,963,267     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,963,267. 
+Best score (TBR): 3.36398.  81 trees found. 
+Tree file: 74.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 74 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.37345)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.32081      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.32081.  81 trees found. 
+Tree file: 75.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 75 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.33070)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      3.27875      0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 3.27875.  54 trees found. 
+Tree file: 76.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 76 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.26338)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.23773      0:00:00    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 3.23773.  81 trees found. 
+Tree file: 77.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 77 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.24837)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.19773      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.19773.  81 trees found. 
+Tree file: 78.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 78 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.20871)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      3.15871      0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 3.15871.  54 trees found. 
+Tree file: 79.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 79 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.14532)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.12063      0:00:00    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 3.12063.  81 trees found. 
+Tree file: 80.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 80 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.13224)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.08346      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.08346.  81 trees found. 
+Tree file: 81.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 81 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.09535)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.04716      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.04716.  81 trees found. 
+Tree file: 82.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 82 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.05933)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      3.01171      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 3.01171.  81 trees found. 
+Tree file: 83.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 83 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 3.02413)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.97707      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.97707.  81 trees found. 
+Tree file: 84.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 84 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.98973)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.94322      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.94322.  81 trees found. 
+Tree file: 85.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 85 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.95611)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.91013      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.91013.  81 trees found. 
+Tree file: 86.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 86 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.92324)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.87778      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.87778.  81 trees found. 
+Tree file: 87.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 87 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.89109)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.84614      0:00:00    7,149,810     
+Completed TBR branch-swapping.
+Total rearrangements examined: 7,149,810. 
+Best score (TBR): 2.84614.  81 trees found. 
+Tree file: 88.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 88 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.85964)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.81519      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.81519.  81 trees found. 
+Tree file: 89.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 89 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.82886)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.78491      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.78491.  81 trees found. 
+Tree file: 90.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 90 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.79874)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.75527      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.75527.  81 trees found. 
+Tree file: 91.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 91 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.76926)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.72625      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.72625.  81 trees found. 
+Tree file: 92.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 92 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.74039)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.69784      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.69784.  81 trees found. 
+Tree file: 93.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 93 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.71212)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.67002      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.67002.  81 trees found. 
+Tree file: 94.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 94 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.68443)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.64276      0:00:01    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.64276.  81 trees found. 
+Tree file: 95.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 95 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.65729)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      2.61606      0:00:00    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 2.61606.  54 trees found. 
+Tree file: 96.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 96 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.61029)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.58989      0:00:01    6,872,976     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,872,976. 
+Best score (TBR): 2.58989.  81 trees found. 
+Tree file: 97.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 97 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.60464)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.56423      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.56423.  81 trees found. 
+Tree file: 98.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 98 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.57909)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       80 of 81     ------      2.53909      0:00:00    6,874,950     
+Completed TBR branch-swapping.
+Total rearrangements examined: 6,874,950. 
+Best score (TBR): 2.53909.  81 trees found. 
+Tree file: 99.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 81 trees (0 taxa excluded) calculated, as tree 81 
+Selecting tree(s) 81,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 99 trees)
+Implied Weighting is ON 
+Missing entries will be assumed to have 50.0% the homoplasy of 
+observed entries; homoplasy in missing entries not to be
+increased beyond 5.000 times observed homoplasy
+ 
+ 
+WARNING: 
+Non-binary starting trees will be dichotomized (randomly) 
+ 
+Start swapping from 1 trees (score 2.55403)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       53 of 54     ------      2.51443      0:00:01    4,707,030     
+Completed TBR branch-swapping.
+Total rearrangements examined: 4,707,030. 
+Best score (TBR): 2.51443.  54 trees found. 
+Tree file: 100.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 54 trees (0 taxa excluded) calculated, as tree 54 
+Selecting tree(s) 54,  
+1 trees selected 
+Placed 1 trees in vault (vault now with 100 trees)
+0 trees in memory 
+Retrieved 100 trees from vault (100 trees now in memory)
+Tree file: 00all.ctf 

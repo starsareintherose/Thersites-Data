@@ -1,0 +1,29 @@
+Matrices will be read as DNA data 
+Matrix space: allocate for up to 8 states 
+Reading from EIW.winclada.ss 
+'
+Data saved from TNT
+'
+Matrix (52408x73, 8 states). Memory required for data: 29.56 Mbytes 
+'set of 1 trees'
+1 trees read (trees 0-0) 
+Again reading from 02_conK.run 
+Space for 100 trees in memory 
+0 trees in memory 
+100 trees read from 00all.ctf (trees 0-99) 
+100 trees condensed (when min. branch length = 0) 
+5 trees retained 
+Tree file: 00allK.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 5 trees (0 taxa excluded) calculated, as tree 5 
+Selecting tree(s) 5,  
+1 trees selected 
+Tree file: 00allKcon.ctf 
+Copied legends: "Tree 0 (last tree in memory):" 
+ 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 

@@ -1,0 +1,18 @@
+macro=;
+nstates dna;
+p IW.winclada.ss;
+keep 0;
+shortread 00allK.ctf;
+ttags=;
+tp 0;
+reroot *= 89;
+ttags-;
+
+loop 0 ntrees;
+  ttags=;
+  tp #1;
+  ttags & K#1..svg thickness 7 italics fontsize 15;
+  ttags-;
+stop
+
+zzz;

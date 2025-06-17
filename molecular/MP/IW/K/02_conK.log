@@ -1,0 +1,128 @@
+Matrices will be read as DNA data 
+Matrix space: allocate for up to 8 states 
+Reading from IW.winclada.ss 
+'
+Data saved from TNT
+'
+Matrix (52408x73, 8 states). Memory required for data: 29.56 Mbytes 
+'set of 1 trees'
+1 trees read (trees 0-0) 
+Again reading from conK.run 
+Space for 100 trees in memory 
+0 trees in memory 
+1 trees read from 1.original.ctf (trees 0-0) 
+1 trees read from 2.original.ctf (trees 1-1) 
+1 trees read from 3.original.ctf (trees 2-2) 
+1 trees read from 4.original.ctf (trees 3-3) 
+1 trees read from 5.original.ctf (trees 4-4) 
+1 trees read from 6.original.ctf (trees 5-5) 
+1 trees read from 7.original.ctf (trees 6-6) 
+1 trees read from 8.original.ctf (trees 7-7) 
+1 trees read from 9.original.ctf (trees 8-8) 
+1 trees read from 10.original.ctf (trees 9-9) 
+1 trees read from 11.original.ctf (trees 10-10) 
+1 trees read from 12.original.ctf (trees 11-11) 
+1 trees read from 13.original.ctf (trees 12-12) 
+1 trees read from 14.original.ctf (trees 13-13) 
+1 trees read from 15.original.ctf (trees 14-14) 
+1 trees read from 16.original.ctf (trees 15-15) 
+1 trees read from 17.original.ctf (trees 16-16) 
+1 trees read from 18.original.ctf (trees 17-17) 
+1 trees read from 19.original.ctf (trees 18-18) 
+1 trees read from 20.original.ctf (trees 19-19) 
+1 trees read from 21.original.ctf (trees 20-20) 
+1 trees read from 22.original.ctf (trees 21-21) 
+1 trees read from 23.original.ctf (trees 22-22) 
+1 trees read from 24.original.ctf (trees 23-23) 
+1 trees read from 25.original.ctf (trees 24-24) 
+1 trees read from 26.original.ctf (trees 25-25) 
+1 trees read from 27.original.ctf (trees 26-26) 
+1 trees read from 28.original.ctf (trees 27-27) 
+1 trees read from 29.original.ctf (trees 28-28) 
+1 trees read from 30.original.ctf (trees 29-29) 
+1 trees read from 31.original.ctf (trees 30-30) 
+1 trees read from 32.original.ctf (trees 31-31) 
+1 trees read from 33.original.ctf (trees 32-32) 
+1 trees read from 34.original.ctf (trees 33-33) 
+1 trees read from 35.original.ctf (trees 34-34) 
+1 trees read from 36.original.ctf (trees 35-35) 
+1 trees read from 37.original.ctf (trees 36-36) 
+1 trees read from 38.original.ctf (trees 37-37) 
+1 trees read from 39.original.ctf (trees 38-38) 
+1 trees read from 40.original.ctf (trees 39-39) 
+1 trees read from 41.original.ctf (trees 40-40) 
+1 trees read from 42.original.ctf (trees 41-41) 
+1 trees read from 43.original.ctf (trees 42-42) 
+1 trees read from 44.original.ctf (trees 43-43) 
+1 trees read from 45.original.ctf (trees 44-44) 
+1 trees read from 46.original.ctf (trees 45-45) 
+1 trees read from 47.original.ctf (trees 46-46) 
+1 trees read from 48.original.ctf (trees 47-47) 
+1 trees read from 49.original.ctf (trees 48-48) 
+1 trees read from 50.original.ctf (trees 49-49) 
+1 trees read from 51.original.ctf (trees 50-50) 
+1 trees read from 52.original.ctf (trees 51-51) 
+1 trees read from 53.original.ctf (trees 52-52) 
+1 trees read from 54.original.ctf (trees 53-53) 
+1 trees read from 55.original.ctf (trees 54-54) 
+1 trees read from 56.original.ctf (trees 55-55) 
+1 trees read from 57.original.ctf (trees 56-56) 
+1 trees read from 58.original.ctf (trees 57-57) 
+1 trees read from 59.original.ctf (trees 58-58) 
+1 trees read from 60.original.ctf (trees 59-59) 
+1 trees read from 61.original.ctf (trees 60-60) 
+1 trees read from 62.original.ctf (trees 61-61) 
+1 trees read from 63.original.ctf (trees 62-62) 
+1 trees read from 64.original.ctf (trees 63-63) 
+1 trees read from 65.original.ctf (trees 64-64) 
+1 trees read from 66.original.ctf (trees 65-65) 
+1 trees read from 67.original.ctf (trees 66-66) 
+1 trees read from 68.original.ctf (trees 67-67) 
+1 trees read from 69.original.ctf (trees 68-68) 
+1 trees read from 70.original.ctf (trees 69-69) 
+1 trees read from 71.original.ctf (trees 70-70) 
+1 trees read from 72.original.ctf (trees 71-71) 
+1 trees read from 73.original.ctf (trees 72-72) 
+1 trees read from 74.original.ctf (trees 73-73) 
+1 trees read from 75.original.ctf (trees 74-74) 
+1 trees read from 76.original.ctf (trees 75-75) 
+1 trees read from 77.original.ctf (trees 76-76) 
+1 trees read from 78.original.ctf (trees 77-77) 
+1 trees read from 79.original.ctf (trees 78-78) 
+1 trees read from 80.original.ctf (trees 79-79) 
+1 trees read from 81.original.ctf (trees 80-80) 
+1 trees read from 82.original.ctf (trees 81-81) 
+1 trees read from 83.original.ctf (trees 82-82) 
+1 trees read from 84.original.ctf (trees 83-83) 
+1 trees read from 85.original.ctf (trees 84-84) 
+1 trees read from 86.original.ctf (trees 85-85) 
+1 trees read from 87.original.ctf (trees 86-86) 
+1 trees read from 88.original.ctf (trees 87-87) 
+1 trees read from 89.original.ctf (trees 88-88) 
+1 trees read from 90.original.ctf (trees 89-89) 
+1 trees read from 91.original.ctf (trees 90-90) 
+1 trees read from 92.original.ctf (trees 91-91) 
+1 trees read from 93.original.ctf (trees 92-92) 
+1 trees read from 94.original.ctf (trees 93-93) 
+1 trees read from 95.original.ctf (trees 94-94) 
+1 trees read from 96.original.ctf (trees 95-95) 
+1 trees read from 97.original.ctf (trees 96-96) 
+1 trees read from 98.original.ctf (trees 97-97) 
+1 trees read from 99.original.ctf (trees 98-98) 
+1 trees read from 100.original.ctf (trees 99-99) 
+100 trees condensed (when min. branch length = 0) 
+9 trees retained 
+Tree file: 00allK.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 9 trees (0 taxa excluded) calculated, as tree 9 
+Selecting tree(s) 9,  
+1 trees selected 
+Tree file: 00allKcon.ctf 
+Copied legends: "Tree 0 (last tree in memory):" 
+ 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 

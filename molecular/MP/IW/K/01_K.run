@@ -1,0 +1,20 @@
+macro=;
+log  01_K.log;
+mxram[; mxram*2;
+nstates dna;
+p IW.winclada.ss;
+hold 10000/100;
+
+loop 1 100;
+  piwe=#1;
+  ratchet: iter 10; drift: iter 10; bb;
+  tsave = #1..trees.ctf;
+  nelsen*; tc/; tv>;
+stop
+
+keep 0;
+tv<;
+tsave = 00all.ctf;
+export = 00all.nex;
+zzz;
+

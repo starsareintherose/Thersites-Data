@@ -1,0 +1,22 @@
+macro=;
+log 02_conK.log;
+nstates dna;
+p IW.winclada.ss;
+hold 100;
+keep 0;
+
+  shortread 00all.ctf;
+
+unique*;
+tsave=00allK.ctf;
+export=00allK.nex;
+nelsen*;
+tc/;
+tsave=00allKcon.ctf;
+
+  ttags=;
+  tp/;
+  ttags & 0.original.svg thickness 7 italics fontsize 15;
+  ttags-;
+
+zzz;

@@ -1,0 +1,32 @@
+Matrices will be read as DNA data 
+Matrix space: allocate for up to 8 states 
+Reading from EIW.winclada.ss 
+'
+Data saved from TNT
+'
+Matrix (52408x73, 8 states). Memory required for data: 29.56 Mbytes 
+'set of 1 trees'
+1 trees read (trees 0-0) 
+Again reading from 03_report.run 
+0 trees in memory 
+5 trees read from 00allK.ctf (trees 0-4) 
+Report is ON 
+Floating point printing uses 3 digits 
+Consistency index  
+ 
+             0      1      2      3      4 
+                                           
+      0  0.736  0.739  0.740  0.740  0.740 
+ 
+Retention index  
+ 
+             0      1      2      3      4 
+                                           
+      0  0.902  0.903  0.904  0.904  0.904 
+ 
+Tree lengths 
+ 
+             0      1      2      3      4 
+                                           
+      0   1023   1019   1018   1017   1018 
+ 
