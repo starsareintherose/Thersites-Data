@@ -241,6 +241,28 @@ def main():
             f.write("\n")
     print(f"clustering results has been saved as {output_txt}")
 
+    # Step 10: plot mean shape for each cluster
+    for cluster in sorted(cluster_dict.keys()):
+        indices = [i for i, label in enumerate(labels) if label == cluster]
+        cluster_shapes = landmarks_gpa[indices]
+
+        plt.figure(figsize=(6, 6))
+        for shape in cluster_shapes:
+            #plt.plot(shape[:, 0], shape[:, 1], color="gray", alpha=0.3)
+            plt.scatter(shape[:, 0], shape[:, 1], color="gray", alpha=0.3, s=10)
+        # Plot mean shape in bold
+        mean_shape = np.mean(cluster_shapes, axis=0)
+        #plt.plot(mean_shape[:, 0], mean_shape[:, 1], color="#68cff7", linewidth=2, label="Mean Shape")
+        plt.scatter(mean_shape[:, 0], mean_shape[:, 1], color="#68cff7", s=20, label="Mean Shape")
+        plt.gca().invert_yaxis()
+        plt.axis("equal")
+        plt.title(f"Cluster {cluster}: {len(indices)} specimens")
+        plt.legend()
+        cluster_shape_file = f"{args.output_prefix}_cluster{cluster}_shapes.svg"
+        plt.savefig(cluster_shape_file, format="svg")
+        plt.show()
+        print(f"Cluster {cluster} shapes image has been saved as {cluster_shape_file}")
+
 if __name__ == "__main__":
     main()
 
