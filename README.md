@@ -71,9 +71,10 @@ graph TD
     B4 --> B6[Shapiro-Wilk test]
     B1 --> C3[Apomorphy]
     C2 --> C4[Dunn's test]
+    B2 --> C3
+    B4 --> C3
 
     C3 --> F1[Phylogeny]
-    B2 --> F1
     B4 --> F1
     C2 --> F1
 
