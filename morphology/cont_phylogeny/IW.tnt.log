@@ -1,0 +1,158 @@
+Default target for goto is /usr/share/tnt/tnt_scripts/guoyi.run 
+Taxon names is ON 
+If needed, increasing memory when reading a dataset
+Matrices will be read as continuous data 
+Matrix space: allocate for up to 32 states 
+Gaps will be read as missing 
+Implied Weighting is ON 
+Reading from cont.tnt 
+'cont'
+Matrix (6x73, 32 states). Memory required for data: 6.38 Mbytes 
+N.B.: allocating no less than 2.00 of expected RAM 
+Again reading from /usr/share/tnt/tnt_scripts/guoyi.run 
+Space for 10000 trees in memory 
+/-----------------------------------------------\
+|    Implied weighting will be used, K is 12.    |
+|    TBR Mult will be performed.                 |
+|    Strict consensus will be used.              |
+|    resample.svg will contain a tree with       |
+|        jackknifing                             |
+|        symmetric resampling                    |
+|    Apomorphic characters mapping will be shown |
+|        on the apo.svg and saved to apo*.tre.   |
+|    TL, CI and RI will be calculated finally.   |
+\------------------------------------------------/
+Using a single weighting function for all characters 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+1000  TBR     9999 of 10000  ------      1.61295      0:00:18    1,444,630,198 
+Completed 1000 random addition sequences.
+Total rearrangements examined: 1,444,630,198. 
+Best score hit 1 times out of 1000 (some replications overflowed).
+Best score (TBR): 1.61295.  10 trees retained. 
+Start swapping from 10 trees (score 1.61295)... 
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+---   TBR       15 of 10000  ------      1.61295      0:00:00    1,822,160     
+Completed TBR branch-swapping.
+Total rearrangements examined: 1,822,160. 
+Maxtrees was reached when swapping tree 15.  Didn't swap tree(s) 16-9999. 
+Best score (TBR): 1.61295.  10000 trees found (overflow). 
+ 
+WARNING: 
+File "IW.trees.tre" already exists.  It will be overwritten. 
+ 
+Taxon names is OFF 
+ 
+WARNING: 
+File "IW.trees_no.tre" already exists.  It will be overwritten. 
+ 
+Tree file: IW.trees.tnt.tre 
+Taxon names is ON 
+Tree file: IW.trees.ctf 
+ 
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 10000 trees (0 taxa excluded) calculated, as tree 10000 
+Placed 1 trees in vault (vault now with 1 trees)
+Retrieved 1 trees from vault (10002 trees now in memory)
+Selecting tree(s) 10001,  
+1 trees selected 
+Suboptimal 0.000 x 0.000 
+Copied legends: "GC values, 1000 replicates, cut=0 (tree 0) - Jacknifing (P=36)" 
+ 
+Copied legends: "GC values, 1000 replicates, cut=0 (tree 0) - Symmetric Resampling (P=33)" 
+ 
+ 
+WARNING: 
+File "IW.resample.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.resample.tre 
+Taxon names is OFF 
+ 
+WARNING: 
+File "IW.resample_no.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.resample_no.tre 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+Taxon names is ON 
+Selecting tree(s) 0,  
+1 trees selected 
+Copied legends: "Tree 0 (last tree in memory):" 
+ 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+ 
+WARNING: 
+File "IW.original.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.original.tre 
+Taxon names is OFF 
+ 
+WARNING: 
+File "IW.original_no.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.original_no.tre 
+Tree file: IW.original.ctf 
+Tree file: IW.original.tnt.tre 
+ 
+WARNING: 
+File "IW.winclada.tre" already exists.  It will be overwritten. 
+ 
+Taxon names is ON 
+Copied legends: "Synapomorphies common to 1 trees" 
+ 
+WARNING: 
+File "IW.apo.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.apo.tre 
+Taxon names is OFF 
+ 
+WARNING: 
+File "IW.apo_no.tre" already exists.  It will be overwritten. 
+ 
+Saved trees (Nexus format) to file IW.apo_no.tre 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
+/----------------------------------------------\
+|      The analysis has been finished.         |
+|      The file `tnt.log` contains             |
+|          the performing details              |
+|      The file `trees*.tre` contain           |
+|          trees found by mult and xmult       |
+|      The file `original*.tre` contain        |
+|          consensus tree without label        |
+|      The file `resample*.tre` contain        |
+|          consensus tree with support         |
+|      The file `apo*.tre` contain             |
+|          tree with apomorphic character      |
+|      The file `*_no.tre` contain             |
+|          tree with `taxname-`                |
+|      The file `*.ctf` tree file is           |
+|          only readable for TNT               |
+|      The file `*.tnt.tre` contain            |
+|          is the tre file without taxname     |
+|      The file `resample.svg` contain         |
+|          strict consensus tree with          |
+|          jackknifing                         |
+|          symmetric resampling                |
+|          under implied weighting,            |
+|          K value is 12                 |
+|      The file `apo.svg` contains the         |
+|          tree with apomorphy mapping         |
+|      The file `report.log` contains the      |
+|          CI RI TL publish-needed info        |
+|      The file `resample/apo.log` contains    |
+|          the tree tags text                  |
+|      The file `homo.log` contains the report |
+|          of character homoplasy              |
+|      The file `winclada.tre` can be          |
+|          converted by tnt2winclada           |
+|      The file `winclada.ss` can be read by   |
+|          winclada directly                   |
+\----------------------------------------------/
