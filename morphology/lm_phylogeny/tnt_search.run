@@ -1,0 +1,33 @@
+log pmorpho.log;
+
+macro=;
+/* read data*/
+p align.tnt;
+hold 10000;
+
+/* parallel, need pvmd3*/
+ptnt begin pjob 10 +. /ram 200 = hold 10000 ;
+   lmark threads 2;
+   mult = replic 10 tbr;
+   bb=tbr fill;
+return trees;
+ptnt wait pjob;
+
+/*get parallel results*/
+keep 0;
+ptnt get pjob;
+unique;
+/* branch swapping*/
+bb=tbr fill;
+
+/*save mpts*/
+tsave=mpts.ctf;
+export=mpts.nex;
+nelsen*;
+
+/*select consensus tree*/
+tc/;
+tsave=con.ctf;
+export=con.nex;
+
+zzz;

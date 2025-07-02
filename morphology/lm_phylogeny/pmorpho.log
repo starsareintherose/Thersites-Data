@@ -1,0 +1,57 @@
+Macro language is ON 
+Macros: 50.5 Kb in use, 51.8 Kb free
+Reading from align.tnt 
+'
+Data saved from TNT
+'
+Matrix (4x73, 16 states). Memory required for data: 0.15 Mbytes 
+Again reading from tnt.run 
+Space for 10000 trees in memory 
+P-TNT: Entering parallel mode (1 hosts). Mode: PVM 
+Note: setting number of threads to 10 (i.e. the recommended number
+for 18 CPUs). This can be changed with "lmark threads N".
+ 
+WARNING: 
+Landmark optimization will use low-mem algorithms 
+ 
+P-TNT: Spawned job pjob (10 tasks) 
+P-TNT: wait: all jobs monitored finished running 
+ 
+Job     Task/Host Command Trees Repls.         Rearrangs.         Score  Stat
+pjob       0/0     return   40   10            37,328,369      11.53847    done 
+pjob       1/0     return   20   10            30,811,704      11.53950    done 
+pjob       2/0     return  240   10            71,084,260      11.53848    done 
+pjob       3/0       mult   41    4             9,336,286      11.53949    dead 
+pjob       4/0     return   60   10            45,643,952      11.53950    done 
+pjob       5/0     return   20   10            37,785,844      11.53848    done 
+pjob       6/0     return    8   10            30,923,144      11.53851    done 
+pjob       7/0     return  288   10            81,186,631      11.53847    done 
+pjob       8/0     return   60   10            41,521,230      11.53853    done 
+pjob       9/0     return   20   10            32,710,415      11.53852    done 
+43:00:50      Totals:      797   94           418,331,835      11.53847         
+0 trees in memory 
+Getting results from pjob 
+Got results from pjob (10 slave tasks) 
+NOTE: some tasks had unexpectedly crashed or died: 
+ 
+     3 
+756 trees retained 
+
+Completed TBR branch-swapping.
+Total rearrangements examined: 40,130,592.
+Best score (TBR): 11.53847.  288 trees found.
+
+Tree file: mpts.ctf 
+
+Note: for consensus calculation, trees will be 
+temporarily collapsed (when min. branch length = 0) 
+Strict consensus of 288 trees (0 taxa excluded) calculated, as tree 288 
+Selecting tree(s) 288,  
+1 trees selected 
+Tree file: con.ctf 
+Copied legends: "Tree 0 (last tree in memory):" 
+ 
+ 
+WARNING: 
+Existing tree-tags will be erased 
+ 
