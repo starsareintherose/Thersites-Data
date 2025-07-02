@@ -10,7 +10,7 @@ Folder structure of the *Thersites* project.
 
 This project provides an organized folder structure for the Thersites project, which is divided into four main modules: morphology, molecular, character, and GIS.
 
-The **morphology** module contains data related to the shapes and structures of snail shells and genitalia. Within this module, the `shell` folder holds data on shell morphology, while the `genital` folder is dedicated to genital morphology and is further subdivided into two folders: `flagellum`, which contains data on the flagellum, and `measurement`, which stores measurement data.
+The **morphology** module contains data related to the shapes and structures of snail shells and genitalia. Within this module, the `shell` folder holds data on shell morphology, while the `genital` folder is dedicated to genital morphology and is further subdivided into two folders: `flagellum`, which contains data on the flagellum, and `measurement`, which stores measurement data. `lm_phylogeny` contains phylogenetic data based on landmark analysis, and `cont_phylogeny` contains phylogenetic data based on continuous character analysis.
 
 The **molecular** module focuses on molecular data optimization and phylogenetic analyses. The `dartR` folder holds SNP call data generated using dartR. The `model` folder contains model selection files. It includes several subfolders that organize different analytical methods: the `BI` folder contains data from Bayesian Inference phylogenetics; the `ML` folder contains Maximum Likelihood phylogenetics data; and the `MP` folder contains Maximum Parsimony phylogenetics data. The `MP` folder is further divided into three subdirectories, `EIW` (Extended Implied Weighting), `EW` (Equal Weighting), and `IW` (Implied Weighting), each corresponding to a different weighting strategy. 
 
@@ -39,7 +39,9 @@ Lastly, the **GIS** module is dedicated to geographic information system (GIS) d
 │       └── IW
 └── morphology
     ├── genital
+    │   ├── cont_phylogeny
     │   ├── flagellum
+    │   ├── lm_phylogeny
     │   └── measurement
     └── shell
 ```
