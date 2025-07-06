@@ -28,6 +28,8 @@ nohup mpirun -np 4 mb -i mimi.nex &
 
 ## Maxmimum Parsimony Phylogenetic Analysis
 
+### General instructions
+
 ```bash
 # run tnt
 script_file=/usr/share/tnt/tnt_script/guoyi.run
@@ -42,3 +44,17 @@ do
 tnt2figtree $type.resample.tre $type.resample.figtree
 done
 ```
+
+### Best K finding
+
+Under `molecular/MP/<EIW or IW>/K` directory, run the following command:
+
+```bash
+for run in 01_K.run  02_conK.run  03_report.run  04_visual.run
+do
+  tnt run $run ,
+done
+
+python 04_compareTree.py > 04_compareTree.log
+```
+
