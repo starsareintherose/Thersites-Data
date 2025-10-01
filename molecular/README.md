@@ -58,3 +58,12 @@ done
 python 04_compareTree.py > 04_compareTree.log
 ```
 
+### Phylogenetic network
+
+Under `molecular/phyloNet` directory, run the following command:
+
+```bash
+java -jar /usr/share/phylonet/PhyloNet.jar gl_output.nex > output.txt
+```
+
+Manually extract the best network from `output_MP.newick` and visualize it using `Splitstree6`. In `Splitstree6`, go to `Networks` -> `consensus outline` to generate the consensus network.

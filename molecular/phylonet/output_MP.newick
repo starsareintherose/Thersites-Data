@@ -1,0 +1,867 @@
+#nexus [SplitsTree6]
+
+BEGIN SPLITSTREE6;
+DIMENSIONS nDataNodes=10 nAlgorithms=8;
+PROGRAM version='SplitsTree App (version 6.5.1, built 31 Jul 2025)';
+WORKFLOW creationDate='1759291195335'; [Wed Oct 01 13:59:55 AEST 2025]
+END; [SPLITSTREE6]
+
+[
+Methods:
+Analysis was performed using SplitsTree App 6.0.0 (Huson and Bryant 2024).
+The original input consisted of 73 taxa and 5 rooted networks.
+The Show Trees method was used (default options) so as to obtain a Tree View visualization.
+The Consensus Outline method (Huson & Cetinkaya 2023) was used (default options) so as to obtain 149 splits, cyclic.
+The Show Splits method was used (default options) so as to obtain a Split Network visualization.
+
+References:
+Huson & Cetinkaya 2023: DH Huson and B Cetinkaya, Visualizing incompatibilities in phylogenetic trees using consensus outlines, Front. Bioinform, 2023.
+Huson and Bryant 2024: D.H. Huson and D. Bryant. The SplitsTree App: interactive analysis and visualization using phylogenetic trees and networks. Nature Methods, 2024.
+]
+
+BEGIN TAXA;
+TITLE 'Input Taxa';
+LINK ALGORITHM = 'Input Data Loader';
+DIMENSIONS ntax=73;
+TAXLABELS
+	[1] '4399_novaehollandiae'
+	[2] '4862_novaehollandiae'
+	[3] '4401_novaehollandiae'
+	[4] '4372_novaehollandiae'
+	[5] '4861_novaehollandiae'
+	[6] '4864_novaehollandiae'
+	[7] '4398_novaehollandiae'
+	[8] '4400_novaehollandiae'
+	[9] '4397_novaehollandiae'
+	[10] '4394_novaehollandiae'
+	[11] '4371_novaehollandiae'
+	[12] '4391_novaehollandiae'
+	[13] '4387_novaehollandiae'
+	[14] '4860_novaehollandiae'
+	[15] '4863_novaehollandiae'
+	[16] '4378_novaehollandiae'
+	[17] '4756_novaehollandiae'
+	[18] '4755_novaehollandiae'
+	[19] '4375_novaehollandiae'
+	[20] '4370_novaehollandiae'
+	[21] '4392_novaehollandiae'
+	[22] '4751_novaehollandiae'
+	[23] '4382_novaehollandiae'
+	[24] '4381_richmondiana'
+	[25] '4384_novaehollandiae'
+	[26] '4754_novaehollandiae'
+	[27] '4388_novaehollandiae'
+	[28] '4752_novaehollandiae'
+	[29] '4374_novaehollandiae'
+	[30] '4367_mitchellae'
+	[31] '4880_novaehollandiae'
+	[32] '4373_novaehollandiae'
+	[33] '4750_novaehollandiae'
+	[34] '4385_novaehollandiae'
+	[35] '4868_sp_MtKaputar'
+	[36] '4379_sp_Coolah'
+	[37] '4376_sp_Coolah'
+	[38] '4395_novaehollandiae'
+	[39] '4383_novaehollandiae'
+	[40] '4753_novaehollandiae'
+	[41] '4389_novaehollandiae'
+	[42] '4884_novaehollandiae'
+	[43] '4881_novaehollandiae'
+	[44] '4855_novaehollandiae'
+	[45] '4858_novaehollandiae'
+	[46] '4856_novaehollandiae'
+	[47] '4393_novaehollandiae'
+	[48] '4854_sp_MtKaputar'
+	[49] '4873_darlingtoni'
+	[50] '4886_richmondiana'
+	[51] '4876_richmondiana'
+	[52] '4829_novaehollandiae'
+	[53] '4828_novaehollandiae'
+	[54] '4859_novaehollandiae'
+	[55] '4827_novaehollandiae'
+	[56] '4362_mitchellae'
+	[57] '4857_novaehollandiae'
+	[58] '4749_novaehollandiae'
+	[59] '4390_novaehollandiae'
+	[60] '3902_novaehollandiae'
+	[61] '4377_sp_MtKaputar'
+	[62] '4874_darlingtoni'
+	[63] '4872_darlingtoni'
+	[64] '4364_mitchellae'
+	[65] '4366_mitchellae'
+	[66] '4365_mitchellae'
+	[67] '4363_mitchellae'
+	[68] '4853_sp_MtKaputar'
+	[69] '4380_sp_MtKaputar'
+	[70] '4369_mitchellae'
+	[71] '4368_mitchellae'
+	[72] '4361_mitchellae'
+	[73] '4360_mitchellae'
+;
+DISPLAYLABELS
+	[1] '<c 0xff888aff><size "35.0"><font "Arial Black">4399_novaehollandiae'
+	[2] '<c 0xff888aff><size "35.0"><font "Arial Black">4862_novaehollandiae'
+	[3] '<c 0xff888aff><size "35.0"><font "Arial Black">4401_novaehollandiae'
+	[4] '<c 0xff888aff><size "35.0"><font "Arial Black">4372_novaehollandiae'
+	[5] '<c 0xff888aff><size "35.0"><font "Arial Black">4861_novaehollandiae'
+	[6] '<c 0xff888aff><size "35.0"><font "Arial Black">4864_novaehollandiae'
+	[7] '<c 0xff888aff><size "35.0"><font "Arial Black">4398_novaehollandiae'
+	[8] '<c 0xff888aff><size "35.0"><font "Arial Black">4400_novaehollandiae'
+	[9] '<c 0xff888aff><size "35.0"><font "Arial Black">4397_novaehollandiae'
+	[10] '<c 0xff888aff><size "35.0"><font "Arial Black">4394_novaehollandiae'
+	[11] '<c 0xff888aff><size "35.0"><font "Arial Black">4371_novaehollandiae'
+	[12] '<c 0xff888aff><size "35.0"><font "Arial Black">4391_novaehollandiae'
+	[13] '<c 0xff888aff><size "35.0"><font "Arial Black">4387_novaehollandiae'
+	[14] '<c 0xff888aff><size "35.0"><font "Arial Black">4860_novaehollandiae'
+	[15] '<c 0xff888aff><size "35.0"><font "Arial Black">4863_novaehollandiae'
+	[16] '<c 0xff888aff><size "35.0"><font "Arial Black">4378_novaehollandiae'
+	[17] '<c 0xff888aff><size "35.0"><font "Arial Black">4756_novaehollandiae'
+	[18] '<c 0xff888aff><size "35.0"><font "Arial Black">4755_novaehollandiae'
+	[19] '<c 0xff888aff><size "35.0"><font "Arial Black">4375_novaehollandiae'
+	[20] '<c 0xff888aff><size "35.0"><font "Arial Black">4370_novaehollandiae'
+	[21] '<c 0xff888aff><size "35.0"><font "Arial Black">4392_novaehollandiae'
+	[22] '<c 0xff888aff><size "35.0"><font "Arial Black">4751_novaehollandiae'
+	[23] '<c 0xff888aff><size "35.0"><font "Arial Black">4382_novaehollandiae'
+	[24] '<c 0x75ff66ff><size "35.0"><b><font "Arial Black">4381_richmondiana'
+	[25] '<c 0xff888aff><size "35.0"><font "Arial Black">4384_novaehollandiae'
+	[26] '<c 0xff888aff><size "35.0"><font "Arial Black">4754_novaehollandiae'
+	[27] '<c 0xff888aff><size "35.0"><font "Arial Black">4388_novaehollandiae'
+	[28] '<c 0xff888aff><size "35.0"><font "Arial Black">4752_novaehollandiae'
+	[29] '<c 0xff888aff><size "35.0"><font "Arial Black">4374_novaehollandiae'
+	[30] '<c 0xff888aff><size "35.0"><font "Arial Black">4367_mitchellae'
+	[31] '<c 0xff888aff><size "35.0"><font "Arial Black">4880_novaehollandiae'
+	[32] '<c 0xff888aff><size "35.0"><font "Arial Black">4373_novaehollandiae'
+	[33] '<c 0xff888aff><size "35.0"><font "Arial Black">4750_novaehollandiae'
+	[34] '<c 0xff888aff><size "35.0"><font "Arial Black">4385_novaehollandiae'
+	[35] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4868_sp_MtKaputar'
+	[36] '<c 0xb3b3b3ff><size "35.0"><font "Arial Black">4379_sp_Coolah'
+	[37] '<c 0xb3b3b3ff><size "35.0"><font "Arial Black">4376_sp_Coolah'
+	[38] '<c 0xff888aff><size "35.0"><font "Arial Black">4395_novaehollandiae'
+	[39] '<c 0xff888aff><size "35.0"><font "Arial Black">4383_novaehollandiae'
+	[40] '<c 0xff888aff><size "35.0"><font "Arial Black">4753_novaehollandiae'
+	[41] '<c 0xff888aff><size "35.0"><font "Arial Black">4389_novaehollandiae'
+	[42] '<c 0xff888aff><size "35.0"><font "Arial Black">4884_novaehollandiae'
+	[43] '<c 0xff888aff><size "35.0"><font "Arial Black">4881_novaehollandiae'
+	[44] '<c 0xff888aff><size "35.0"><font "Arial Black">4855_novaehollandiae'
+	[45] '<c 0xff888aff><size "35.0"><font "Arial Black">4858_novaehollandiae'
+	[46] '<c 0xff888aff><size "35.0"><font "Arial Black">4856_novaehollandiae'
+	[47] '<c 0xff888aff><size "35.0"><font "Arial Black">4393_novaehollandiae'
+	[48] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4854_sp_MtKaputar'
+	[49] '<c 0xede100ff><size "35.0"><font "Arial Black"><b>4873_darlingtoni'
+	[50] '<c 0xede100ff><size "35.0"><b><font "Arial Black">4886_richmondiana'
+	[51] '<c 0xede100ff><size "35.0"><b><font "Arial Black">4876_richmondiana'
+	[52] '<c 0xff888aff><size "35.0"><font "Arial Black">4829_novaehollandiae'
+	[53] '<c 0xff888aff><size "35.0"><font "Arial Black">4828_novaehollandiae'
+	[54] '<c 0xff888aff><size "35.0"><font "Arial Black">4859_novaehollandiae'
+	[55] '<c 0xff888aff><size "35.0"><font "Arial Black">4827_novaehollandiae'
+	[56] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4362_mitchellae'
+	[57] '<c 0xff888aff><size "35.0"><font "Arial Black">4857_novaehollandiae'
+	[58] '<c 0xff888aff><size "35.0"><font "Arial Black">4749_novaehollandiae'
+	[59] '<c 0xff888aff><size "35.0"><font "Arial Black">4390_novaehollandiae'
+	[60] '<c 0xff888aff><size "35.0"><font "Arial Black">3902_novaehollandiae'
+	[61] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4377_sp_MtKaputar'
+	[62] '<c 0x75ff66ff><size "35.0"><font "Arial Black"><b>4874_darlingtoni'
+	[63] '<c 0x75ff66ff><size "35.0"><font "Arial Black"><b>4872_darlingtoni'
+	[64] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4364_mitchellae'
+	[65] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4366_mitchellae'
+	[66] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4365_mitchellae'
+	[67] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4363_mitchellae'
+	[68] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4853_sp_MtKaputar'
+	[69] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4380_sp_MtKaputar'
+	[70] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4369_mitchellae'
+	[71] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4368_mitchellae'
+	[72] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4361_mitchellae'
+	[73] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4360_mitchellae'
+;
+[TAXINFO;]
+END; [TAXA]
+
+BEGIN ALGORITHM;
+TITLE 'Taxa Filter';
+LINK ALGORITHM = 'Input Data Loader';
+NAME 'Taxa Filter';
+OPTIONS
+;
+END; [ALGORITHM]
+
+BEGIN TAXA;
+TITLE 'Working Taxa';
+LINK ALGORITHM = 'Taxa Filter';
+DIMENSIONS ntax=73;
+TAXLABELS
+	[1] '4399_novaehollandiae'
+	[2] '4862_novaehollandiae'
+	[3] '4401_novaehollandiae'
+	[4] '4372_novaehollandiae'
+	[5] '4861_novaehollandiae'
+	[6] '4864_novaehollandiae'
+	[7] '4398_novaehollandiae'
+	[8] '4400_novaehollandiae'
+	[9] '4397_novaehollandiae'
+	[10] '4394_novaehollandiae'
+	[11] '4371_novaehollandiae'
+	[12] '4391_novaehollandiae'
+	[13] '4387_novaehollandiae'
+	[14] '4860_novaehollandiae'
+	[15] '4863_novaehollandiae'
+	[16] '4378_novaehollandiae'
+	[17] '4756_novaehollandiae'
+	[18] '4755_novaehollandiae'
+	[19] '4375_novaehollandiae'
+	[20] '4370_novaehollandiae'
+	[21] '4392_novaehollandiae'
+	[22] '4751_novaehollandiae'
+	[23] '4382_novaehollandiae'
+	[24] '4381_richmondiana'
+	[25] '4384_novaehollandiae'
+	[26] '4754_novaehollandiae'
+	[27] '4388_novaehollandiae'
+	[28] '4752_novaehollandiae'
+	[29] '4374_novaehollandiae'
+	[30] '4367_mitchellae'
+	[31] '4880_novaehollandiae'
+	[32] '4373_novaehollandiae'
+	[33] '4750_novaehollandiae'
+	[34] '4385_novaehollandiae'
+	[35] '4868_sp_MtKaputar'
+	[36] '4379_sp_Coolah'
+	[37] '4376_sp_Coolah'
+	[38] '4395_novaehollandiae'
+	[39] '4383_novaehollandiae'
+	[40] '4753_novaehollandiae'
+	[41] '4389_novaehollandiae'
+	[42] '4884_novaehollandiae'
+	[43] '4881_novaehollandiae'
+	[44] '4855_novaehollandiae'
+	[45] '4858_novaehollandiae'
+	[46] '4856_novaehollandiae'
+	[47] '4393_novaehollandiae'
+	[48] '4854_sp_MtKaputar'
+	[49] '4873_darlingtoni'
+	[50] '4886_richmondiana'
+	[51] '4876_richmondiana'
+	[52] '4829_novaehollandiae'
+	[53] '4828_novaehollandiae'
+	[54] '4859_novaehollandiae'
+	[55] '4827_novaehollandiae'
+	[56] '4362_mitchellae'
+	[57] '4857_novaehollandiae'
+	[58] '4749_novaehollandiae'
+	[59] '4390_novaehollandiae'
+	[60] '3902_novaehollandiae'
+	[61] '4377_sp_MtKaputar'
+	[62] '4874_darlingtoni'
+	[63] '4872_darlingtoni'
+	[64] '4364_mitchellae'
+	[65] '4366_mitchellae'
+	[66] '4365_mitchellae'
+	[67] '4363_mitchellae'
+	[68] '4853_sp_MtKaputar'
+	[69] '4380_sp_MtKaputar'
+	[70] '4369_mitchellae'
+	[71] '4368_mitchellae'
+	[72] '4361_mitchellae'
+	[73] '4360_mitchellae'
+;
+DISPLAYLABELS
+	[1] '<c 0xff888aff><size "35.0"><font "Arial Black">4399_novaehollandiae'
+	[2] '<c 0xff888aff><size "35.0"><font "Arial Black">4862_novaehollandiae'
+	[3] '<c 0xff888aff><size "35.0"><font "Arial Black">4401_novaehollandiae'
+	[4] '<c 0xff888aff><size "35.0"><font "Arial Black">4372_novaehollandiae'
+	[5] '<c 0xff888aff><size "35.0"><font "Arial Black">4861_novaehollandiae'
+	[6] '<c 0xff888aff><size "35.0"><font "Arial Black">4864_novaehollandiae'
+	[7] '<c 0xff888aff><size "35.0"><font "Arial Black">4398_novaehollandiae'
+	[8] '<c 0xff888aff><size "35.0"><font "Arial Black">4400_novaehollandiae'
+	[9] '<c 0xff888aff><size "35.0"><font "Arial Black">4397_novaehollandiae'
+	[10] '<c 0xff888aff><size "35.0"><font "Arial Black">4394_novaehollandiae'
+	[11] '<c 0xff888aff><size "35.0"><font "Arial Black">4371_novaehollandiae'
+	[12] '<c 0xff888aff><size "35.0"><font "Arial Black">4391_novaehollandiae'
+	[13] '<c 0xff888aff><size "35.0"><font "Arial Black">4387_novaehollandiae'
+	[14] '<c 0xff888aff><size "35.0"><font "Arial Black">4860_novaehollandiae'
+	[15] '<c 0xff888aff><size "35.0"><font "Arial Black">4863_novaehollandiae'
+	[16] '<c 0xff888aff><size "35.0"><font "Arial Black">4378_novaehollandiae'
+	[17] '<c 0xff888aff><size "35.0"><font "Arial Black">4756_novaehollandiae'
+	[18] '<c 0xff888aff><size "35.0"><font "Arial Black">4755_novaehollandiae'
+	[19] '<c 0xff888aff><size "35.0"><font "Arial Black">4375_novaehollandiae'
+	[20] '<c 0xff888aff><size "35.0"><font "Arial Black">4370_novaehollandiae'
+	[21] '<c 0xff888aff><size "35.0"><font "Arial Black">4392_novaehollandiae'
+	[22] '<c 0xff888aff><size "35.0"><font "Arial Black">4751_novaehollandiae'
+	[23] '<c 0xff888aff><size "35.0"><font "Arial Black">4382_novaehollandiae'
+	[24] '<c 0x75ff66ff><size "35.0"><b><font "Arial Black">4381_richmondiana'
+	[25] '<c 0xff888aff><size "35.0"><font "Arial Black">4384_novaehollandiae'
+	[26] '<c 0xff888aff><size "35.0"><font "Arial Black">4754_novaehollandiae'
+	[27] '<c 0xff888aff><size "35.0"><font "Arial Black">4388_novaehollandiae'
+	[28] '<c 0xff888aff><size "35.0"><font "Arial Black">4752_novaehollandiae'
+	[29] '<c 0xff888aff><size "35.0"><font "Arial Black">4374_novaehollandiae'
+	[30] '<c 0xff888aff><size "35.0"><font "Arial Black">4367_mitchellae'
+	[31] '<c 0xff888aff><size "35.0"><font "Arial Black">4880_novaehollandiae'
+	[32] '<c 0xff888aff><size "35.0"><font "Arial Black">4373_novaehollandiae'
+	[33] '<c 0xff888aff><size "35.0"><font "Arial Black">4750_novaehollandiae'
+	[34] '<c 0xff888aff><size "35.0"><font "Arial Black">4385_novaehollandiae'
+	[35] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4868_sp_MtKaputar'
+	[36] '<c 0xb3b3b3ff><size "35.0"><font "Arial Black">4379_sp_Coolah'
+	[37] '<c 0xb3b3b3ff><size "35.0"><font "Arial Black">4376_sp_Coolah'
+	[38] '<c 0xff888aff><size "35.0"><font "Arial Black">4395_novaehollandiae'
+	[39] '<c 0xff888aff><size "35.0"><font "Arial Black">4383_novaehollandiae'
+	[40] '<c 0xff888aff><size "35.0"><font "Arial Black">4753_novaehollandiae'
+	[41] '<c 0xff888aff><size "35.0"><font "Arial Black">4389_novaehollandiae'
+	[42] '<c 0xff888aff><size "35.0"><font "Arial Black">4884_novaehollandiae'
+	[43] '<c 0xff888aff><size "35.0"><font "Arial Black">4881_novaehollandiae'
+	[44] '<c 0xff888aff><size "35.0"><font "Arial Black">4855_novaehollandiae'
+	[45] '<c 0xff888aff><size "35.0"><font "Arial Black">4858_novaehollandiae'
+	[46] '<c 0xff888aff><size "35.0"><font "Arial Black">4856_novaehollandiae'
+	[47] '<c 0xff888aff><size "35.0"><font "Arial Black">4393_novaehollandiae'
+	[48] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4854_sp_MtKaputar'
+	[49] '<c 0xede100ff><size "35.0"><font "Arial Black"><b>4873_darlingtoni'
+	[50] '<c 0xede100ff><size "35.0"><b><font "Arial Black">4886_richmondiana'
+	[51] '<c 0xede100ff><size "35.0"><b><font "Arial Black">4876_richmondiana'
+	[52] '<c 0xff888aff><size "35.0"><font "Arial Black">4829_novaehollandiae'
+	[53] '<c 0xff888aff><size "35.0"><font "Arial Black">4828_novaehollandiae'
+	[54] '<c 0xff888aff><size "35.0"><font "Arial Black">4859_novaehollandiae'
+	[55] '<c 0xff888aff><size "35.0"><font "Arial Black">4827_novaehollandiae'
+	[56] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4362_mitchellae'
+	[57] '<c 0xff888aff><size "35.0"><font "Arial Black">4857_novaehollandiae'
+	[58] '<c 0xff888aff><size "35.0"><font "Arial Black">4749_novaehollandiae'
+	[59] '<c 0xff888aff><size "35.0"><font "Arial Black">4390_novaehollandiae'
+	[60] '<c 0xff888aff><size "35.0"><font "Arial Black">3902_novaehollandiae'
+	[61] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4377_sp_MtKaputar'
+	[62] '<c 0x75ff66ff><size "35.0"><font "Arial Black"><b>4874_darlingtoni'
+	[63] '<c 0x75ff66ff><size "35.0"><font "Arial Black"><b>4872_darlingtoni'
+	[64] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4364_mitchellae'
+	[65] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4366_mitchellae'
+	[66] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4365_mitchellae'
+	[67] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4363_mitchellae'
+	[68] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4853_sp_MtKaputar'
+	[69] '<c 0x0057b7ff><size "35.0"><font "Arial Black">4380_sp_MtKaputar'
+	[70] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4369_mitchellae'
+	[71] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4368_mitchellae'
+	[72] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4361_mitchellae'
+	[73] '<c 0x48b9ffff><size "35.0"><font "Arial Black">4360_mitchellae'
+;
+[TAXINFO;]
+END; [TAXA]
+
+BEGIN TREES;
+TITLE 'Input Trees';
+LINK ALGORITHM = 'Input Data Loader';
+[Number of trees: 5]
+PROPERTIES partialTrees=no rooted=yes reticulated=yes;
+TRANSLATE
+	1 '4399_novaehollandiae',
+	2 '4862_novaehollandiae',
+	3 '4401_novaehollandiae',
+	4 '4372_novaehollandiae',
+	5 '4861_novaehollandiae',
+	6 '4864_novaehollandiae',
+	7 '4398_novaehollandiae',
+	8 '4400_novaehollandiae',
+	9 '4397_novaehollandiae',
+	10 '4394_novaehollandiae',
+	11 '4371_novaehollandiae',
+	12 '4391_novaehollandiae',
+	13 '4387_novaehollandiae',
+	14 '4860_novaehollandiae',
+	15 '4863_novaehollandiae',
+	16 '4378_novaehollandiae',
+	17 '4756_novaehollandiae',
+	18 '4755_novaehollandiae',
+	19 '4375_novaehollandiae',
+	20 '4370_novaehollandiae',
+	21 '4392_novaehollandiae',
+	22 '4751_novaehollandiae',
+	23 '4382_novaehollandiae',
+	24 '4381_richmondiana',
+	25 '4384_novaehollandiae',
+	26 '4754_novaehollandiae',
+	27 '4388_novaehollandiae',
+	28 '4752_novaehollandiae',
+	29 '4374_novaehollandiae',
+	30 '4367_mitchellae',
+	31 '4880_novaehollandiae',
+	32 '4373_novaehollandiae',
+	33 '4750_novaehollandiae',
+	34 '4385_novaehollandiae',
+	35 '4868_sp_MtKaputar',
+	36 '4379_sp_Coolah',
+	37 '4376_sp_Coolah',
+	38 '4395_novaehollandiae',
+	39 '4383_novaehollandiae',
+	40 '4753_novaehollandiae',
+	41 '4389_novaehollandiae',
+	42 '4884_novaehollandiae',
+	43 '4881_novaehollandiae',
+	44 '4855_novaehollandiae',
+	45 '4858_novaehollandiae',
+	46 '4856_novaehollandiae',
+	47 '4393_novaehollandiae',
+	48 '4854_sp_MtKaputar',
+	49 '4873_darlingtoni',
+	50 '4886_richmondiana',
+	51 '4876_richmondiana',
+	52 '4829_novaehollandiae',
+	53 '4828_novaehollandiae',
+	54 '4859_novaehollandiae',
+	55 '4827_novaehollandiae',
+	56 '4362_mitchellae',
+	57 '4857_novaehollandiae',
+	58 '4749_novaehollandiae',
+	59 '4390_novaehollandiae',
+	60 '3902_novaehollandiae',
+	61 '4377_sp_MtKaputar',
+	62 '4874_darlingtoni',
+	63 '4872_darlingtoni',
+	64 '4364_mitchellae',
+	65 '4366_mitchellae',
+	66 '4365_mitchellae',
+	67 '4363_mitchellae',
+	68 '4853_sp_MtKaputar',
+	69 '4380_sp_MtKaputar',
+	70 '4369_mitchellae',
+	71 '4368_mitchellae',
+	72 '4361_mitchellae',
+	73 '4360_mitchellae',
+;
+[TREES]
+		[1] tree 'tree-1'=[&R] ((1,(3,4)),((((((((((((((70,71),64),(65,66)),(((72,73),67),56)),30),((42,43),31)),(19,20)),(((((57,58),44),(45,46)),21),((((59,60),47),32),(33,34)))),((12,13),9)),((((22,23),14),10),7)),(((((((((68,69),61),48),35),(36,37)),((((62,63),49),(50,51)),24)),(15,16)),((17,18),11)),((((((52,53),(54,55)),25),(26,27)),(((38,39),28),((40,41),29))),8))),6),5),2));
+		[2] tree 'tree-2'=[&R] ((2,(5,(((((((((36,((34,33))#H1:::0),37),(35,(48,((69,68),61)))),(24,((51,50),(49,(63,62))))),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),((((((32,((60,59),47)),#H1:::1),(21,((46,45),(44,(58,57))))),((20,19),((31,(43,42)),(30,(((66,65),(64,(71,70))),((67,(73,72)),56)))))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(4,3)));
+		[3] tree 'tree-3'=[&R] ((2,(5,((((((11,(18,17)),((16,15),((24,((51,50),(49,(63,62)))),((35,((61,(69,68)),48)),(37,36))))),((66,65))#H1:::0),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),(((((((((64,(71,70)),#H1:::1),(((73,72),67),56)),30),(31,(42,43))),(20,19)),((21,((46,45),(44,(58,57)))),((32,((60,59),47)),(34,33)))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(3,4)));
+		[4] tree 'tree-4'=[&R] (((((((((((35,((61,(69,68)),48)),(36,37)),((((49,(63,62)),(50,51)),24))#H1:::1),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((52,53),(54,55))))))),((7,(10,((23,22),14))),(((((32,((60,59),47)),(33,34)),(21,((44,(57,58)),(46,45)))),((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64))))))),(9,(13,12))))),6),5),2),((1,(3,4)),#H1:::0));
+		[5] tree 'tree-5'=[&R] ((2,(5,((((((((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64)))))),(15)#H1:::0),((21,((44,(57,58)),(46,45))),((33,34),(32,((60,59),47))))),(9,(13,12))),(7,(10,((23,22),14)))),((((16,#H1:::1),(((35,((61,(69,68)),48)),(36,37)),(((50,51),(49,(63,62))),24))),((18,17),11)),(8,(((29,(40,41)),(28,(39,38))),((25,((52,53),(54,55))),(27,26)))))),6))),(1,(3,4)));
+END; [TREES]
+
+BEGIN ALGORITHM;
+TITLE 'Input Data Filter';
+LINK TREES = 'Input Trees';
+NAME 'Trees Taxa Filter';
+END; [ALGORITHM]
+
+BEGIN TREES;
+TITLE 'Working Trees';
+LINK ALGORITHM = 'Input Data Filter';
+[Number of trees: 5]
+PROPERTIES partialTrees=no rooted=yes reticulated=yes;
+TRANSLATE
+	1 '4399_novaehollandiae',
+	2 '4862_novaehollandiae',
+	3 '4401_novaehollandiae',
+	4 '4372_novaehollandiae',
+	5 '4861_novaehollandiae',
+	6 '4864_novaehollandiae',
+	7 '4398_novaehollandiae',
+	8 '4400_novaehollandiae',
+	9 '4397_novaehollandiae',
+	10 '4394_novaehollandiae',
+	11 '4371_novaehollandiae',
+	12 '4391_novaehollandiae',
+	13 '4387_novaehollandiae',
+	14 '4860_novaehollandiae',
+	15 '4863_novaehollandiae',
+	16 '4378_novaehollandiae',
+	17 '4756_novaehollandiae',
+	18 '4755_novaehollandiae',
+	19 '4375_novaehollandiae',
+	20 '4370_novaehollandiae',
+	21 '4392_novaehollandiae',
+	22 '4751_novaehollandiae',
+	23 '4382_novaehollandiae',
+	24 '4381_richmondiana',
+	25 '4384_novaehollandiae',
+	26 '4754_novaehollandiae',
+	27 '4388_novaehollandiae',
+	28 '4752_novaehollandiae',
+	29 '4374_novaehollandiae',
+	30 '4367_mitchellae',
+	31 '4880_novaehollandiae',
+	32 '4373_novaehollandiae',
+	33 '4750_novaehollandiae',
+	34 '4385_novaehollandiae',
+	35 '4868_sp_MtKaputar',
+	36 '4379_sp_Coolah',
+	37 '4376_sp_Coolah',
+	38 '4395_novaehollandiae',
+	39 '4383_novaehollandiae',
+	40 '4753_novaehollandiae',
+	41 '4389_novaehollandiae',
+	42 '4884_novaehollandiae',
+	43 '4881_novaehollandiae',
+	44 '4855_novaehollandiae',
+	45 '4858_novaehollandiae',
+	46 '4856_novaehollandiae',
+	47 '4393_novaehollandiae',
+	48 '4854_sp_MtKaputar',
+	49 '4873_darlingtoni',
+	50 '4886_richmondiana',
+	51 '4876_richmondiana',
+	52 '4829_novaehollandiae',
+	53 '4828_novaehollandiae',
+	54 '4859_novaehollandiae',
+	55 '4827_novaehollandiae',
+	56 '4362_mitchellae',
+	57 '4857_novaehollandiae',
+	58 '4749_novaehollandiae',
+	59 '4390_novaehollandiae',
+	60 '3902_novaehollandiae',
+	61 '4377_sp_MtKaputar',
+	62 '4874_darlingtoni',
+	63 '4872_darlingtoni',
+	64 '4364_mitchellae',
+	65 '4366_mitchellae',
+	66 '4365_mitchellae',
+	67 '4363_mitchellae',
+	68 '4853_sp_MtKaputar',
+	69 '4380_sp_MtKaputar',
+	70 '4369_mitchellae',
+	71 '4368_mitchellae',
+	72 '4361_mitchellae',
+	73 '4360_mitchellae',
+;
+[TREES]
+		[1] tree 'tree-1'=[&R] ((1,(3,4)),((((((((((((((70,71),64),(65,66)),(((72,73),67),56)),30),((42,43),31)),(19,20)),(((((57,58),44),(45,46)),21),((((59,60),47),32),(33,34)))),((12,13),9)),((((22,23),14),10),7)),(((((((((68,69),61),48),35),(36,37)),((((62,63),49),(50,51)),24)),(15,16)),((17,18),11)),((((((52,53),(54,55)),25),(26,27)),(((38,39),28),((40,41),29))),8))),6),5),2));
+		[2] tree 'tree-2'=[&R] ((2,(5,(((((((((36,((34,33))#H1:::0),37),(35,(48,((69,68),61)))),(24,((51,50),(49,(63,62))))),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),((((((32,((60,59),47)),#H1:::1),(21,((46,45),(44,(58,57))))),((20,19),((31,(43,42)),(30,(((66,65),(64,(71,70))),((67,(73,72)),56)))))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(4,3)));
+		[3] tree 'tree-3'=[&R] ((2,(5,((((((11,(18,17)),((16,15),((24,((51,50),(49,(63,62)))),((35,((61,(69,68)),48)),(37,36))))),((66,65))#H1:::0),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),(((((((((64,(71,70)),#H1:::1),(((73,72),67),56)),30),(31,(42,43))),(20,19)),((21,((46,45),(44,(58,57)))),((32,((60,59),47)),(34,33)))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(3,4)));
+		[4] tree 'tree-4'=[&R] (((((((((((35,((61,(69,68)),48)),(36,37)),((((49,(63,62)),(50,51)),24))#H1:::1),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((52,53),(54,55))))))),((7,(10,((23,22),14))),(((((32,((60,59),47)),(33,34)),(21,((44,(57,58)),(46,45)))),((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64))))))),(9,(13,12))))),6),5),2),((1,(3,4)),#H1:::0));
+		[5] tree 'tree-5'=[&R] ((2,(5,((((((((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64)))))),(15)#H1:::0),((21,((44,(57,58)),(46,45))),((33,34),(32,((60,59),47))))),(9,(13,12))),(7,(10,((23,22),14)))),((((16,#H1:::1),(((35,((61,(69,68)),48)),(36,37)),(((50,51),(49,(63,62))),24))),((18,17),11)),(8,(((29,(40,41)),(28,(39,38))),((25,((52,53),(54,55))),(27,26)))))),6))),(1,(3,4)));
+END; [TREES]
+
+BEGIN ALGORITHM;
+TITLE 'Show Trees';
+LINK TREES = 'Working Trees';
+NAME 'Show Trees';
+OPTIONS
+	View = 'TreeView';
+END; [ALGORITHM]
+
+BEGIN ALGORITHM;
+TITLE 'Reroot Or Reorder Trees';
+LINK TREES = 'Working Trees';
+NAME 'Reroot Or Reorder Trees';
+OPTIONS
+	RootBy = 'Off',
+	RearrangeBy = 'Off',
+	Reorder = 'Off',
+	Rescale = 'false';
+END; [ALGORITHM]
+
+BEGIN VIEW;
+TITLE 'TreeView';
+LINK ALGORITHM = 'Show Trees';
+NAME 'TreeView';
+INPUT 'TREES';
+OPTIONS
+	Tree = 3,
+	Diagram = 'RectangularPhylogram',
+	Averaging = 'ChildAverage',
+	Orientation = 'Rotate0Deg',
+	HorizontalZoomFactor = 1,
+	VerticalZoomFactor = 0.99009901,
+	FontScaleFactor = 1,
+	LabelEdgesBy = 'None',
+	ShowQRCode = 'false';
+END; [VIEW]
+
+BEGIN TREES;
+TITLE 'Trees';
+LINK ALGORITHM = 'Reroot Or Reorder Trees';
+[Number of trees: 5]
+TRANSLATE
+	1 '4399_novaehollandiae',
+	2 '4862_novaehollandiae',
+	3 '4401_novaehollandiae',
+	4 '4372_novaehollandiae',
+	5 '4861_novaehollandiae',
+	6 '4864_novaehollandiae',
+	7 '4398_novaehollandiae',
+	8 '4400_novaehollandiae',
+	9 '4397_novaehollandiae',
+	10 '4394_novaehollandiae',
+	11 '4371_novaehollandiae',
+	12 '4391_novaehollandiae',
+	13 '4387_novaehollandiae',
+	14 '4860_novaehollandiae',
+	15 '4863_novaehollandiae',
+	16 '4378_novaehollandiae',
+	17 '4756_novaehollandiae',
+	18 '4755_novaehollandiae',
+	19 '4375_novaehollandiae',
+	20 '4370_novaehollandiae',
+	21 '4392_novaehollandiae',
+	22 '4751_novaehollandiae',
+	23 '4382_novaehollandiae',
+	24 '4381_richmondiana',
+	25 '4384_novaehollandiae',
+	26 '4754_novaehollandiae',
+	27 '4388_novaehollandiae',
+	28 '4752_novaehollandiae',
+	29 '4374_novaehollandiae',
+	30 '4367_mitchellae',
+	31 '4880_novaehollandiae',
+	32 '4373_novaehollandiae',
+	33 '4750_novaehollandiae',
+	34 '4385_novaehollandiae',
+	35 '4868_sp_MtKaputar',
+	36 '4379_sp_Coolah',
+	37 '4376_sp_Coolah',
+	38 '4395_novaehollandiae',
+	39 '4383_novaehollandiae',
+	40 '4753_novaehollandiae',
+	41 '4389_novaehollandiae',
+	42 '4884_novaehollandiae',
+	43 '4881_novaehollandiae',
+	44 '4855_novaehollandiae',
+	45 '4858_novaehollandiae',
+	46 '4856_novaehollandiae',
+	47 '4393_novaehollandiae',
+	48 '4854_sp_MtKaputar',
+	49 '4873_darlingtoni',
+	50 '4886_richmondiana',
+	51 '4876_richmondiana',
+	52 '4829_novaehollandiae',
+	53 '4828_novaehollandiae',
+	54 '4859_novaehollandiae',
+	55 '4827_novaehollandiae',
+	56 '4362_mitchellae',
+	57 '4857_novaehollandiae',
+	58 '4749_novaehollandiae',
+	59 '4390_novaehollandiae',
+	60 '3902_novaehollandiae',
+	61 '4377_sp_MtKaputar',
+	62 '4874_darlingtoni',
+	63 '4872_darlingtoni',
+	64 '4364_mitchellae',
+	65 '4366_mitchellae',
+	66 '4365_mitchellae',
+	67 '4363_mitchellae',
+	68 '4853_sp_MtKaputar',
+	69 '4380_sp_MtKaputar',
+	70 '4369_mitchellae',
+	71 '4368_mitchellae',
+	72 '4361_mitchellae',
+	73 '4360_mitchellae',
+;
+[TREES]
+		[1] tree 'tree-1'=[&R] ((1,(3,4)),((((((((((((((70,71),64),(65,66)),(((72,73),67),56)),30),((42,43),31)),(19,20)),(((((57,58),44),(45,46)),21),((((59,60),47),32),(33,34)))),((12,13),9)),((((22,23),14),10),7)),(((((((((68,69),61),48),35),(36,37)),((((62,63),49),(50,51)),24)),(15,16)),((17,18),11)),((((((52,53),(54,55)),25),(26,27)),(((38,39),28),((40,41),29))),8))),6),5),2));
+		[2] tree 'tree-2'=[&R] ((2,(5,(((((((((36,((34,33))#H1:::0),37),(35,(48,((69,68),61)))),(24,((51,50),(49,(63,62))))),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),((((((32,((60,59),47)),#H1:::1),(21,((46,45),(44,(58,57))))),((20,19),((31,(43,42)),(30,(((66,65),(64,(71,70))),((67,(73,72)),56)))))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(4,3)));
+		[3] tree 'tree-3'=[&R] ((2,(5,((((((11,(18,17)),((16,15),((24,((51,50),(49,(63,62)))),((35,((61,(69,68)),48)),(37,36))))),((66,65))#H1:::0),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((53,52),(55,54))))))),(((((((((64,(71,70)),#H1:::1),(((73,72),67),56)),30),(31,(42,43))),(20,19)),((21,((46,45),(44,(58,57)))),((32,((60,59),47)),(34,33)))),(9,(13,12))),(7,(10,((23,22),14))))),6))),(1,(3,4)));
+		[4] tree 'tree-4'=[&R] (((((((((((35,((61,(69,68)),48)),(36,37)),((((49,(63,62)),(50,51)),24))#H1:::1),(16,15)),(11,(18,17))),(8,(((29,(41,40)),(28,(38,39))),((27,26),(25,((52,53),(54,55))))))),((7,(10,((23,22),14))),(((((32,((60,59),47)),(33,34)),(21,((44,(57,58)),(46,45)))),((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64))))))),(9,(13,12))))),6),5),2),((1,(3,4)),#H1:::0));
+		[5] tree 'tree-5'=[&R] ((2,(5,((((((((20,19),((31,(42,43)),(30,((56,((73,72),67)),((65,66),((71,70),64)))))),(15)#H1:::0),((21,((44,(57,58)),(46,45))),((33,34),(32,((60,59),47))))),(9,(13,12))),(7,(10,((23,22),14)))),((((16,#H1:::1),(((35,((61,(69,68)),48)),(36,37)),(((50,51),(49,(63,62))),24))),((18,17),11)),(8,(((29,(40,41)),(28,(39,38))),((25,((52,53),(54,55))),(27,26)))))),6))),(1,(3,4)));
+END; [TREES]
+
+BEGIN ALGORITHM;
+TITLE 'Show Trees-2';
+LINK TREES = 'Trees';
+NAME 'Show Trees';
+OPTIONS
+	View = 'TreeView';
+END; [ALGORITHM]
+
+BEGIN ALGORITHM;
+TITLE 'Consensus Outline';
+LINK TREES = 'Trees';
+NAME 'Consensus Outline';
+OPTIONS
+	EdgeWeights = 'Count',
+	ThresholdPercent = 0;
+END; [ALGORITHM]
+
+BEGIN VIEW;
+TITLE 'TreeView';
+LINK ALGORITHM = 'Show Trees-2';
+NAME 'TreeView';
+INPUT 'TREES';
+OPTIONS
+	Tree = 3,
+	Diagram = 'RectangularPhylogram',
+	Averaging = 'ChildAverage',
+	Orientation = 'Rotate0Deg',
+	HorizontalZoomFactor = 1,
+	VerticalZoomFactor = 1,
+	FontScaleFactor = 1,
+	LabelEdgesBy = 'None',
+	ShowQRCode = 'false';
+END; [VIEW]
+
+BEGIN SPLITS;
+TITLE 'Splits';
+LINK ALGORITHM = 'Consensus Outline';
+DIMENSIONS ntax=73 nsplits=149;
+FORMAT labels=no weights=yes confidences=no;
+PROPERTIES fit=98.9 cyclic;
+CYCLE 1 2 5 6 8 25 54 55 52 53 26 27 29 40 41 28 38 39 11 17 18 24 49 62 63 50 51 35 48 61 68 69 36 37 16 15 65 66 64 70 71 56 67 72 73 30 31 42 43 19 20 32 47 59 60 33 34 21 44 57 58 45 46 9 12 13 7 10 14 22 23 3 4;
+MATRIX
+[1, size=15] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 21 22 23 24 25 26 27 28 29 32 33 34 35 36 37 38 39 40 41 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 68 69,
+[2, size=14] 	 5 	 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 30 31 32 33 34 35 36 37 42 43 44 45 46 47 48 49 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[3, size=13] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 32 33 34 35 36 37 38 39 40 41 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 68 69,
+[4, size=13] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 30 31 32 33 34 35 36 37 42 43 44 45 46 47 48 49 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[5, size=12] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 35 36 37 38 39 40 41 42 43 48 49 50 51 52 53 54 55 56 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[6, size=10] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 68 69,
+[7, size=9] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 68 69,
+[8, size=7] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[9, size=6] 	 5 	 1 2 3 4 5 6,
+[10, size=6] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 35 36 37 38 39 40 41 42 43 44 45 46 48 49 50 51 52 53 54 55 56 57 58 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[11, size=6] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 30 31 32 33 34 35 36 37 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[12, size=6] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 52 53 54 55 56 57 58 59 60 61 64 65 66 67 68 69 70 71 72 73,
+[13, size=6] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 47 48 49 50 51 52 53 54 55 56 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[14, size=5] 	 5 	 1 2 3 4 5,
+[15, size=5] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 67 68 69 72 73,
+[16, size=5] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 52 53 54 55 56 57 58 59 60 61 64 65 66 67 68 69 70 71 72 73,
+[17, size=5] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 47 48 49 50 51 52 53 54 55 56 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[18, size=5] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 36 37 38 39 40 41 42 43 44 45 46 47 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 70 71 72 73,
+[19, size=5] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[20, size=5] 	 5 	 1 2 3 4 5 6 8 9 11 12 13 15 16 17 18 19 20 21 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[21, size=4] 	 5 	 1 2 3 4,
+[22, size=4] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 64 65 66 68 69 70 71,
+[23, size=4] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[24, size=4] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 70 71 72 73,
+[25, size=4] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34 35 36 37 38 39 40 41 42 43 44 45 46 48 49 50 51 52 53 54 55 56 57 58 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[26, size=4] 	 5 	 1 2 3 4 5 6 7 8 9 11 12 13 15 16 17 18 19 20 21 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[27, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 68 69 70 71,
+[28, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 65 66 67 68 69 72 73,
+[29, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 70 71 72 73,
+[30, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 64 65 66 67 68 69 70 71 72 73,
+[31, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 48 49 50 51 52 53 54 55 56 57 58 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[32, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 45 46 47 48 49 50 51 52 53 54 55 56 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[33, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 34 35 36 37 38 39 40 41 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[34, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 30 31 32 33 34 35 36 37 38 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[35, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 30 31 32 33 34 35 36 37 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[36, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20 21 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[37, size=3] 	 5 	 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[38, size=3] 	 5 	 1 2 3 4 5 6 7 8 10 11 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[39, size=3] 	 5 	 1 3 4,
+[40, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71,
+[41, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 72 73,
+[42, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 70 71 72 73,
+[43, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 67 68 69 70 71 72 73,
+[44, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 64 65 66 67 68 69 70 71 72 73,
+[45, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[46, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[47, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[48, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[49, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[50, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[51, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[52, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[53, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[54, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[55, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[56, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[57, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[58, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[59, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[60, size=2] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[61, size=2] 	 5 	 1 2 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[62, size=1] 	 5 	 1,
+[63, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72,
+[64, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 73,
+[65, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 72 73,
+[66, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 71 72 73,
+[67, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 70 71 72 73,
+[68, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 69 70 71 72 73,
+[69, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 68 69 70 71 72 73,
+[70, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 67 68 69 70 71 72 73,
+[71, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 66 67 68 69 70 71 72 73,
+[72, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 65 66 67 68 69 70 71 72 73,
+[73, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 64 65 66 67 68 69 70 71 72 73,
+[74, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 63 64 65 66 67 68 69 70 71 72 73,
+[75, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 68 69 70 71 72 73,
+[76, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[77, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[78, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[79, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[80, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[81, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[82, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[83, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[84, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[85, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[86, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[87, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[88, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[89, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[90, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[91, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[92, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[93, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[94, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[95, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[96, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[97, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[98, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[99, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[100, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[101, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[102, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[103, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[104, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[105, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[106, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[107, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[108, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[109, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[110, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[111, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[112, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[113, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[114, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[115, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[116, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[117, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[118, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[119, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[120, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[121, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[122, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[123, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[124, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[125, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[126, size=1] 	 5 	 1 2 3 4 5 6 7 8 9 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[127, size=1] 	 5 	 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[128, size=1] 	 5 	 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[129, size=1] 	 5 	 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[130, size=1] 	 5 	 1 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[131, size=1] 	 5 	 1 2 3 4 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[132, size=1] 	 5 	 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[133, size=1] 	 5 	 1 2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[134, size=1] 	 5 	 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[135, size=35] 	 4 	 1 2 3 4 5 6 8 11 15 16 17 18 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[136, size=30] 	 4 	 1 2 3 4 5 6 7 8 10 11 14 15 16 17 18 22 23 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[137, size=27] 	 4 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 22 23 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[138, size=18] 	 4 	 1 2 3 4 5 6 7 8 9 10 12 13 14 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 38 39 40 41 42 43 44 45 46 47 52 53 54 55 56 57 58 59 60 64 65 66 67 70 71 72 73,
+[139, size=15] 	 4 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 38 39 40 41 42 43 44 45 46 47 52 53 54 55 56 57 58 59 60 64 65 66 67 70 71 72 73,
+[140, size=13] 	 4 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 38 39 40 41 42 43 44 45 46 47 52 53 54 55 56 57 58 59 60 64 65 66 67 70 71 72 73,
+[141, size=7] 	 4 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 38 39 40 41 42 43 44 45 46 47 49 50 51 52 53 54 55 56 57 58 59 60 62 63 64 65 66 67 70 71 72 73,
+[142, size=2] 	 4 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73,
+[143, size=32] 	 3 	 1 2 3 4 5 6 7 9 10 12 13 14 19 20 21 22 23 30 31 32 33 34 42 43 44 45 46 47 56 57 58 59 60 64 65 66 67 70 71 72 73,
+[144, size=36] 	 1 	 1 2 3 4 5 6 8 11 16 17 18 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[145, size=34] 	 1 	 1 2 3 4 5 6 7 9 10 12 13 14 19 20 21 22 23 30 31 32 33 34 42 43 44 45 46 47 56 57 58 59 60 64 67 70 71 72 73,
+[146, size=31] 	 1 	 1 2 3 4 5 6 7 8 10 11 14 16 17 18 22 23 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[147, size=28] 	 1 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 22 23 24 25 26 27 28 29 35 36 37 38 39 40 41 48 49 50 51 52 53 54 55 61 62 63 68 69,
+[148, size=20] 	 1 	 1 2 3 4 5 6 7 8 9 10 12 13 14 19 20 21 22 23 25 26 27 28 29 30 31 32 33 34 38 39 40 41 42 43 44 45 46 47 52 53 54 55 56 57 58 59 60 64 67 70 71 72 73,
+[149, size=16] 	 1 	 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 21 22 23 24 25 26 27 28 29 32 33 34 35 36 37 38 39 40 41 44 45 46 47 48 49 50 51 52 53 54 55 57 58 59 60 61 62 63 68 69,
+;
+END; [SPLITS]
+
+BEGIN ALGORITHM;
+TITLE 'Show Splits';
+LINK SPLITS = 'Splits';
+NAME 'Show Splits';
+OPTIONS
+	View = 'SplitNetwork';
+END; [ALGORITHM]
+
+BEGIN VIEW;
+TITLE 'SplitNetwork';
+LINK ALGORITHM = 'Show Splits';
+NAME 'SplitNetwork';
+INPUT 'SPLITS';
+OPTIONS
+	Diagram = 'Splits',
+	Orientation = 'Rotate0Deg',
+	Rooting = 'None',
+	ZoomFactor = 2.9877972,
+	FontScaleFactor = 1,
+	RootAngle = 160,
+	OutlineFill = 0xa9a9a9ff,
+	Edits = 'w:1:3' 'w:2:3' 'w:3:3' 'w:4:3' 'w:5:3' 'w:6:3' 'w:7:3' 'w:8:3' 'w:9:3' 'w:10:3' 'w:11:3' 'w:12:3' 'w:13:3' 'w:14:3' 'w:15:3' 'w:16:3' 'w:17:3' 'w:18:3' 'w:19:3' 'w:20:3' 'w:21:3' 'w:22:3' 'w:23:3' 'w:24:3' 'w:25:3' 'w:26:3' 'w:27:3' 'w:28:3' 'w:29:3' 'w:30:3' 'w:31:3' 'w:32:3' 'w:33:3' 'w:34:3' 'w:35:3' 'w:36:3' 'w:37:3' 'w:38:3' 'w:39:3' 'w:40:3' 'w:41:3' 'w:42:3' 'w:43:3' 'w:44:3' 'w:45:3' 'w:46:3' 'w:47:3' 'w:48:3' 'w:49:3' 'w:50:3' 'w:51:3' 'w:52:3' 'w:53:3' 'w:54:3' 'w:55:3' 'w:56:3' 'w:57:3' 'w:58:3' 'w:59:3' 'w:60:3' 'w:61:3' 'w:62:3' 'w:63:3' 'w:64:3' 'w:65:3' 'w:66:3' 'w:67:3' 'w:68:3' 'w:69:3' 'w:70:3' 'w:71:3' 'w:72:3' 'w:73:3' 'w:74:3' 'w:75:3' 'w:76:3' 'w:77:3' 'w:78:3' 'w:79:3' 'w:80:3' 'w:81:3' 'w:82:3' 'w:83:3' 'w:84:3' 'w:85:3' 'w:86:3' 'w:87:3' 'w:88:3' 'w:89:3' 'w:90:3' 'w:91:3' 'w:92:3' 'w:93:3' 'w:94:3' 'w:95:3' 'w:96:3' 'w:97:3' 'w:98:3' 'w:99:3' 'w:100:3' 'w:101:3' 'w:102:3' 'w:103:3' 'w:104:3' 'w:105:3' 'w:106:3' 'w:107:3' 'w:108:3' 'w:109:3' 'w:110:3' 'w:111:3' 'w:112:3' 'w:113:3' 'w:114:3' 'w:115:3' 'w:116:3' 'w:117:3' 'w:118:3' 'w:119:3' 'w:120:3' 'w:121:3' 'w:122:3' 'w:123:3' 'w:124:3' 'w:125:3' 'w:126:3' 'w:127:3' 'w:128:3' 'w:129:3' 'w:130:3' 'w:131:3' 'w:132:3' 'w:133:3' 'w:134:3' 'w:135:3' 'w:136:3' 'w:137:3' 'w:138:3' 'w:139:3' 'w:140:3' 'w:141:3' 'w:142:3' 'w:143:3' 'w:144:3' 'w:145:3' 'w:146:3' 'w:147:3' 'w:148:3' 'w:149:3' 'a:88:15.76' 'a:67:-20.14' 'a:68:20.43' 'a:75:22.61' 'a:99:-29.8' 'a:101:13.38' 'a:85:-20.97' 'a:74:13.55' 'a:87:13.68' 'a:73:-9.62' 'a:100:-8.45' 'a:118:-22.6' 'a:125:15.57' 'a:97:-14.35' 'a:95:-17.78' 'a:107:20.19' 'a:96:0.24' 'a:109:-5.42' 'a:82:28.8' 'a:83:-35.55' 'a:84:0.01' 'a:111:19.22' 'a:130:-20.62' 'a:131:-23.84' 'a:134:-26.69' 'a:62:-28.32' 'a:132:-36.96' 'a:133:28.06' 'a:129:15.12' 'a:126:22.67' 'a:127:25.61' 'a:123:-7.06' 'a:124:27.98' 'a:122:25.82' 'a:113:-40.56' 'a:114:23.26' 'a:90:-44.14' 'a:115:15.18' 'a:92:30.82' 'a:79:24.33' 'a:78:9.1' 'a:102:-6.76' 'a:104:18.73' 'a:89:10.91' 'a:76:-15.2' 'a:116:-14.6' 'a:93:-30.68' 'a:105:-38.24' 'a:63:-24.78' 'a:69:-52.07' 'a:80:-49.21' 'a:65:-29.01' 'a:70:43.36' 'a:71:71.81' 'a:72:47.34' 'a:43:37.69' 'a:66:23.17',
+	LabelSplitsBy = 'None',
+	ShowQRCode = 'false';
+END; [VIEW]
